@@ -122,6 +122,42 @@
       "status": "watching",
       "note": "Original lead (Sales & Marketing Coordinator) was an unresolved placeholder from the first connectivity test — no specific live posting could be confirmed. Kept as a watch target for future scans.",
       "first_seen": "2026-09-18"
+    },
+    {
+      "company": "Saga",
+      "industry": "Legal tech / AI legal research",
+      "region": "Netherlands/EU (HQ Amsterdam)",
+      "careers_url": "https://careers.sagalegal.io",
+      "status": "apply",
+      "note": "Apply-tier match: People Operations Specialist (score 75). No visa sponsorship per posting — confirm EU work authorization.",
+      "first_seen": "2026-09-18"
+    },
+    {
+      "company": "Billys",
+      "industry": "Proptech",
+      "region": "Greece/EU (HQ Athens)",
+      "careers_url": "https://billys.gr/en/career/",
+      "status": "apply",
+      "note": "Apply-tier match: Customer Success Specialist (score 90). Greek language requirement and visa sponsorship unconfirmed.",
+      "first_seen": "2026-09-18"
+    },
+    {
+      "company": "Lebesgue",
+      "industry": "Marketing analytics / AI CMO platform",
+      "region": "Croatia/EU (HQ Zagreb)",
+      "careers_url": "https://lebesgue.io/careers",
+      "status": "apply",
+      "note": "Apply-tier match: Performance Marketing Manager, Junior (score 85). Visa sponsorship and exact location unconfirmed.",
+      "first_seen": "2026-09-18"
+    },
+    {
+      "company": "Kinderpedia",
+      "industry": "EdTech / school management software",
+      "region": "Romania/EU (HQ Bucharest)",
+      "careers_url": "https://jobs.stryve.online/kinderpedia",
+      "status": "apply",
+      "note": "Apply-tier match: Software Project Manager / Product Owner (score 70). Language requirement and visa authorization unconfirmed.",
+      "first_seen": "2026-09-18"
     }
   ],
   "postings": [
@@ -184,6 +220,66 @@
       "score_note": "Full posting read. Role is payroll/rota/customer-service coordination for a facilities-cleaning company — operations-coordinator shaped but weak tool overlap (no CRM/Ads/Analytics) and the industry isn't a close match to past experience. FLAG: same UK work-authorization caveat as above — not confirmed.",
       "status": "new",
       "found_at": "2026-09-18"
+    },
+    {
+      "id": "saga:people-operations-specialist",
+      "source": "Saga (direct careers page)",
+      "title": "People Operations Specialist",
+      "company": "Saga",
+      "location": "Amsterdam, Netherlands (Hybrid)",
+      "region": "EU / Western Europe",
+      "url": "https://careers.sagalegal.io/o/people-operations-specialist",
+      "description_verified": true,
+      "score": 75,
+      "tier": "apply_high",
+      "score_note": "Full posting read. People Ops Specialist (2–5 yrs) matches HR support/ops-coordination strengths — onboarding, HRIS, compliance, culture programs. No CRM/paid-ads overlap, no MBA mention, but hybrid Amsterdam base and English-first environment fit well. FLAG: posting states ‘we cannot offer sponsorship’ — confirm EU work authorization before applying.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "billys:customer-success-specialist",
+      "source": "Billys (direct careers page)",
+      "title": "Customer Success Specialist",
+      "company": "Billys",
+      "location": "Athens, Greece (Hybrid/Remote)",
+      "region": "EU / Western Europe (South)",
+      "url": "https://billys.gr/en/job/customer-success-specialist/",
+      "description_verified": true,
+      "score": 90,
+      "tier": "apply_high",
+      "score_note": "Full posting read. Strong match: CRM record management, customer lifecycle, cross-functional coordination, upsell/cross-sell — closely mirrors current CRM/customer-support experience. Bachelor's in Marketing/Business required (MBA exceeds this); flexible hybrid/remote. FLAG: posting doesn't mention a Greek language requirement or visa sponsorship — both unconfirmed for an Athens-based proptech startup, worth checking before applying.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "lebesgue:performance-marketing-manager-junior",
+      "source": "Lebesgue (direct careers page)",
+      "title": "Performance Marketing Manager (Junior)",
+      "company": "Lebesgue",
+      "location": "Remote-friendly (Zagreb, Croatia HQ)",
+      "region": "EU / Western Europe",
+      "url": "https://lebesgue.io/careers",
+      "description_verified": true,
+      "score": 85,
+      "tier": "apply_high",
+      "score_note": "Full posting read on Lebesgue's own careers page (the LinkedIn mirror was robots-blocked). Direct hit on Google Ads/Meta Ads campaign management and performance reporting — core strengths. Junior level explicitly offered. Hybrid/flexible hours; no explicit location or language requirement stated. FLAG: visa sponsorship and exact work location aren't mentioned — confirm before applying.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "kinderpedia:project-manager",
+      "source": "Kinderpedia (Stryve job board)",
+      "title": "Software Project Manager / Product Owner",
+      "company": "Kinderpedia",
+      "location": "Bucharest, Romania (Partially remote)",
+      "region": "EU / Western Europe (East)",
+      "url": "https://jobs.stryve.online/kinderpedia/jobs/62da70894c3ce20067642b04",
+      "description_verified": true,
+      "score": 70,
+      "tier": "apply",
+      "score_note": "Full posting read. Genuine programme/project-coordination role — liaison between stakeholders and the dev team, workflow structuring, daily standups. Only 1–2 yrs experience required (junior end of the coordinator band); ClickUp not CRM/ads, no MBA mention. FLAG: language requirement not stated for a Romania-based team, and visa/work authorization isn't mentioned — confirm both before applying.",
+      "status": "new",
+      "found_at": "2026-09-18"
     }
   ],
   "scan_runs": [
@@ -211,6 +307,16 @@
       ],
       "postings_found": 2,
       "notes": "First connectivity test of the search mechanism, done to validate which job boards are fetchable."
+    },
+    {
+      "date": "2026-09-18",
+      "type": "Startup-prospects filtering pass (224 hidden EU companies)",
+      "boards_checked": [
+        "Company career pages / ATS boards (join.com, Ashby, Workable, Stryve, sage.hr, LinkedIn, direct sites)"
+      ],
+      "postings_found": 4,
+      "postings_excluded": 4,
+      "notes": "First filtering pass over the 224 hidden EU startup prospects (5 parallel research agents checked career pages/job boards for a role matching Bij's target profile). Of 224: 12 had a candidate open role worth a full read. After the stage-gate full-posting read: 4 passed scoring and constraints and were promoted to postings + companies looked at (Saga 75, Lebesgue 85, Billys 90 — all Apply-high; Kinderpedia 70 — Apply standard). 4 were excluded on a hard constraint (syte: mandatory native German; Zynt: mandatory Polish C2; Conveo: requires strategy-consulting/BizOps background + US-citizen-only language; Oneleet: founding-level seniority and a practically SF-based remote-first role). 3 could not be fully verified even after checking the company's own site and are left unscored (Teneo Protocol: careers detail page 404s; Duna: Ashby board is JS-rendered and unreadable; Origin: sage.hr listing not fetchable) — these stay flagged for a manual check, not added to the tracker per the no-score-without-full-posting rule. 1 was a false match: \"Bloop\" in Portugal turned out to be a same-named but unrelated US/Philippines company — flagged as an identity mismatch, not added. The remaining ~212 prospects had no relevant open role at check time (hiring for unrelated roles, not currently hiring, or a dead/unreachable careers page) and stay in the hidden startup_prospects database with their checked status, so a future re-scan can skip straight to re-checking rather than re-researching from scratch."
     }
   ],
   "startup_prospects": {
@@ -224,7 +330,9 @@
         "city": "Siegen",
         "what_it_does": "Trapped-ion quantum computing hardware",
         "funding": "Series A, €57M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/germanys-eleqtron-raises-e57-million-series-a-to-scale-quantum-computing-systems-for-industrial-applications/))",
-        "careers_url": "[eleqtron.com/en/career](https://eleqtron.com/en/career/) — verified, 12 open roles"
+        "careers_url": "[eleqtron.com/en/career](https://eleqtron.com/en/career/) — verified, 12 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Careers page loaded; all 12 open roles are engineering/technical/procurement, none marketing or coordination."
       },
       {
         "company": "allO",
@@ -232,7 +340,9 @@
         "city": "Munich",
         "what_it_does": "AI operating system / \"AI employees\" for restaurants",
         "funding": "Series A, €12M ($14M), 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/munichs-allo-raises-e12-million-series-a-to-expand-its-ai-operating-system-for-restaurants-across-europe/))",
-        "careers_url": "[allo.restaurant/careers](https://allo.restaurant/careers) — verified real page"
+        "careers_url": "[allo.restaurant/careers](https://allo.restaurant/careers) — verified real page",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page has an 'Open positions' section with an apply CTA but job listings are JS-rendered and not readable via fetch."
       },
       {
         "company": "syte",
@@ -240,7 +350,11 @@
         "city": "Münster",
         "what_it_does": "AI-powered real estate analytics/data platform",
         "funding": "Series A, €9M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/munster-based-syte-raises-e9-million-to-expand-its-ai-powered-real-estate-analytics-platform))",
-        "careers_url": "[join.com/companies/syte](https://join.com/companies/syte) — verified, 6 open roles"
+        "careers_url": "[join.com/companies/syte](https://join.com/companies/syte) — verified, 6 open roles",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Field & Event Marketing Manager (m/w/d)",
+        "matched_role_url": "https://join.com/companies/syte/16715779-field-und-event-marketing-manager-m-w-d",
+        "checked_notes": "join.com board shows 6 open roles; this one matches event/marketing coordination."
       },
       {
         "company": "Mirelo AI",
@@ -248,7 +362,9 @@
         "city": "Berlin",
         "what_it_does": "AI-generated sound/audio for video and games",
         "funding": "Seed, €35M/$41M, Dec 2025 ([EU-Startups](https://www.eu-startups.com/2025/12/berlin-based-mirelo-raises-e35-million-seed-round-co-led-by-index-ventures-and-andreessen-horowitz/))",
-        "careers_url": "[jobs.ashbyhq.com/mirelo](https://jobs.ashbyhq.com/mirelo/) — real board, JS-rendered"
+        "careers_url": "[jobs.ashbyhq.com/mirelo](https://jobs.ashbyhq.com/mirelo/) — real board, JS-rendered",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Ashby board (via web search) lists Research Scientist, Engineer, PM, Designer, and Community and Creator Growth Manager roles; none match coordinator-level marketing/ops fit."
       },
       {
         "company": "Cortea",
@@ -256,7 +372,9 @@
         "city": "Berlin",
         "what_it_does": "AI agents/quality layer for audit firms",
         "funding": "Seed, €12M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/06/berlin-based-cortea-raises-e12-million-seed-round-to-build-ai-quality-layer-for-audit-firms/))",
-        "careers_url": "[cortea.ai/careers](https://cortea.ai/careers) — verified"
+        "careers_url": "[cortea.ai/careers](https://cortea.ai/careers) — verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "7 open roles found (via freehire.me); closest is 'Product Marketing & Content Lead' but Lead-level, plus Chief of Staff/engineering roles — no coordinator-level match."
       },
       {
         "company": "Tower",
@@ -264,7 +382,9 @@
         "city": "Berlin",
         "what_it_does": "Python-native data engineering/AI pipeline platform",
         "funding": "Seed, €5.5M/$6.4M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/03/berlin-based-tower-raises-e5-5-million-to-build-the-last-mile-platform-for-data-engineers-in-the-ai-era/))",
-        "careers_url": "jobs.tower.dev — unconfirmed"
+        "careers_url": "jobs.tower.dev — unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "jobs.tower.dev linked from site but returned no content; web search only surfaced an unrelated company (Tower Research Capital)."
       },
       {
         "company": "LawX",
@@ -272,7 +392,9 @@
         "city": "Berlin",
         "what_it_does": "AI operating system for law firms/notaries",
         "funding": "Seed, €7.5M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/berlin-based-lawx-raises-e7-5-million-to-build-an-ai-powered-operating-system-for-notaries-and-law-firms/))",
-        "careers_url": "Notion-hosted careers page, unconfirmed load"
+        "careers_url": "Notion-hosted careers page, unconfirmed load",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page is Notion-hosted (linked from lawx.de) and requires JavaScript; could not read listings."
       },
       {
         "company": "Deutsche Sanierungsberatung (dsb)",
@@ -280,7 +402,9 @@
         "city": "Berlin",
         "what_it_does": "Climate-neutral home renovation platform",
         "funding": "Series A, >€10M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/07/berlin-based-deutsche-sanierungsberatung-raises-over-e10-million-to-accelerate-climate-neutral-home-renovations/))",
-        "careers_url": "[join.com/companies/deutsche-sanierungsberatung](https://join.com/companies/deutsche-sanierungsberatung) — verified, 13 open roles"
+        "careers_url": "[join.com/companies/deutsche-sanierungsberatung](https://join.com/companies/deutsche-sanierungsberatung) — verified, 13 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "join.com board shows Founder's Associate Intern and Growth Intern among others — both intern-level, plus construction/energy consultant roles; no coordinator/specialist-level match."
       },
       {
         "company": "NutriUnited",
@@ -288,7 +412,9 @@
         "city": "Munich (Pullach)",
         "what_it_does": "Buy-and-build platform backing family-run food producers",
         "funding": "Seed, €8.5M, Nov 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/backing-europes-family-run-food-producers-germanys-nutriunited-secures-e8-5-million-to-scale-its-buy-and-build-model/))",
-        "careers_url": "[join.com/companies/nutriunited](https://join.com/companies/nutriunited) — verified, page exists, no open roles"
+        "careers_url": "[join.com/companies/nutriunited](https://join.com/companies/nutriunited) — verified, page exists, no open roles",
+        "checked_status": "not_hiring",
+        "checked_notes": "join.com page confirms 'no open positions at the moment'."
       },
       {
         "company": "QuoIntelligence",
@@ -296,7 +422,9 @@
         "city": "Frankfurt",
         "what_it_does": "EU-compliant cyber & geopolitical threat intelligence",
         "funding": "Series A, €7.3M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/frankfurts-quointelligence-closes-e7-3-million-series-a-to-scale-eu-compliant-threat-intelligence/))",
-        "careers_url": "[jobs.quointelligence.eu](https://jobs.quointelligence.eu/) — verified, active listings"
+        "careers_url": "[jobs.quointelligence.eu](https://jobs.quointelligence.eu/) — verified, active listings",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Careers page lists only Sales/Revenue Account Executive roles (Netherlands, DACH)."
       },
       {
         "company": "chatlyn",
@@ -304,7 +432,9 @@
         "city": "Vienna",
         "what_it_does": "AI communication hub for hotel guest interactions",
         "funding": "Series A, €8M, June 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/austrian-traveltech-startup-chatlyn-raises-e8-million-to-develop-the-ai-brain-for-hotels/))",
-        "careers_url": "[chatlyn.com/en/company/careers](https://chatlyn.com/en/company/careers/) — verified, page exists, no listings shown"
+        "careers_url": "[chatlyn.com/en/company/careers](https://chatlyn.com/en/company/careers/) — verified, page exists, no listings shown",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page and join.com listing both confirm no open positions currently."
       },
       {
         "company": "Emmi AI",
@@ -312,7 +442,9 @@
         "city": "Linz",
         "what_it_does": "AI-accelerated real-time engineering/physics simulation",
         "funding": "Seed, €15M, 2025 — largest Austrian seed round ([JKU](https://www.jku.at/en/news-events/events/detail/news/jku-spin-off-emmi-ai-sichert-sich-mit-15-millionen-euro-groesste-seed-finanzierungsrunde-in-oesterreich/))",
-        "careers_url": "[emmi.ai/careers](https://www.emmi.ai/careers) — verified, actively hiring"
+        "careers_url": "[emmi.ai/careers](https://www.emmi.ai/careers) — verified, actively hiring",
+        "checked_status": "not_hiring",
+        "checked_notes": "emmiai.recruitee.com explicitly states no open positions currently."
       },
       {
         "company": "Flinn",
@@ -320,7 +452,9 @@
         "city": "Vienna",
         "what_it_does": "AI-powered regulatory compliance for medical device makers",
         "funding": "Unconfirmed exact round; €9.8M raised (EU-Startups)",
-        "careers_url": "Speedinvest-hosted board — verified real listings exist"
+        "careers_url": "Speedinvest-hosted board — verified real listings exist",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Speedinvest board's 'MedTech QM/RA Customer Specialist' posting is closed; could not load a current full listing for the company."
       },
       {
         "company": "fynk",
@@ -328,7 +462,9 @@
         "city": "Vienna",
         "what_it_does": "AI-powered contract management software",
         "funding": "Unconfirmed round type; €4.35M raised (EU-Startups)",
-        "careers_url": "[join.com/companies/fynk](https://join.com/companies/fynk) — verified, no open roles currently"
+        "careers_url": "[join.com/companies/fynk](https://join.com/companies/fynk) — verified, no open roles currently",
+        "checked_status": "not_hiring",
+        "checked_notes": "join.com page explicitly states no open positions at the moment."
       },
       {
         "company": "Graph Therapeutics",
@@ -336,7 +472,9 @@
         "city": "Vienna",
         "what_it_does": "AI decoding immune-disease biology from patient samples",
         "funding": "Seed-stage; €3.8M raised (EU-Startups)",
-        "careers_url": "[careers.xista.vc/companies/graph-therapeutics-2](https://careers.xista.vc/companies/graph-therapeutics-2) — verified"
+        "careers_url": "[careers.xista.vc/companies/graph-therapeutics-2](https://careers.xista.vc/companies/graph-therapeutics-2) — verified",
+        "checked_status": "unconfirmed",
+        "checked_notes": "xista.vc job board page loaded but actual listings are behind a JS search widget not visible via fetch; web search found no separate listing."
       },
       {
         "company": "sequestra",
@@ -344,7 +482,9 @@
         "city": "Vienna",
         "what_it_does": "CO2 mineralisation/utilisation for heavy industry",
         "funding": "Seed, €3M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/03/austrias-sequestra-secures-e3-million-seed-to-scale-its-co2-mineralisation-technology-for-industrial-use/))",
-        "careers_url": "Dedicated careers page not directly confirmed"
+        "careers_url": "Dedicated careers page not directly confirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "No dedicated careers page found; a 'Commercial Project Manager || Carbon Tech' listing surfaced in search but current open status/URL could not be confirmed."
       },
       {
         "company": "silana",
@@ -352,7 +492,9 @@
         "city": "Vienna",
         "what_it_does": "Robotic automation for garment/sewing manufacturing",
         "funding": "Unconfirmed round type; €2.82M raised (EU-Startups)",
-        "careers_url": "[silana.breezy.hr](https://silana.breezy.hr/) — verified, active listing"
+        "careers_url": "[silana.breezy.hr](https://silana.breezy.hr/) — verified, active listing",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "breezy.hr board shows only one open role, Field Service Engineer - Robotics."
       },
       {
         "company": "Syntropic Medical",
@@ -360,7 +502,9 @@
         "city": "Klosterneuburg",
         "what_it_does": "Light/neuroplasticity-based device therapy for depression",
         "funding": "Unconfirmed round type; €2.4M raised (EU-Startups)",
-        "careers_url": "[syntropicmedical.com/careers](https://syntropicmedical.com/careers/) — verified"
+        "careers_url": "[syntropicmedical.com/careers](https://syntropicmedical.com/careers/) — verified",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page only links out to an external portal; no job titles rendered via fetch."
       },
       {
         "company": "TACEO",
@@ -368,7 +512,9 @@
         "city": "Graz",
         "what_it_does": "Privacy-preserving cryptographic computation platform",
         "funding": "Unconfirmed round type; €5.2M raised (EU-Startups)",
-        "careers_url": "Notion-hosted, link found, load not confirmed"
+        "careers_url": "Notion-hosted, link found, load not confirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page is Notion-hosted and JS-only; could not read listings."
       },
       {
         "company": "Teneo Protocol",
@@ -376,7 +522,11 @@
         "city": "Vienna",
         "what_it_does": "Decentralized AI/data-ownership network",
         "funding": "Unconfirmed round type; €2.6M raised (EU-Startups)",
-        "careers_url": "[teneo-protocol.ai/career](https://teneo-protocol.ai/career) — verified, 1 open role"
+        "careers_url": "[teneo-protocol.ai/career](https://teneo-protocol.ai/career) — verified, 1 open role",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Web3 Marketing Allrounder",
+        "matched_role_url": "https://teneo-protocol.ai/career",
+        "checked_notes": "Single open role listed, a marketing generalist position matching campaign/marketing coordination."
       },
       {
         "company": "TRACT",
@@ -384,7 +534,9 @@
         "city": "Amsterdam",
         "what_it_does": "Sustainability/impact measurement for agri-food supply chains",
         "funding": "Series A, €18.6M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
-        "careers_url": "[tract.eco/careers](https://www.tract.eco/careers) — verified, 4 open roles"
+        "careers_url": "[tract.eco/careers](https://www.tract.eco/careers) — verified, 4 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "4 open roles: Senior Fullstack Engineer, Manual QA Engineer, Senior Sustainability Manager, Senior Account Executive — all senior/technical/sales."
       },
       {
         "company": "Hydryx",
@@ -392,7 +544,9 @@
         "city": "Amsterdam",
         "what_it_does": "Captures landfill methane, converts to electricity",
         "funding": "Seed, €2.5M, Oct 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/backed-by-e2-5-million-hydryx-targets-the-silent-climate-threat-beneath-europes-landfills/))",
-        "careers_url": "[careers.hydryx.eu](https://careers.hydryx.eu/) — verified, active listings"
+        "careers_url": "[careers.hydryx.eu](https://careers.hydryx.eu/) — verified, active listings",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Only a Country Manager (Sales) role and an open-applications catch-all listed."
       },
       {
         "company": "Saga",
@@ -400,7 +554,11 @@
         "city": "Amsterdam",
         "what_it_does": "AI-native legal research/workflow platform for lawyers",
         "funding": "Seed, €1.5M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
-        "careers_url": "[careers.sagalegal.io](https://careers.sagalegal.io/) — verified, multiple open roles"
+        "careers_url": "[careers.sagalegal.io](https://careers.sagalegal.io/) — verified, multiple open roles",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "People Operations Specialist",
+        "matched_role_url": "https://careers.sagalegal.io/o/people-operations-specialist",
+        "checked_notes": "Careers board lists 7 roles; this Specialist-level ops role fits HR support/operations coordination."
       },
       {
         "company": "GBM Works",
@@ -408,7 +566,9 @@
         "city": "Amsterdam",
         "what_it_does": "Vibration/water-jet tech for offshore wind foundations",
         "funding": "Seed, €6.2M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
-        "careers_url": "[gbmworks.recruitee.com](https://gbmworks.recruitee.com/) — verified, active listing"
+        "careers_url": "[gbmworks.recruitee.com](https://gbmworks.recruitee.com/) — verified, active listing",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Only open role is Senior Mechanical Engineer."
       },
       {
         "company": "Oneleet",
@@ -416,7 +576,11 @@
         "city": "Amsterdam",
         "what_it_does": "SOC 2 / ISO 27001 security-compliance platform",
         "funding": "Series A, $33M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
-        "careers_url": "[workatastartup.com/companies/oneleet](https://www.workatastartup.com/companies/oneleet) — verified, 14 open roles"
+        "careers_url": "[workatastartup.com/companies/oneleet](https://www.workatastartup.com/companies/oneleet) — verified, 14 open roles",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Community Event & Engagement Manager",
+        "matched_role_url": "https://jobs.ashbyhq.com/oneleet/6a1aaa76-cc49-4f74-8cf6-1b57685c3eb4",
+        "checked_notes": "Ashby board lists 18 open roles; this event/community marketing role fits event management + marketing coordination strengths."
       },
       {
         "company": "Dashmote",
@@ -424,7 +588,9 @@
         "city": "Amsterdam",
         "what_it_does": "AI-driven unstructured-data insights for F&B brands",
         "funding": "Series A1, $6M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
-        "careers_url": "[jobs.dashmote.com](https://jobs.dashmote.com/) — verified, 2 open roles"
+        "careers_url": "[jobs.dashmote.com](https://jobs.dashmote.com/) — verified, 2 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "2 open roles: Account Executive (Amsterdam, sales) and Junior Data Sourcing Engineer (China) — neither matches target families."
       },
       {
         "company": "Voyc",
@@ -432,7 +598,9 @@
         "city": "The Hague",
         "what_it_does": "AI conversation-intelligence/compliance monitoring",
         "funding": "Seed, $2M/€1.7M, 2025 ([Silicon Canals](https://siliconcanals.com/dutch-based-voyc-raises-e1-7m-in-seed-funding/))",
-        "careers_url": "No reliable direct careers URL — check voyc.ai directly"
+        "careers_url": "No reliable direct careers URL — check voyc.ai directly",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Workable board (apply.workable.com/voyc) metadata mentions sales/marketing hiring generally, but individual job titles could not be extracted."
       },
       {
         "company": "Lleverage",
@@ -440,7 +608,9 @@
         "city": "Amsterdam",
         "what_it_does": "\"Vibe automation\" — AI workflow/agent builder",
         "funding": "Seed, €3M, May 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/amsterdam-based-ai-startup-lleverage-raises-e3-million-for-vibe-automation-processes/))",
-        "careers_url": "[lleverage.recruitee.com](https://lleverage.recruitee.com/) — verified, active listing"
+        "careers_url": "[lleverage.recruitee.com](https://lleverage.recruitee.com/) — verified, active listing",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Only 2 open roles, both AI Engineer positions."
       },
       {
         "company": "Duna",
@@ -448,7 +618,11 @@
         "city": "Amsterdam",
         "what_it_does": "AI-native business identity/compliance platform",
         "funding": "Seed €10.7M (May 2025) then Series A €30M (Feb 2026) ([EU-Startups](https://www.eu-startups.com/2026/02/dutch-fintech-startup-duna-raises-e30-million-to-expand-compliant-ai-for-business-identity-and-onboarding/))",
-        "careers_url": "[duna.com/careers](https://duna.com/careers) — verified, multiple open roles"
+        "careers_url": "[duna.com/careers](https://duna.com/careers) — verified, multiple open roles",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Growth Associate (Junior)",
+        "matched_role_url": "https://jobs.ashbyhq.com/duna/7640aec8-6988-42b8-a50e-a33877882bbe",
+        "checked_notes": "Ashby board lists 10 roles; Growth Associate is a junior/associate marketing-adjacent coordination role."
       },
       {
         "company": "MarvelX",
@@ -456,7 +630,9 @@
         "city": "Amsterdam",
         "what_it_does": "Agentic AI platform for insurance claims/operations",
         "funding": "Seed/pre-seed, €5.3-5.4M, May 2025 ([Silicon Canals](https://siliconcanals.com/amsterdams-marvelx-raises-5-3m/))",
-        "careers_url": "[marvelx.ai/careers](https://www.marvelx.ai/careers) — link confirmed, listing not verified"
+        "careers_url": "[marvelx.ai/careers](https://www.marvelx.ai/careers) — link confirmed, listing not verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "All 5 open roles are engineering (DevOps, backend, frontend, AI)."
       },
       {
         "company": "Augustine Therapeutics",
@@ -464,7 +640,9 @@
         "city": "Leuven",
         "what_it_does": "Biotech for neuromuscular/neurodegenerative disease",
         "funding": "Series A, €78M ($85M), March 2025 ([Vestbee](https://www.vestbee.com/insights/articles/augustine-therapeutics-secures-78-m))",
-        "careers_url": "[augustinetx.com/careers](https://www.augustinetx.com/careers) — verified, no listings shown"
+        "careers_url": "[augustinetx.com/careers](https://www.augustinetx.com/careers) — verified, no listings shown",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page has an 'Open Positions' header but no listings shown/no titles present."
       },
       {
         "company": "Swave Photonics",
@@ -472,7 +650,9 @@
         "city": "Leuven",
         "what_it_does": "Holographic/AR display semiconductor chips",
         "funding": "Series A, €33M, 2025 ([Silicon Canals](https://siliconcanals.com/belgiums-10-biggest-funding-rounds-in-h1-2025/))",
-        "careers_url": "[jobs.eu.lever.co/swave](https://jobs.eu.lever.co/swave) — verified, 2 open roles"
+        "careers_url": "[jobs.eu.lever.co/swave](https://jobs.eu.lever.co/swave) — verified, 2 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "2 open roles: freelance DFT Engineer and Head of Industrialization (Taiwan, senior) — neither matches."
       },
       {
         "company": "Spica Therapeutics",
@@ -480,7 +660,9 @@
         "city": "Antwerp",
         "what_it_does": "Macrophage-targeting therapies (oncology/autoimmune)",
         "funding": "Seed, €10M, June 2025 ([QBIC](https://www.qbic.be/nieuws/spica-therapeutics-closes-10-million-seed-round-to-advance-macrophage-targeted-therapies))",
-        "careers_url": "Not confirmed — check LinkedIn/company site directly"
+        "careers_url": "Not confirmed — check LinkedIn/company site directly",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No dedicated careers page found via search; only unrelated 'Spica' companies surfaced."
       },
       {
         "company": "Azalea Vision",
@@ -488,7 +670,9 @@
         "city": "Leuven",
         "what_it_does": "Smart contact lens for light sensitivity/ocular disorders",
         "funding": "Series A, €8M (imec spin-off)",
-        "careers_url": "[azaleavision.com/careers](https://azaleavision.com/careers/) — verified, no open positions currently"
+        "careers_url": "[azaleavision.com/careers](https://azaleavision.com/careers/) — verified, no open positions currently",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page explicitly states no current openings ('Stay tuned for future positions')."
       },
       {
         "company": "Vertical Compute",
@@ -496,7 +680,9 @@
         "city": "Louvain-la-Neuve",
         "what_it_does": "In-memory compute chiplets for AI hardware (imec spin-off)",
         "funding": "Seed, €20M, 2024/2025 ([Sifted](https://sifted.eu/articles/vertical-compute-20m-seed-news))",
-        "careers_url": "[verticalcompute.recruitee.com](https://verticalcompute.recruitee.com/) — verified, multiple open roles"
+        "careers_url": "[verticalcompute.recruitee.com](https://verticalcompute.recruitee.com/) — verified, multiple open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "7 roles listed; closest is Senior Program Manager (too senior), rest are hardware/software engineering."
       },
       {
         "company": "TUSK IC",
@@ -504,7 +690,9 @@
         "city": "Antwerp",
         "what_it_does": "mmWave/Ka-band satellite communication chips",
         "funding": "Series A, €15M, Sept 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/antwerp-based-tusk-ic-secures-e15-million-to-move-its-ka-band-satellite-chips-into-mass-production))",
-        "careers_url": "[tusk-ic.com/careers](https://tusk-ic.com/careers/) — verified, 6 open roles"
+        "careers_url": "[tusk-ic.com/careers](https://tusk-ic.com/careers/) — verified, 6 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "6 roles; closest is a fractional/freelance Communications Expert (not an FTE coordinator role), rest engineering/supply-chain director."
       },
       {
         "company": "Trendtracker",
@@ -512,7 +700,9 @@
         "city": "Ghent",
         "what_it_does": "AI strategic-intelligence/trend-forecasting platform",
         "funding": "Series A, €5.9M/$7M, Dec 2025 ([EU-Startups](https://www.eu-startups.com/2025/12/trendtracker-raises-9-million-scale-ai-driven-strategic-intelligence-platform-globally/))",
-        "careers_url": "[trendtracker.ai/careers](https://www.trendtracker.ai/careers) — verified, listing present"
+        "careers_url": "[trendtracker.ai/careers](https://www.trendtracker.ai/careers) — verified, listing present",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "8 roles listed (dev, data science, sales, analyst) — none match target families."
       },
       {
         "company": "Chift",
@@ -520,7 +710,9 @@
         "city": "Brussels",
         "what_it_does": "Financial/accounting-software connectivity layer (unified API)",
         "funding": "Series A, €10.5M, Sept 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/brussels-based-chift-raises-e10-5-million-series-a-to-become-europes-financial-connectivity-layer))",
-        "careers_url": "[join.com/companies/chift](https://join.com/companies/chift) — verified, 2 open roles"
+        "careers_url": "[join.com/companies/chift](https://join.com/companies/chift) — verified, 2 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "2 open roles: GTM Engineer (technical growth engineering) and Key Account Manager (sales) — neither is a fit."
       },
       {
         "company": "Conveo",
@@ -528,7 +720,11 @@
         "city": "Antwerp",
         "what_it_does": "AI-led qualitative research/video interviews",
         "funding": "Seed, €4.9M/$5.3M, March 2025 ([EU-Startups](https://www.eu-startups.com/2025/03/conveo-secures-e4-9-million-to-transform-market-research-industry/))",
-        "careers_url": "[careers.conveo.ai](https://careers.conveo.ai/) — page exists, listing unconfirmed"
+        "careers_url": "[careers.conveo.ai](https://careers.conveo.ai/) — page exists, listing unconfirmed",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Strategy & Ops Associate",
+        "matched_role_url": "https://www.ycombinator.com/companies/conveo/jobs/iqo8wLZ-strategy-ops-associate",
+        "checked_notes": "YC job board lists 21 roles across offices including Antwerp; this Associate-level ops/coordination role based in Antwerp/London/Remote fits."
       },
       {
         "company": "Karomia",
@@ -536,7 +732,9 @@
         "city": "Ghent",
         "what_it_does": "AI-driven CSRD/ESG reporting platform",
         "funding": "Seed, €2M, Feb 2025 ([EU-Startups](https://www.eu-startups.com/2025/02/hours-not-months-karomia-raises-e2-million-for-its-csrd-and-esg-ai-platform/))",
-        "careers_url": "[join.com/companies/karomiaeu](https://join.com/companies/karomiaeu) — verified, no open roles currently"
+        "careers_url": "[join.com/companies/karomiaeu](https://join.com/companies/karomiaeu) — verified, no open roles currently",
+        "checked_status": "not_hiring",
+        "checked_notes": "join.com page confirms no open positions at the moment."
       },
       {
         "company": "Circu Li-ion",
@@ -544,7 +742,9 @@
         "city": "Luxembourg",
         "what_it_does": "Automated battery disassembly/upcycling for Li-ion cells",
         "funding": "Unconfirmed exact stage; €8.5M raised ([EU-Startups](https://www.eu-startups.com/2025/02/the-rising-stars-of-luxembourg-10-promising-startups-you-should-be-keeping-an-eye-on-in-2025/))",
-        "careers_url": "[join.com/companies/circuli-ion](https://join.com/companies/circuli-ion) — verified, no open roles currently"
+        "careers_url": "[join.com/companies/circuli-ion](https://join.com/companies/circuli-ion) — verified, no open roles currently",
+        "checked_status": "not_hiring",
+        "checked_notes": "join.com page confirms no open positions at the moment."
       },
       {
         "company": "Uplift360",
@@ -552,7 +752,9 @@
         "city": "Luxembourg",
         "what_it_does": "Chemical recycling recovering fibers from wind-turbine/composite waste",
         "funding": "Unconfirmed exact stage; €1M+ raised (EU-Startups)",
-        "careers_url": "[uplift360.tech/careers](https://www.uplift360.tech/careers) — verified, 2 open roles (may be stale)"
+        "careers_url": "[uplift360.tech/careers](https://www.uplift360.tech/careers) — verified, 2 open roles (may be stale)",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Page shows Technical Project Manager and Relationship Manager roles but with a closing date of 3 May 2024, suggesting stale/expired listings that can't be confirmed as currently open."
       },
       {
         "company": "Helical",
@@ -560,7 +762,9 @@
         "city": "Luxembourg",
         "what_it_does": "AI/DNA & mRNA foundation models for drug discovery",
         "funding": "Unconfirmed exact stage; €2.2M raised (EU-Startups)",
-        "careers_url": "[apply.workable.com/helical](https://apply.workable.com/helical/?lng=en) — real board confirmed"
+        "careers_url": "[apply.workable.com/helical](https://apply.workable.com/helical/?lng=en) — real board confirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Workable board shows Software Developer, Platform Engineer, ML Engineer, and Chief of Staff (too senior) — no coordinator-level marketing/ops match."
       },
       {
         "company": "Mission Space",
@@ -568,7 +772,9 @@
         "city": "Luxembourg",
         "what_it_does": "AI-powered space-weather forecasting via satellite fleet",
         "funding": "Unconfirmed exact stage; €1M+ raised (EU-Startups)",
-        "careers_url": "No dedicated careers page — check LinkedIn"
+        "careers_url": "No dedicated careers page — check LinkedIn",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No dedicated careers page found via search; only third-party job boards and unrelated Luxembourg Space Agency listings surfaced."
       },
       {
         "company": "BuildBuild",
@@ -576,7 +782,9 @@
         "city": "Luxembourg",
         "what_it_does": "Construction-management platform",
         "funding": "Unconfirmed exact stage; €2.5M raised (EU-Startups)",
-        "careers_url": "careers page 404s — check LinkedIn"
+        "careers_url": "careers page 404s — check LinkedIn",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Careers page 404s per source note; web search found no working careers page or job board for this specific company."
       },
       {
         "company": "Kidola",
@@ -584,7 +792,9 @@
         "city": "Luxembourg",
         "what_it_does": "Daycare/nursery management platform",
         "funding": "600K then 1.3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/luxembourg-based-childcare-management-platform-kidola-raises-e1-3-million-to-expand-into-france/))",
-        "careers_url": "No dedicated careers page found"
+        "careers_url": "No dedicated careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No dedicated careers page found via search; only general childcare job listings and company profile pages surfaced."
       },
       {
         "company": "Cyberr",
@@ -592,7 +802,9 @@
         "city": "Luxembourg",
         "what_it_does": "AI-powered job-matching platform for cybersecurity professionals",
         "funding": "Unconfirmed exact stage; €1.5M raised (EU-Startups)",
-        "careers_url": "Own hiring page unconfirmed — check LinkedIn"
+        "careers_url": "Own hiring page unconfirmed — check LinkedIn",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Cyberr's own site is a cybersecurity job board for others; no careers page for hiring at Cyberr itself was found."
       },
       {
         "company": "Greenworlder",
@@ -600,7 +812,9 @@
         "city": "Luxembourg",
         "what_it_does": "Social platform rewarding eco-friendly actions with tokens",
         "funding": "Unconfirmed exact stage; €2.75M raised (EU-Startups)",
-        "careers_url": "No dedicated careers page confirmed"
+        "careers_url": "No dedicated careers page confirmed",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page found via search explicitly states 'We have no jobs at the minute'."
       },
       {
         "company": "Essembl",
@@ -608,7 +822,9 @@
         "city": "Luxembourg",
         "what_it_does": "AI fashion advisor/personalized styling app",
         "funding": "Pre-seed, €50K raised — very early, likely too small for coordinator-level roles",
-        "careers_url": "No careers page; tiny team"
+        "careers_url": "No careers page; tiny team",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found via search; pre-seed (€50K) tiny team consistent with source note."
       },
       {
         "company": "Vai",
@@ -616,7 +832,9 @@
         "city": "Luxembourg",
         "what_it_does": "Startup-investor matchmaking platform",
         "funding": "Pre-seed, €200K raised — very early, likely too small for coordinator-level roles",
-        "careers_url": "No careers page; tiny team"
+        "careers_url": "No careers page; tiny team",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found via search; pre-seed (€200K) tiny team consistent with source note."
       },
       {
         "company": "Tzafon",
@@ -624,7 +842,9 @@
         "city": "Stockholm",
         "what_it_does": "AI agents for autonomous computer-use",
         "funding": "Seed, ~€8.3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/07/swedens-tzafon-raises-a-total-of-e8-3-million-to-scale-ai-compute-and-take-agentic-ai-to-new-heights/))",
-        "careers_url": "[tzafon.ai/careers](https://www.tzafon.ai/careers) — verified, 3 roles (SF/Tel Aviv/Zurich, not Stockholm)"
+        "careers_url": "[tzafon.ai/careers](https://www.tzafon.ai/careers) — verified, 3 roles (SF/Tel Aviv/Zurich, not Stockholm)",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "3 open roles (Ashby), all engineering/ML/backend, none in target profile."
       },
       {
         "company": "eComID",
@@ -632,7 +852,9 @@
         "city": "Stockholm",
         "what_it_does": "AI \"shopping passport\" for personalized commerce",
         "funding": "Seed, €14.6M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/stockholms-ecomid-raises-e14-6-million-to-build-the-shopping-passport-for-ai-powered-personalised-commerce/))",
-        "careers_url": "[careers.ecomid.com](https://careers.ecomid.com/) — verified, 5 roles"
+        "careers_url": "[careers.ecomid.com](https://careers.ecomid.com/) — verified, 5 roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "5 open roles, all engineering/data (infra, frontend, ML, data), none marketing/ops coordination."
       },
       {
         "company": "SolvaPay",
@@ -640,7 +862,9 @@
         "city": "Stockholm",
         "what_it_does": "Payments infrastructure for agentic/autonomous commerce",
         "funding": "Pre-Seed, €2.4M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/stockholms-solvapay-raises-e2-4-million-pre-seed-to-build-payments-infrastructure-for-agentic-commerce/))",
-        "careers_url": "No careers page found — LinkedIn only"
+        "careers_url": "No careers page found — LinkedIn only",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers URL given; web search found no company careers page or job board listing."
       },
       {
         "company": "Grasp",
@@ -648,7 +872,9 @@
         "city": "Stockholm",
         "what_it_does": "Generative-AI productivity tools for finance/consulting",
         "funding": "Unconfirmed stage, €6M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/with-e6-million-in-the-bag-stockholms-grasp-looks-to-enhance-productivity-tools-for-financial-analysts-and-consultants/))",
-        "careers_url": "[careers.grasp-ai.com](https://careers.grasp-ai.com/) — verified, 5 roles, Stockholm on-site"
+        "careers_url": "[careers.grasp-ai.com](https://careers.grasp-ai.com/) — verified, 5 roles, Stockholm on-site",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "5 open roles (Product Designer, AE, BDR, 2 Engineer), none match marketing/ops coordinator profile."
       },
       {
         "company": "AlixLabs",
@@ -656,7 +882,9 @@
         "city": "Lund",
         "what_it_does": "Semiconductor \"Atomic Pitch Splitting\" etching tech",
         "funding": "Series A, €15M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/the-10-biggest-startup-investments-in-sweden-this-year))",
-        "careers_url": "No working careers page — LinkedIn only"
+        "careers_url": "No working careers page — LinkedIn only",
+        "checked_status": "not_hiring",
+        "checked_notes": "FORWARD.one job board confirms: 'This company does not have jobs relevant to this job board at this time.'"
       },
       {
         "company": "Bits (Bits Technology)",
@@ -664,7 +892,9 @@
         "city": "Stockholm",
         "what_it_does": "Fintech compliance/open-finance automation",
         "funding": "Series A, €12M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/02/swedish-startup-bits-raises-e12-million-to-deepen-automation-across-fintech-compliance-workflows/))",
-        "careers_url": "[careers.bits.bi](https://careers.bits.bi/) — verified, 4 roles"
+        "careers_url": "[careers.bits.bi](https://careers.bits.bi/) — verified, 4 roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "4 open roles (AE x2, Product Design Engineer, GTM Lead), none match target profile/seniority."
       },
       {
         "company": "Lightbringer",
@@ -672,7 +902,9 @@
         "city": "Malmo",
         "what_it_does": "AI-native patent/IP services for deep-tech founders",
         "funding": "Series A, ~€8.6M/$10M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/the-10-biggest-startup-investments-in-sweden-this-year))",
-        "careers_url": "[lightbringer.com/about/career](https://lightbringer.com/about/career) — verified, 4 roles incl. Malmo"
+        "careers_url": "[lightbringer.com/about/career](https://lightbringer.com/about/career) — verified, 4 roles incl. Malmo",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "4 roles (BD Manager, PM, 2x Software Engineer), none are marketing/ops coordinator level."
       },
       {
         "company": "Tonada",
@@ -680,7 +912,9 @@
         "city": "Stockholm",
         "what_it_does": "AI-generated sound/music design for retail spaces",
         "funding": "Unconfirmed stage, €2.6M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/06/stockholm-based-tonada-lands-e2-6-million-to-help-brands-design-how-their-spaces-sound/))",
-        "careers_url": "[tonada.com/careers](https://www.tonada.com/careers) — verified, 2 roles"
+        "careers_url": "[tonada.com/careers](https://www.tonada.com/careers) — verified, 2 roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "2 roles: AI Music Creator (contractor, entry) and Enterprise Sales Manager (senior), neither fits."
       },
       {
         "company": "Flox Intelligence",
@@ -688,7 +922,9 @@
         "city": "Stockholm",
         "what_it_does": "AI wildlife-monitoring for infrastructure/conflict prevention",
         "funding": "Seed, ~€1M (2025) then €2.5M (2026) ([EU-Startups](https://www.eu-startups.com/2025/08/swedish-ai-startup-flox-secures-nearly-e1-million-to-keep-wildlife-safe-and-help-coexist-without-conflict/))",
-        "careers_url": "[floxintelligence.com/career](https://floxintelligence.com/career) — verified, 6 roles, Stockholm hybrid"
+        "careers_url": "[floxintelligence.com/career](https://floxintelligence.com/career) — verified, 6 roles, Stockholm hybrid",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "6 roles: Head of Ops & Finance, Senior AE, and 4 technical/engineering roles; none are coordinator-level marketing/ops."
       },
       {
         "company": "Solace Care",
@@ -696,7 +932,9 @@
         "city": "Stockholm",
         "what_it_does": "Digital end-of-life & grief-support platform",
         "funding": "Pre-Seed, €2.1M, 2026 ([ArcticStartup](https://arcticstartup.com/solace-care-raises-e2-1m-pre-seed/))",
-        "careers_url": "[solace.care/careers](https://www.solace.care/careers) — page exists"
+        "careers_url": "[solace.care/careers](https://www.solace.care/careers) — page exists",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page only links out to LinkedIn jobs board with no titles listed in fetched content; could not verify specific openings."
       },
       {
         "company": "Understory",
@@ -704,7 +942,9 @@
         "city": "Aarhus",
         "what_it_does": "AI-driven booking/payments platform for experience providers",
         "funding": "Series A, €12M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/09/danish-traveltech-platform-understory-raises-e12-million-to-unite-tools-for-experience-providers-under-one-roof/))",
-        "careers_url": "[people.understory.io](https://people.understory.io/) — verified, 4 roles"
+        "careers_url": "[people.understory.io](https://people.understory.io/) — verified, 4 roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "4 roles (2 AE, SDR, open application), all sales-focused in Barcelona, none marketing/ops coordinator."
       },
       {
         "company": "Contribe",
@@ -712,7 +952,9 @@
         "city": "Copenhagen",
         "what_it_does": "Checkout-donation platform",
         "funding": "Pre-Seed, €1.3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/amid-8-4-rise-in-danish-donations-contribe-secures-e1-3-million-to-boost-charitable-giving-online/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search surfaced no company-specific job listings."
       },
       {
         "company": "Januar",
@@ -720,7 +962,9 @@
         "city": "Copenhagen",
         "what_it_does": "B2B crypto fiat-account/payments infrastructure",
         "funding": "Seed extension, €1.5M, 2024 ([EU-Startups](https://www.eu-startups.com/2024/02/copenhagen-based-januar-raises-e1-5-million-seed-extension-to-launch-b2b-crypto-services-platform/))",
-        "careers_url": "[careers.januar.com](https://careers.januar.com/) — verified, no open roles currently"
+        "careers_url": "[careers.januar.com](https://careers.januar.com/) — verified, no open roles currently",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page confirmed 'No matching jobs' currently."
       },
       {
         "company": "Velatir",
@@ -728,7 +972,9 @@
         "city": "Odense",
         "what_it_does": "AI-governance/compliance infrastructure for enterprise AI",
         "funding": "Series A, €5M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/danish-ai-infrastructure-startup-velatir-secures-e5-million-six-months-after-its-pre-seed-round-and-official-launch/))",
-        "careers_url": "Unconfirmed — check LinkedIn"
+        "careers_url": "Unconfirmed — check LinkedIn",
+        "checked_status": "unconfirmed",
+        "checked_notes": "velatir.com/careers exists (per search) but fetch was blocked by rate-limited robots.txt; could not verify specific roles."
       },
       {
         "company": "Octarine Bio",
@@ -736,7 +982,9 @@
         "city": "Copenhagen",
         "what_it_does": "Synthetic biology, fermentation-based sustainable pigments",
         "funding": "Series A extension €5M (total €12.8M), 2026 ([EU-Startups](https://www.eu-startups.com/2026/01/copenhagens-octarine-bio-adds-e5-million-to-series-a-to-advance-sustainable-colour-platform/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "not_hiring",
+        "checked_notes": "Denmark's EIFO job board confirms: 'This company does not have jobs relevant to this job board at this time.'"
       },
       {
         "company": "deepdots",
@@ -744,7 +992,9 @@
         "city": "Copenhagen",
         "what_it_does": "AI platform for collecting/analyzing customer feedback",
         "funding": "Seed, €5.5M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/copenhagen-based-deepdots-raises-e5-5-million-to-scale-ai-driven-customer-feedback-platform/))",
-        "careers_url": "No careers page; via LinkedIn/contact form"
+        "careers_url": "No careers page; via LinkedIn/contact form",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search surfaced only a general contact page, no job listings."
       },
       {
         "company": "Claimlane",
@@ -752,7 +1002,9 @@
         "city": "Copenhagen",
         "what_it_does": "Automated product-returns & warranty-claims platform",
         "funding": "Seed, €1.8M, 2024 ([EU-Startups](https://www.eu-startups.com/2024/05/copenhagen-based-claimlane-raises-e1-8-million-to-simplify-product-claims-and-complex-return-processes/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "unconfirmed",
+        "checked_notes": "No official careers page; found only an old third-party listing for 'Head of Sales' (unclear if still open), not a match anyway."
       },
       {
         "company": "Alice",
@@ -760,7 +1012,9 @@
         "city": "Copenhagen",
         "what_it_does": "AI tutoring platform",
         "funding": "Seed, €4.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/danish-edtech-startup-alice-raises-e4-2-million-for-personalised-learning-and-studying-platform/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "alice.tech has no careers page or job listings ('no dedicated careers section')."
       },
       {
         "company": "Interhuman AI",
@@ -768,7 +1022,9 @@
         "city": "Copenhagen",
         "what_it_does": "\"Social intelligence\" layer decoding human signals for AI",
         "funding": "Pre-Seed, €2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/08/copenhagen-based-interhuman-ai-raises-e2-million-to-build-the-social-intelligence-layer-for-ai/))",
-        "careers_url": "Notion-hosted board, did not resolve cleanly"
+        "careers_url": "Notion-hosted board, did not resolve cleanly",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Open roles found via TheHub (Developer Relations Lead, Technical Co-Founder/CTO, AI & Behavioral Science Internship) — all technical/founder/intern-level, none match."
       },
       {
         "company": "TODAY",
@@ -776,7 +1032,9 @@
         "city": "Copenhagen",
         "what_it_does": "AI assistant for financial advisors",
         "funding": "Pre-Seed, €1M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/golden-nuggets-of-insight-danish-startup-today-secures-e1-million-to-help-financial-advisors-save-time-and-sell-smarter/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search returned no company-specific results (company name too generic to search reliably)."
       },
       {
         "company": "Nvelop",
@@ -784,7 +1042,9 @@
         "city": "Helsinki",
         "what_it_does": "Agentic-AI enterprise procurement platform",
         "funding": "Seed, €1.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/finnish-startup-nvelop-secures-e1-2-million-to-innovate-enterprise-procurement-with-agentic-ai))",
-        "careers_url": "[nvelop.ai/careers](https://www.nvelop.ai/careers) — verified, 1 role"
+        "careers_url": "[nvelop.ai/careers](https://www.nvelop.ai/careers) — verified, 1 role",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "1 open role: Principal in IT & Digital Sourcing, a senior/principal procurement consulting role, not target seniority or function."
       },
       {
         "company": "Kelluu",
@@ -792,7 +1052,9 @@
         "city": "Helsinki",
         "what_it_does": "Hydrogen-powered autonomous airships for aerial ISR",
         "funding": "Series A, €15M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/finlands-kelluu-raises-e15-million-series-a-led-by-nato-innovation-fund-to-advance-persistent-aerial-intelligence/))",
-        "careers_url": "jobs.ashbyhq.com/kelluu — page loads, JS-rendered"
+        "careers_url": "jobs.ashbyhq.com/kelluu — page loads, JS-rendered",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Ashby-hosted careers page is JS-rendered; fetch could not retrieve the dynamic job list."
       },
       {
         "company": "Inven",
@@ -800,7 +1062,9 @@
         "city": "Helsinki",
         "what_it_does": "AI-native deal-sourcing platform for M&A/PE",
         "funding": "Series A, €11.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/inven-a-finnish-ai-startup-raises-e11-2-million-for-their-deal-sourcing-platform/))",
-        "careers_url": "careers.inven.ai/jobs — link present"
+        "careers_url": "careers.inven.ai/jobs — link present",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "1 open role: Business Development Representative (PE/IB focus) — a sales role, not target profile."
       },
       {
         "company": "Zero",
@@ -808,7 +1072,9 @@
         "city": "Helsinki",
         "what_it_does": "AI-native \"GTM operating system\" replacing traditional CRM",
         "funding": "Seed, €8.93M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/helsinkis-zero-raises-e8-93-million-with-backing-from-lovable-and-supercell-founders-to-make-crm-history/))",
-        "careers_url": "[zero.inc/careers](https://zero.inc/careers) — verified, 3 roles, Helsinki"
+        "careers_url": "[zero.inc/careers](https://zero.inc/careers) — verified, 3 roles, Helsinki",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "3 open roles: Software Engineer, GTM Operator, Customer Success Specialist — none are marketing/campaign coordination; GTM Operator and CS Specialist are closest but titled/scoped as GTM ops/CS, not marketing or programme coordination per description available."
       },
       {
         "company": "Quanscient",
@@ -816,7 +1082,9 @@
         "city": "Tampere",
         "what_it_does": "Cloud multiphysics/quantum-assisted simulation platform",
         "funding": "Series A, €10M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/finlands-quanscient-raises-e10-million-to-scale-its-multiphysics-simulation-platform-for-the-ai-era/))",
-        "careers_url": "[quanscient.com/careers](https://quanscient.com/careers) — verified, open-application only"
+        "careers_url": "[quanscient.com/careers](https://quanscient.com/careers) — verified, open-application only",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page confirmed open-application-only, no specific listed openings."
       },
       {
         "company": "CloEE",
@@ -824,7 +1092,9 @@
         "city": "Helsinki",
         "what_it_does": "AI platform analyzing industrial/manufacturing equipment data",
         "funding": "Pre-Seed, €520k, 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/finnish-startup-cloee-raises-e520k-to-accelerate-ai-driven-process-manufacturing/))",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Could not fetch cloee.co/careers (provenance restriction); no specific job listings surfaced via web search."
       },
       {
         "company": "S-Transistors",
@@ -832,7 +1102,9 @@
         "city": "Espoo area",
         "what_it_does": "Superconducting-transistor \"quantum motherboards\" (VTT spin-off)",
         "funding": "Pre-Seed, €2.6M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/finlands-s-transistors-raises-e2-6-million-to-build-the-worlds-first-quantum-motherboard/))",
-        "careers_url": "Too new to verify"
+        "careers_url": "Too new to verify",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Too new/small; no careers page or job listings found via web search."
       },
       {
         "company": "Tangled",
@@ -840,7 +1112,9 @@
         "city": "Finland",
         "what_it_does": "Decentralized code-collaboration platform (EU GitHub alt.)",
         "funding": "Unconfirmed stage, €3.8M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/03/finlands-tangled-raises-e3-8-million-backed-by-githubs-former-ceo-to-build-a-european-alternative-to-the-us-based-platform/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search surfaced only funding news coverage, no job listings."
       },
       {
         "company": "Skyfora",
@@ -848,7 +1122,9 @@
         "city": "Finland",
         "what_it_does": "Converts telecom/GNSS infrastructure into weather-sensing network",
         "funding": "Series A, €6.5M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/06/finnish-skyfora-raises-e6-5-million-to-quicken-deployment-of-atmospheric-sensing-network/))",
-        "careers_url": "[skyfora.com/careers](https://www.skyfora.com/careers) — page exists"
+        "careers_url": "[skyfora.com/careers](https://www.skyfora.com/careers) — page exists",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page exists but loads job listings dynamically via JS ('Loading open positions...'); could not verify specific openings."
       },
       {
         "company": "Onego Bio",
@@ -856,7 +1132,9 @@
         "city": "Finland",
         "what_it_does": "Precision-fermentation, animal-free egg-protein production",
         "funding": "Series A, ~$40M cumulative (multiple rounds 2024-25)",
-        "careers_url": "[onego.bio/careers](https://www.onego.bio/careers) — page exists, no active roles"
+        "careers_url": "[onego.bio/careers](https://www.onego.bio/careers) — page exists, no active roles",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page confirmed no open job listings currently displayed."
       },
       {
         "company": "Zynt",
@@ -864,7 +1142,11 @@
         "city": "Warsaw",
         "what_it_does": "AI signal-intelligence platform for B2B sales timing",
         "funding": "Pre-Seed, €424.4k, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/warsaws-zynt-raises-e424-4k-pre-seed-to-sharpen-ai-powered-b2b-sales-intelligence))",
-        "careers_url": "[getzynt.com/careers](https://getzynt.com/careers) — verified, 2 roles"
+        "careers_url": "[getzynt.com/careers](https://getzynt.com/careers) — verified, 2 roles",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Growth Marketing Coordinator (B2B SaaS)",
+        "matched_role_url": "https://getzynt.com/careers/growth-marketing-coordinator-b2b-saas",
+        "checked_notes": "Open remote role owning lead gen, MQL/SQL funnel ops, PR, events and demand generation — strong match to target profile."
       },
       {
         "company": "SalesPatriot",
@@ -872,7 +1154,9 @@
         "city": "Warsaw",
         "what_it_does": "Procurement automation for defense/aerospace suppliers",
         "funding": "Seed, €4.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/warsaw-based-salespatriot-raises-e4-2-million-to-modernise-defense-procurement-and-expand-into-europe/))",
-        "careers_url": "[salespatriot.com/careers](https://salespatriot.com/careers) — verified, 3 roles incl. Warsaw"
+        "careers_url": "[salespatriot.com/careers](https://salespatriot.com/careers) — verified, 3 roles incl. Warsaw",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "3 open roles, all engineering (Full Stack x2, Forward Deployed Engineer), none match."
       },
       {
         "company": "Juo",
@@ -880,7 +1164,9 @@
         "city": "Warsaw",
         "what_it_does": "Infrastructure/software for physical-product subscriptions",
         "funding": "Seed, €4M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/polish-startup-juo-raises-e4-million-to-help-businesses-build-and-manage-physical-product-subscriptions/))",
-        "careers_url": "[juo.com/careers](https://juo.com/careers) — verified, 3 remote roles"
+        "careers_url": "[juo.com/careers](https://juo.com/careers) — verified, 3 remote roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "3 open roles: Account Growth Manager, Product Engineer, Senior Full-stack Engineer — Account Growth Manager appears sales/account-management focused, not marketing/programme coordination as titled."
       },
       {
         "company": "Holi (Klinika Holi)",
@@ -888,7 +1174,9 @@
         "city": "Warsaw",
         "what_it_does": "Digital obesity-treatment clinic",
         "funding": "Seed, €3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/with-800-million-people-living-with-obesity-worldwide-warsaws-holi-secures-e3-million-to-expand-its-digital-treatment-platform/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search surfaced no job listings, only funding/company profile pages."
       },
       {
         "company": "Elastics",
@@ -896,7 +1184,9 @@
         "city": "Warsaw",
         "what_it_does": "AI-native trading/agent platform for prediction markets",
         "funding": "Pre-Seed, €1.7M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/warsaw-based-elastics-raises-e1-7-million-to-build-ai-agents-for-prediction-markets/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search surfaced only funding news, no job listings."
       },
       {
         "company": "Orbotix",
@@ -904,7 +1194,9 @@
         "city": "Warsaw",
         "what_it_does": "Autonomous drone/drone-swarm defense systems",
         "funding": "Strategic/early round, €6.5M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/warsaw-based-orbotix-raises-e6-5-million-to-advance-autonomous-defence-systems-in-europe/))",
-        "careers_url": "[orbotix.tech/careers](https://orbotix.tech/careers) — verified, 10 roles (mostly Romania/Spain)"
+        "careers_url": "[orbotix.tech/careers](https://orbotix.tech/careers) — verified, 10 roles (mostly Romania/Spain)",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "10 open roles (drone engineering, finance, HR, BD, procurement, logistics), mostly Romania/Spain; none match target profile."
       },
       {
         "company": "Replenit",
@@ -912,7 +1204,9 @@
         "city": "Warsaw",
         "what_it_does": "AI decision-engine for retail",
         "funding": "Pre-Seed, €2.1M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/warsaws-replenit-adds-e2-1-million-to-cart-to-build-an-ai-decision-engine-for-retail-backed-by-elevenlabs-co-founder/))",
-        "careers_url": "[replen.it/careers](https://replen.it/careers) — page loads, no openings"
+        "careers_url": "[replen.it/careers](https://replen.it/careers) — page loads, no openings",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page loads but lists no specific open job postings, only general company description."
       },
       {
         "company": "Fluence Technology",
@@ -920,7 +1214,9 @@
         "city": "Warsaw",
         "what_it_does": "Fiber-based femtosecond laser systems for semiconductors",
         "funding": "Seed, €6.6M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/08/warsaw-based-fluence-technology-secures-e6-6-million-for-its-femtosecond-laser-systems/))",
-        "careers_url": "[fluence.technology/career](https://www.fluence.technology/career) — verified, none currently"
+        "careers_url": "[fluence.technology/career](https://www.fluence.technology/career) — verified, none currently",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page explicitly states 'None at the moment – check back soon.'"
       },
       {
         "company": "ForActive",
@@ -928,7 +1224,9 @@
         "city": "Poland",
         "what_it_does": "Payments/communication app for sports instructors",
         "funding": "Pre-Seed, €1.5M, 2024 ([EU-Startups](https://www.eu-startups.com/2024/04/polish-startup-foractive-raises-e1-5-million-pre-seed-to-boost-independent-sports-instructors/))",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search surfaced no company-specific job listings."
       },
       {
         "company": "REAKTO",
@@ -936,7 +1234,9 @@
         "city": "Krakow",
         "what_it_does": "Rapid-response drone network for security",
         "funding": "Unconfirmed stage, ~€1M+ (2023)",
-        "careers_url": "Not confirmed — LinkedIn robots-blocked"
+        "careers_url": "Not confirmed — LinkedIn robots-blocked",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; LinkedIn blocked and web search surfaced no job listings, only company profile pages."
       },
       {
         "company": "Aerska",
@@ -944,7 +1244,9 @@
         "city": "Dublin",
         "what_it_does": "RNA interference medicines for brain diseases",
         "funding": "Seed, ~$21M (Oct 2025) — later EU-Startups cites €32M, unconfirmed against each other",
-        "careers_url": "[aerska.jobs.personio.com](https://aerska.jobs.personio.com/) — verified, 1 open role"
+        "careers_url": "[aerska.jobs.personio.com](https://aerska.jobs.personio.com/) — verified, 1 open role",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "1 open role: Senior Scientist – De Novo Peptide Design, a specialized R&D scientific role, not target profile."
       },
       {
         "company": "Bronto",
@@ -952,7 +1254,9 @@
         "city": "Dublin",
         "what_it_does": "AI-native log management/observability platform",
         "funding": "Seed, ~$14M/€12M, Oct 2025",
-        "careers_url": "[bronto.io/careers](https://bronto.io/careers) — verified, 1 open role"
+        "careers_url": "[bronto.io/careers](https://bronto.io/careers) — verified, 1 open role",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "1 open role: AI Engineer (Dublin), a technical engineering role, not target profile."
       },
       {
         "company": "Kota",
@@ -960,7 +1264,9 @@
         "city": "Dublin",
         "what_it_does": "Employee benefits infrastructure platform",
         "funding": "Series A, €12.8M, May 2025",
-        "careers_url": "[kota.io/careers](https://www.kota.io/careers) — verified, active hiring"
+        "careers_url": "[kota.io/careers](https://www.kota.io/careers) — verified, active hiring",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page loads job listings dynamically via JS ('Loading positions…'); could not verify specific openings."
       },
       {
         "company": "Seapoint",
@@ -968,7 +1274,9 @@
         "city": "Dublin",
         "what_it_does": "AI-native fintech/financial-ops platform",
         "funding": "Seed, ~€7.5M, Apr 2026 (earlier reported $3M — unconfirmed which is current)",
-        "careers_url": "[apply.workable.com/seapoint](https://apply.workable.com/seapoint/) — verified"
+        "careers_url": "[apply.workable.com/seapoint](https://apply.workable.com/seapoint/) — verified",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Workable careers page returned only metadata on fetch, no job listing content retrievable."
       },
       {
         "company": "Oraion",
@@ -976,7 +1284,9 @@
         "city": "Dublin",
         "what_it_does": "Agentic AI / enterprise data intelligence platform",
         "funding": "Pre-Seed, €2.9M, Jul 2025",
-        "careers_url": "[oraion.com/careers](https://www.oraion.com/careers) — verified, 3 open roles"
+        "careers_url": "[oraion.com/careers](https://www.oraion.com/careers) — verified, 3 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "3 open roles (Backend Developer, Senior DevOps, Solutions Engineer), all technical, none match target profile."
       },
       {
         "company": "Jentic",
@@ -984,7 +1294,9 @@
         "city": "Dublin",
         "what_it_does": "Enterprise AI-agent integration/automation platform",
         "funding": "Seed, €4M, 2024",
-        "careers_url": "[jentic.com/careers](https://jentic.com/careers) — verified, talent-community page"
+        "careers_url": "[jentic.com/careers](https://jentic.com/careers) — verified, talent-community page",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page is a generic talent-community signup, not a specific open role."
       },
       {
         "company": "Solidroad",
@@ -992,7 +1304,9 @@
         "city": "Dublin",
         "what_it_does": "AI QA & coaching platform for CX teams",
         "funding": "Series A, $25M, 2025 (earlier seed $6.5M)",
-        "careers_url": "[solidroad.com/careers](https://www.solidroad.com/careers) — verified, 8 roles, 2 Dublin"
+        "careers_url": "[solidroad.com/careers](https://www.solidroad.com/careers) — verified, 8 roles, 2 Dublin",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "8 open roles (AE, BDR, several engineer/PM roles), 2 in Dublin (Senior/Staff Product Engineer), none match target profile."
       },
       {
         "company": "DevAlly (DevA11y)",
@@ -1000,7 +1314,9 @@
         "city": "Dublin",
         "what_it_does": "AI-powered accessibility-compliance platform",
         "funding": "Pre-seed/Seed, €2M, Oct 2025",
-        "careers_url": "[devally.com/careers](https://devally.com/careers) — verified, no open roles currently"
+        "careers_url": "[devally.com/careers](https://devally.com/careers) — verified, no open roles currently",
+        "checked_status": "not_hiring",
+        "checked_notes": "Careers page confirms 'We have no open roles right now.'"
       },
       {
         "company": "Tyro Schools",
@@ -1008,7 +1324,9 @@
         "city": "Dublin",
         "what_it_does": "Student information system SaaS",
         "funding": "Seed, €3.6M, May 2025",
-        "careers_url": "No careers page found — check LinkedIn"
+        "careers_url": "No careers page found — check LinkedIn",
+        "checked_status": "career_page_dead",
+        "checked_notes": "tyro.school/careers returns 404; web search surfaced no other job listings."
       },
       {
         "company": "Luna Systems",
@@ -1016,7 +1334,9 @@
         "city": "Dublin",
         "what_it_does": "AI vision safety-camera hardware for cyclists",
         "funding": "Late-seed, €1.5M, Jan 2026",
-        "careers_url": "No careers page found — check LinkedIn"
+        "careers_url": "No careers page found — check LinkedIn",
+        "checked_status": "career_page_dead",
+        "checked_notes": "luna.systems/careers returns 404; web search (Built In Dublin, Glassdoor, ZipRecruiter listings) did not surface a specific current open role after available checks."
       },
       {
         "company": "BM2Solar",
@@ -1024,7 +1344,9 @@
         "city": "Lisbon",
         "what_it_does": "Tech enabling solar plants to integrate battery storage",
         "funding": "Series A, €2M-€2.75M total, 2025",
-        "careers_url": "No careers page — contact info@bm2solar.com"
+        "careers_url": "No careers page — contact info@bm2solar.com",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page exists (contact email only); web search found no job listings for this company."
       },
       {
         "company": "BloodFlow",
@@ -1032,7 +1354,9 @@
         "city": "Lisbon",
         "what_it_does": "AI platform for automated blood-test interpretation",
         "funding": "Seed, €1.2M, Jul 2025",
-        "careers_url": "Unconfirmed, JS-rendered site"
+        "careers_url": "Unconfirmed, JS-rendered site",
+        "checked_status": "unconfirmed",
+        "checked_notes": "bloodflow.eu is a JS-rendered app; no careers link surfaced and no job listings found via web search."
       },
       {
         "company": "Bloop",
@@ -1040,7 +1364,11 @@
         "city": "Lisbon",
         "what_it_does": "Social shopping platform",
         "funding": "Seed, €1.2M+, 2025",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "identity_mismatch",
+        "matched_role_title": "Social Media Manager (Brand Growth & Strategy)",
+        "matched_role_url": "https://www.thisisbloop.com/jobs/social-media-manager/",
+        "checked_notes": "Careers URL found under this name (thisisbloop.com) belongs to a different US/Philippines-based company, not the Portugal startup originally researched. Not a valid match — needs re-research if this company is still wanted."
       },
       {
         "company": "ChainReactor",
@@ -1048,7 +1376,9 @@
         "city": "Lisbon",
         "what_it_does": "3D-printed scalable bioreactors (biotech)",
         "funding": "Seed, €250K, 2024",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "chainreactor.bio has no careers/jobs page linked; only a general contact email."
       },
       {
         "company": "DOJO AI",
@@ -1056,7 +1386,9 @@
         "city": "Lisbon",
         "what_it_does": "Marketing-tech OS with AI analytics for challenger brands",
         "funding": "Seed, €850K, 2024",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "dojoai.com/careers lists 6 open roles, all engineering/product/design (AI Engineer, Data Engineer, Product Designer, etc.), none in marketing/ops coordination."
       },
       {
         "company": "Litehaus",
@@ -1064,7 +1396,9 @@
         "city": "Campelo",
         "what_it_does": "Construction platform connecting clients with vetted builders",
         "funding": "Seed, €1.46M, 2024",
-        "careers_url": "Domain did not resolve"
+        "careers_url": "Domain did not resolve",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Site (litehaus.co) resolves but has no careers/jobs page or section found."
       },
       {
         "company": "Manie",
@@ -1072,7 +1406,9 @@
         "city": "Lisbon",
         "what_it_does": "Energy tech automating utility-switching for consumers",
         "funding": "Seed, €1M, 2024",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "manie.pt has no locatable careers page; web search turned up no job postings for the company."
       },
       {
         "company": "NextBorder",
@@ -1080,7 +1416,9 @@
         "city": "Oeiras",
         "what_it_does": "AI-driven immigration/visa-process tech",
         "funding": "Pre-seed, €150K, 2025",
-        "careers_url": "Domain did not resolve"
+        "careers_url": "Domain did not resolve",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No working company website or careers page found via web search."
       },
       {
         "company": "ADECI Group",
@@ -1088,7 +1426,9 @@
         "city": "Porto",
         "what_it_does": "AI sales-forecasting platform for restaurants/retail",
         "funding": "Pre-seed, €500K, 2025",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "adecigroup.com has no careers page; web search returned no job postings for this company."
       },
       {
         "company": "EIGHT",
@@ -1096,7 +1436,9 @@
         "city": "Lisbon",
         "what_it_does": "Video-first dating app",
         "funding": "Seed, raising €3M target, only €256.6K closed so far as of Apr 2026 — round still in progress",
-        "careers_url": "Site rate-limited on check"
+        "careers_url": "Site rate-limited on check",
+        "checked_status": "unconfirmed",
+        "checked_notes": "eightdating.com/careers exists and links to a jobs subpage, but the actual listings did not render for verification."
       },
       {
         "company": "Keragon",
@@ -1104,7 +1446,9 @@
         "city": "Athens",
         "what_it_does": "AI-powered healthcare workflow-automation platform",
         "funding": "Seed, $7.5M (Feb 2025); total $10.5M",
-        "careers_url": "[keragon.com/careers](https://www.keragon.com/careers) — verified, \"we're hiring\""
+        "careers_url": "[keragon.com/careers](https://www.keragon.com/careers) — verified, \"we're hiring\"",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page (Workable/Ashby, JS-rendered) confirms \"we're hiring\" but specific role titles/URLs could not be extracted after several fetch attempts."
       },
       {
         "company": "Wealthyhood",
@@ -1112,7 +1456,9 @@
         "city": "Athens",
         "what_it_does": "Retail investing/wealth-management app",
         "funding": "Seed, €3.6M (Apr 2025) + €6M (Mar 2026)",
-        "careers_url": "careers page 404'd"
+        "careers_url": "careers page 404'd",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Workable careers page (apply.workable.com/wealthyhood) exists but listings are JS-rendered and could not be read."
       },
       {
         "company": "Billys",
@@ -1120,7 +1466,11 @@
         "city": "Athens",
         "what_it_does": "Property-management SaaS for apartment buildings",
         "funding": "Seed/unspecified, €2.9M, Feb 2026",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Customer Success Specialist",
+        "matched_role_url": "https://billys.gr/en/job/customer-success-specialist/",
+        "checked_notes": "billys.gr/en/career/ lists this open role alongside Facility Management Senior Associate, Sales Development Representative, and two Senior Engineer roles."
       },
       {
         "company": "Caresma",
@@ -1128,7 +1478,9 @@
         "city": "Athens",
         "what_it_does": "Elder-care marketplace",
         "funding": "Seed, €650K, Feb 2026",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Only known open role is a \"Founder Associate\" (LinkedIn) — a generalist/strategic role, not a marketing/ops coordinator-level position."
       },
       {
         "company": "Mind The Hack",
@@ -1136,7 +1488,9 @@
         "city": "Attica",
         "what_it_does": "AI-powered cybersecurity/pentesting platform",
         "funding": "Seed, €2.8M, Feb 2026",
-        "careers_url": "Site did not resolve"
+        "careers_url": "Site did not resolve",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "mindthehack.ai/careers lists 2 open roles: Senior Offensive Security Researcher and Enterprise Account Executive — neither matches target families."
       },
       {
         "company": "myTeam",
@@ -1144,7 +1498,9 @@
         "city": "Athens",
         "what_it_does": "Sports-club management SaaS",
         "funding": "Seed, €1.5M, Feb 2026",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Workable careers page (apply.workable.com/my-team) exists but listings are JS-rendered and could not be read."
       },
       {
         "company": "PlugSecure",
@@ -1152,7 +1508,9 @@
         "city": "Athens",
         "what_it_does": "AI-driven cybersecurity for energy infrastructure",
         "funding": "Seed, €720K, Feb 2026",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Company site has no careers page; only known open role via a job board is a Security Researcher (technical), not matching."
       },
       {
         "company": "Pod Network",
@@ -1160,7 +1518,9 @@
         "city": "Athens",
         "what_it_does": "Web3/blockchain infrastructure for decentralized markets",
         "funding": "Seed, €9M+, Feb 2026",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No company careers page found; web search returned no job listings tied to this specific company."
       },
       {
         "company": "Progressive Robotics",
@@ -1168,7 +1528,9 @@
         "city": "Thessaloniki",
         "what_it_does": "AI software for industrial robot automation/logistics",
         "funding": "Seed, €1.55M, Feb 2026",
-        "careers_url": "Site did not resolve"
+        "careers_url": "Site did not resolve",
+        "checked_status": "unconfirmed",
+        "checked_notes": "progressiverobotics.ai/careers links to a Workable page whose listings are JS-rendered and could not be read; only a dated (2023) Junior Web Developer LinkedIn ad was found, not currently confirmed open."
       },
       {
         "company": "Wocap",
@@ -1176,7 +1538,9 @@
         "city": "Athens",
         "what_it_does": "Digital marketplace for invoice financing/working capital",
         "funding": "Seed, €450K, Feb 2026",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found for wocap.io; web search returned no job listings for the company."
       },
       {
         "company": "Binderr",
@@ -1184,7 +1548,9 @@
         "city": "Naxxar/Sliema",
         "what_it_does": "Business verification & compliance-onboarding (KYB/AML)",
         "funding": "Seed-stage, €4.73M-€6M across rounds",
-        "careers_url": "No careers link located"
+        "careers_url": "No careers link located",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page located on binderr.com or via web search."
       },
       {
         "company": "Fyorin",
@@ -1192,7 +1558,9 @@
         "city": "Birkirkara/Valletta",
         "what_it_does": "Global payments/treasury platform for e-commerce & fintechs",
         "funding": "Pre-seed, €650K",
-        "careers_url": "[fyorin.com/careers](https://www.fyorin.com/careers) — verified, 2 open roles"
+        "careers_url": "[fyorin.com/careers](https://www.fyorin.com/careers) — verified, 2 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "fyorin.com/careers lists 2 open roles (Junior Software Developer, Front-End Developer/Angular), both technical, none matching target families."
       },
       {
         "company": "Truevo",
@@ -1200,7 +1568,9 @@
         "city": "Birkirkara",
         "what_it_does": "Licensed payment service provider/card acquirer",
         "funding": "Seed-stage, €6.5M+",
-        "careers_url": "[truevo.bamboohr.com/jobs](https://truevo.bamboohr.com/jobs/) — verified, actively hiring"
+        "careers_url": "[truevo.bamboohr.com/jobs](https://truevo.bamboohr.com/jobs/) — verified, actively hiring",
+        "checked_status": "unconfirmed",
+        "checked_notes": "truevo.com/careers confirms they are hiring and links to a BambooHR jobs board, but individual listing titles are JS-rendered and could not be extracted despite multiple attempts."
       },
       {
         "company": "Paytently",
@@ -1208,7 +1578,9 @@
         "city": "Sliema",
         "what_it_does": "Payment-orchestration platform",
         "funding": "Seed, €2M (2022)",
-        "careers_url": "[paytently.com/careers](https://www.paytently.com/careers) — verified, no open roles right now"
+        "careers_url": "[paytently.com/careers](https://www.paytently.com/careers) — verified, no open roles right now",
+        "checked_status": "not_hiring",
+        "checked_notes": "paytently.com/careers explicitly states \"We don't have any available roles at the moment.\""
       },
       {
         "company": "UMNAI",
@@ -1216,7 +1588,9 @@
         "city": "Ta' Xbiex",
         "what_it_does": "Explainable-AI \"Hybrid Intelligence\" for fraud/compliance",
         "funding": "Seed, €3M+",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "umnai.com/careers/ lists Backend/Platform Engineer, UX Engineer, QA Engineer, and a Marketing/Content Lead described as \"the first person\" building that function — a founding/lead-level role, too senior for the target coordinator/specialist band."
       },
       {
         "company": "GreenRun",
@@ -1224,7 +1598,9 @@
         "city": "San Gwann",
         "what_it_does": "Sports/betting tech and content for fan engagement",
         "funding": "Seed, €4M",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "Odds Scanner",
@@ -1232,7 +1608,9 @@
         "city": "Sliema",
         "what_it_does": "Sports-betting analytics/media-tech",
         "funding": "Seed, €550K",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "Just Slots",
@@ -1240,7 +1618,9 @@
         "city": "Ta' Xbiex",
         "what_it_does": "Slot-game developer for online casino operators",
         "funding": "Seed-stage, €11M+ total",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "careers.just-slots.com/jobs lists 6 open roles (QA Engineers, Junior Producer, DevOps Engineer, Technical Artist, Accounts Executive) — none match target families."
       },
       {
         "company": "MeetBee",
@@ -1248,7 +1628,9 @@
         "city": "San Gwann",
         "what_it_does": "EdTech/GovTech virtual-meeting production support",
         "funding": "Pre-seed, €119K",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "BigKarma",
@@ -1256,7 +1638,9 @@
         "city": "San Gwann",
         "what_it_does": "Game studio — sports-strategy games featuring disabled athletes",
         "funding": "Pre-seed, €350K",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "Lebesgue",
@@ -1264,7 +1648,11 @@
         "city": "Zagreb",
         "what_it_does": "AI marketing/CMO analytics platform for e-commerce",
         "funding": "Seed, ~$3M, 2024",
-        "careers_url": "[lebesgue.io/careers](https://lebesgue.io/careers) — verified, 7 open roles"
+        "careers_url": "[lebesgue.io/careers](https://lebesgue.io/careers) — verified, 7 open roles",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Performance Marketing Manager (Junior / Mid / Senior)",
+        "matched_role_url": "https://hr.linkedin.com/jobs/view/performance-marketing-manager-junior-mid-senior-at-lebesgue-4419609853",
+        "checked_notes": "Open role explicitly offered at Junior level, covering paid ads/campaign performance work matching the target's core skill set."
       },
       {
         "company": "Hypefy",
@@ -1272,7 +1660,9 @@
         "city": "Zagreb",
         "what_it_does": "AI platform automating Instagram/TikTok influencer campaigns",
         "funding": "Seed, €1.6M, 2026",
-        "careers_url": "[hypefy.ai/careers](https://hypefy.ai/careers) — verified, 2 open roles"
+        "careers_url": "[hypefy.ai/careers](https://hypefy.ai/careers) — verified, 2 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "hypefy.ai/careers lists Product QA and an open-application form only; no marketing/ops coordination role."
       },
       {
         "company": "WASP (wasp-lang)",
@@ -1280,7 +1670,9 @@
         "city": "Zagreb",
         "what_it_does": "Open-source config language/framework for full-stack apps",
         "funding": "Seed, Y Combinator-backed, $4.5M+",
-        "careers_url": "[ycombinator.com/companies/wasp/jobs](https://www.ycombinator.com/companies/wasp/jobs) — real page, no roles currently (2-person team)"
+        "careers_url": "[ycombinator.com/companies/wasp/jobs](https://www.ycombinator.com/companies/wasp/jobs) — real page, no roles currently (2-person team)",
+        "checked_status": "not_hiring",
+        "checked_notes": "YC jobs page confirms: \"No jobs at Wasp are currently posted on the YC platform\" (2-person team)."
       },
       {
         "company": "Arkensight",
@@ -1288,7 +1680,9 @@
         "city": "Zagreb",
         "what_it_does": "AI visual-intelligence for critical infrastructure",
         "funding": "Pre-seed/seed, €600k, 2026",
-        "careers_url": "Domain not found, only a LinkedIn job post"
+        "careers_url": "Domain not found, only a LinkedIn job post",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Only known open role (LinkedIn) is a Software Engineer position; no dedicated company careers page exists."
       },
       {
         "company": "Electric DB",
@@ -1296,7 +1690,9 @@
         "city": "Vizinada",
         "what_it_does": "Postgres-based real-time data-sync engine",
         "funding": "Seed, €550k, 2026",
-        "careers_url": "No verifiable company website found"
+        "careers_url": "No verifiable company website found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No verifiable company website or careers page found via web search."
       },
       {
         "company": "Legit",
@@ -1304,7 +1700,9 @@
         "city": "Zagreb",
         "what_it_does": "Regtech automating data-privacy/compliance workflows",
         "funding": "Seed, €650k, 2026",
-        "careers_url": "Careers path 404'd"
+        "careers_url": "Careers path 404'd",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "Luppa",
@@ -1312,7 +1710,9 @@
         "city": "Zagreb",
         "what_it_does": "Employee-engagement platform (surveys + AI action plans)",
         "funding": "Pre-seed, €275k, 2026",
-        "careers_url": "No dedicated careers page found"
+        "careers_url": "No dedicated careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No dedicated careers page found for luppa.app via web search."
       },
       {
         "company": "TABU",
@@ -1320,7 +1720,9 @@
         "city": "Zagreb",
         "what_it_does": "Salary benchmarking/compensation-transparency platform",
         "funding": "Pre-seed, €100k, 2026",
-        "careers_url": "Built by studio Bornfight, no standalone page"
+        "careers_url": "Built by studio Bornfight, no standalone page",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Built by studio Bornfight with no standalone careers page; web search found no job listings."
       },
       {
         "company": "Genesis Space Flight Laboratories",
@@ -1328,7 +1730,9 @@
         "city": "Cakovec",
         "what_it_does": "Reusable re-entry capsules for microgravity research",
         "funding": "Pre-seed, €300k, 2026",
-        "careers_url": "Careers subpage not confirmed"
+        "careers_url": "Careers subpage not confirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers subpage or job listings found via web search."
       },
       {
         "company": "Jurlina Coenergy",
@@ -1336,7 +1740,9 @@
         "city": "Zagreb",
         "what_it_does": "Magnetic plasma-shaping systems for fusion reactors",
         "funding": "Seed, €2.7M, 2026",
-        "careers_url": "No company site verified"
+        "careers_url": "No company site verified",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No verified company site careers section or job listings found via web search."
       },
       {
         "company": "SaleSqueze",
@@ -1344,7 +1750,9 @@
         "city": "Skofja Loka",
         "what_it_does": "Visual CPQ SaaS (3D product configurators) for pergolas/outdoor living",
         "funding": "Seed, €1.4M, 2024",
-        "careers_url": "[salesqueze.com/careers](https://www.salesqueze.com/careers) — verified, 5 open roles"
+        "careers_url": "[salesqueze.com/careers](https://www.salesqueze.com/careers) — verified, 5 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "salesqueze.com/careers lists Senior Frontend/Platform Engineer, SDR-DACH, Customer Success Manager, and Implementation Engineer — none at coordinator/specialist level in target families (CSM is manager-level)."
       },
       {
         "company": "Katalist (Katalist AI)",
@@ -1352,7 +1760,9 @@
         "city": "Ljubljana",
         "what_it_does": "AI \"operating system\" for video producers",
         "funding": "Seed, ~€1.28M/$1.5M, Dec 2025",
-        "careers_url": "careers page 404'd"
+        "careers_url": "careers page 404'd",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Careers page 404s and web search found no alternate jobs listing for the company."
       },
       {
         "company": "Apillon",
@@ -1360,7 +1770,9 @@
         "city": "Ljubljana",
         "what_it_does": "Web3 dev platform (decentralized storage/hosting)",
         "funding": "Unconfirmed round type, €3.1M total, last round 2021",
-        "careers_url": "No jobs section found"
+        "careers_url": "No jobs section found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No jobs/careers section found on apillon.io or via web search."
       },
       {
         "company": "Sunrise Robotics",
@@ -1368,7 +1780,9 @@
         "city": "Ljubljana",
         "what_it_does": "Autonomous robotic cells for industrial automation",
         "funding": "Unconfirmed stage, €7.2M total, 2025",
-        "careers_url": "No company site verified"
+        "careers_url": "No company site verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "sunriserobotics.co/careers has only generic recruiting messaging; external listings found (via Ashby) are engineering roles (3D Computer Vision Engineer, ML/AI Engineer), none matching target families."
       },
       {
         "company": "ReCatalyst",
@@ -1376,7 +1790,9 @@
         "city": "Ljubljana",
         "what_it_does": "Platinum-based catalysts for hydrogen fuel cells",
         "funding": "Unconfirmed stage, €1.7M total, 2023",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Only known open role is \"R&D Assistant\" (recatalyst.si/rd-assistant/), a technical/lab role, not matching."
       },
       {
         "company": "StoringCargo",
@@ -1384,7 +1800,9 @@
         "city": "Kranj",
         "what_it_does": "Marketplace connecting businesses with warehouse space",
         "funding": "Pre-seed, €350k total, 2021",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "Flux Motorcycles",
@@ -1392,7 +1810,9 @@
         "city": "Koper",
         "what_it_does": "Electric off-road motorcycles",
         "funding": "Pre-seed, €103k total, 2022",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "fluxmoto.co/jobs/ lists 4 open roles, all engineering (Mechanical, Embedded Software, Modeling & Simulation, Electronics), dated Feb 2025."
       },
       {
         "company": "Confiva Global",
@@ -1400,7 +1820,9 @@
         "city": "Ljubljana",
         "what_it_does": "Platform for hosting online/hybrid events",
         "funding": "Pre-seed, €300k total, 2021",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "Epidemic",
@@ -1408,7 +1830,9 @@
         "city": "Ljubljana",
         "what_it_does": "Influencer marketing platform for nano/micro-influencers",
         "funding": "Pre-seed, €400k total, 2021",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page accessible/found for epidemic.co via web search."
       },
       {
         "company": "Play123",
@@ -1416,7 +1840,9 @@
         "city": "Ljubljana",
         "what_it_does": "Browser-based casual gaming platform",
         "funding": "Pre-seed, €102k total, 2017 (dated)",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page or job listings found via web search."
       },
       {
         "company": "EHOSS",
@@ -1424,7 +1850,9 @@
         "city": "Bratislava",
         "what_it_does": "Automated equine feed production (hay processing, UV disinfection)",
         "funding": "Seed, €2M total, 2023",
-        "careers_url": "[ehoss.com/careers](https://www.ehoss.com/careers) — verified, 3 open roles"
+        "careers_url": "[ehoss.com/careers](https://www.ehoss.com/careers) — verified, 3 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "3 open roles (PLC Engineer, Warehouse Operator, Project Manager-LASERCUT) but the PM role requires Slovak/Czech language and is production-tech focused."
       },
       {
         "company": "Blockmate",
@@ -1432,7 +1860,9 @@
         "city": "Bratislava",
         "what_it_does": "Crypto-as-a-service/compliant digital-asset data infrastructure",
         "funding": "Seed-stage, €1.5M, 2023",
-        "careers_url": "[blockmate.io/careers](https://blockmate.io/careers) — verified, 1 open role"
+        "careers_url": "[blockmate.io/careers](https://blockmate.io/careers) — verified, 1 open role",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Only open role is Junior Software Engineer (Python/Golang)."
       },
       {
         "company": "Cequence",
@@ -1440,7 +1870,9 @@
         "city": "Presov",
         "what_it_does": "AI contract lifecycle management",
         "funding": "Seed, €3M+ total, 2025",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Careers page (cequence.io/career) lists Engineering Manager and Senior Finance Lead only."
       },
       {
         "company": "CloseRocket",
@@ -1448,7 +1880,9 @@
         "city": "Bratislava",
         "what_it_does": "AI sales automation/lead-to-CRM platform",
         "funding": "Seed, €1.1M, 2025",
-        "careers_url": "Careers path not found"
+        "careers_url": "Careers path not found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers URL provided; web search found no dedicated careers/jobs page or listings for this company."
       },
       {
         "company": "CulturePulse.ai",
@@ -1456,7 +1890,9 @@
         "city": "Bratislava",
         "what_it_does": "AI behavioral modeling for sentiment/opinion simulation",
         "funding": "Seed, €2M+ total, 2025",
-        "careers_url": "No jobs page found"
+        "careers_url": "No jobs page found",
+        "checked_status": "not_hiring",
+        "checked_notes": "Wellfound company page explicitly states 'CulturePulse hasn't added any jobs yet'."
       },
       {
         "company": "elv.ai",
@@ -1464,7 +1900,9 @@
         "city": "Bratislava",
         "what_it_does": "AI + human social-media content moderation",
         "funding": "Seed, €500k total, 2024",
-        "careers_url": "No dedicated careers page"
+        "careers_url": "No dedicated careers page",
+        "checked_status": "not_hiring",
+        "checked_notes": "Profesia.cz company job listing page found; states no jobs currently match/available."
       },
       {
         "company": "Seerlinq",
@@ -1472,7 +1910,9 @@
         "city": "Trnava",
         "what_it_does": "Remote/telemedicine monitoring for heart-failure patients",
         "funding": "Seed, €900k total, 2023",
-        "careers_url": "\"Kariera\" nav link exists, content unconfirmed"
+        "careers_url": "\"Kariera\" nav link exists, content unconfirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Could not locate or load an actual careers/kariera page; web search returned no company-specific job listings."
       },
       {
         "company": "AUGLIO",
@@ -1480,7 +1920,9 @@
         "city": "Komarno",
         "what_it_does": "AR virtual try-on for eyewear/cosmetics/jewelry e-commerce",
         "funding": "Seed, €1.6M total",
-        "careers_url": "Fetch timed out"
+        "careers_url": "Fetch timed out",
+        "checked_status": "not_hiring",
+        "checked_notes": "Profesia.sk company page for Auglio shows 'we have not found jobs matching your criteria'."
       },
       {
         "company": "Sensible Biotechnologies",
@@ -1488,7 +1930,9 @@
         "city": "Bratislava",
         "what_it_does": "mRNA therapeutics manufacturing platform (UK-Slovak)",
         "funding": "Pre-seed, $4.2M, Apr 2023",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "not_hiring",
+        "checked_notes": "BlueYard Capital job board entry states the company has no jobs on that board at this time."
       },
       {
         "company": "BiteBerry",
@@ -1496,7 +1940,9 @@
         "city": "Bratislava",
         "what_it_does": "AI voice-ordering for restaurants",
         "funding": "Seed, €750k total",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; only marketing/blog content surfaced in search."
       },
       {
         "company": "Moneyhoon",
@@ -1504,7 +1950,9 @@
         "city": "Bratislava",
         "what_it_does": "Digital finance platform (mortgages, insurance, investing)",
         "funding": "Seed, €820k",
-        "careers_url": "Careers archive returned empty"
+        "careers_url": "Careers archive returned empty",
+        "checked_status": "not_hiring",
+        "checked_notes": "moneyhoon.sk/kariera/ loads but is an empty archive page with no current listings."
       },
       {
         "company": "E2B",
@@ -1512,7 +1960,9 @@
         "city": "Prague (+SF)",
         "what_it_does": "Secure cloud sandboxes/microVMs for AI-agent infrastructure",
         "funding": "Series A, $21M, Jul 2025",
-        "careers_url": "[e2b.dev/careers](https://e2b.dev/careers) — verified, 10 open roles"
+        "careers_url": "[e2b.dev/careers](https://e2b.dev/careers) — verified, 10 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "10 open roles fetched from e2b.dev/careers - all Engineering, senior Marketing/Growth leads, Business Ops or Recruiting, none at coordinator level in target families."
       },
       {
         "company": "Duvo (duvo.ai)",
@@ -1520,7 +1970,9 @@
         "city": "Prague",
         "what_it_does": "Agentic automation platform for retail/FMCG operations",
         "funding": "Seed, $15M, Dec 2025",
-        "careers_url": "[duvo.ai/careers](https://duvo.ai/careers) — verified, ~15 open roles"
+        "careers_url": "[duvo.ai/careers](https://duvo.ai/careers) — verified, ~15 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "~16 open roles at duvo.ai/careers - engineering, senior strategist/sales/partner and founding-level roles only, no coordinator-level marketing/ops role."
       },
       {
         "company": "DecisionRules",
@@ -1528,7 +1980,9 @@
         "city": "Prague",
         "what_it_does": "No-code/low-code business-rules engine",
         "funding": "Seed, €1.6M, 2023",
-        "careers_url": "[decisionrules.io/en/careers](https://www.decisionrules.io/en/careers/) — verified, 2 open roles"
+        "careers_url": "[decisionrules.io/en/careers](https://www.decisionrules.io/en/careers/) — verified, 2 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "2 open roles: IT Business Analyst/Solution Consultant and GTM Engineer - technical/sales-engineering, not a marketing or ops coordination match."
       },
       {
         "company": "Adalid Sciences",
@@ -1536,7 +1990,9 @@
         "city": "Prague",
         "what_it_does": "Lipid-nanoparticle drug-delivery systems for genomic medicine",
         "funding": "Unconfirmed stage, ~€8M total",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "adalidsciences.com/open-positions lists one role: Technician/Junior Scientist - Biology Unit (lab role)."
       },
       {
         "company": "Elin.ai",
@@ -1544,7 +2000,9 @@
         "city": "Prague",
         "what_it_does": "AI mental-resilience/wellbeing mobile app",
         "funding": "Seed, €1M, 2023",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "No dedicated careers page found; web search surfaced only funding news and generic job-board noise, no confirmed listings."
       },
       {
         "company": "Everbot",
@@ -1552,7 +2010,9 @@
         "city": "Ostrava",
         "what_it_does": "Aggregator of 60+ AI models in one interface",
         "funding": "Seed, €972k, 2024",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "everbot.ai/kariera lists sales rep (Obchodnik/AI Konzultant), branch-manager track, and Telefonista (phone operator) roles - commission sales/telesales, not target families."
       },
       {
         "company": "Finlay",
@@ -1560,7 +2020,9 @@
         "city": "Prague",
         "what_it_does": "AI recruitment/candidate-matching platform",
         "funding": "Pre-seed, €300k, 2024",
-        "careers_url": "Careers path 404'd"
+        "careers_url": "Careers path 404'd",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Careers path 404s; LinkedIn jobs page blocked by robots.txt and no specific open listings surfaced in search."
       },
       {
         "company": "Grid.online",
@@ -1568,7 +2030,9 @@
         "city": "Prague",
         "what_it_does": "Digital logistics platform for spare transport capacity",
         "funding": "Seed, €1.5M, 2024",
-        "careers_url": "Careers path 404'd"
+        "careers_url": "Careers path 404'd",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Careers path 404s; the only recruitee.com jobs board found (grid.recruitee.com) belongs to a different company (GRID eSports GmbH), not this Grid.online logistics startup."
       },
       {
         "company": "Langtail",
@@ -1576,7 +2040,9 @@
         "city": "Prague",
         "what_it_does": "Workspace for building/testing/managing LLM applications",
         "funding": "Seed, ~€954k-€1M, 2023",
-        "careers_url": "Careers path 404'd"
+        "careers_url": "Careers path 404'd",
+        "checked_status": "career_page_dead",
+        "checked_notes": "langtail.com/careers returns 404; no alternate listings found via search."
       },
       {
         "company": "VETSTOR",
@@ -1584,7 +2050,9 @@
         "city": "Prague",
         "what_it_does": "AI app connecting pet owners with vets",
         "funding": "Seed, €1M, 2024",
-        "careers_url": "Page exists, no live listings"
+        "careers_url": "Page exists, no live listings",
+        "checked_status": "not_hiring",
+        "checked_notes": "vetstor.com/careers page loads but shows no actual job listings."
       },
       {
         "company": "Kardi AI",
@@ -1592,7 +2060,9 @@
         "city": "Olomouc",
         "what_it_does": "AI-enabled wearable for remote cardiovascular monitoring",
         "funding": "Seed, €1.9M",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Could not access en.kardi.ai careers page (fetch blocked); no job listings surfaced via web search."
       },
       {
         "company": "Lakmoos",
@@ -1600,7 +2070,9 @@
         "city": "Brno",
         "what_it_does": "Neuro-symbolic AI for consumer-behavior market research",
         "funding": "Pre-seed, €510k",
-        "careers_url": "Unconfirmed"
+        "careers_url": "Unconfirmed",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Could not access lakmoos.com/careers (provenance/fetch error); no listings surfaced via web search."
       },
       {
         "company": "Smart Farm Robotix",
@@ -1608,7 +2080,9 @@
         "city": "Sofia",
         "what_it_does": "Agri-tech robotics/automation for farms",
         "funding": "~€2.4M (EIC-backed), 2022",
-        "careers_url": "[smartfarmrobotix.eu/en/careers](https://smartfarmrobotix.eu/en/careers/) — verified"
+        "careers_url": "[smartfarmrobotix.eu/en/careers](https://smartfarmrobotix.eu/en/careers/) — verified",
+        "checked_status": "not_hiring",
+        "checked_notes": "smartfarmrobotix.eu/en/careers/ loads but lists no specific open positions, only an invitation for spontaneous applications."
       },
       {
         "company": "Costimize",
@@ -1616,7 +2090,9 @@
         "city": "Sofia",
         "what_it_does": "Cloud cost governance/FinOps platform",
         "funding": "~€4.76M, 2022",
-        "careers_url": "Site exists, no careers page — contact form"
+        "careers_url": "Site exists, no careers page — contact form",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No dedicated careers page (contact form only per source data); search surfaced no company-specific job listings."
       },
       {
         "company": "Swipe (Swipe.bg)",
@@ -1624,7 +2100,9 @@
         "city": "Sofia",
         "what_it_does": "Refurbished-electronics e-commerce",
         "funding": "€1.4M-€1.95M (source-dependent), 2021",
-        "careers_url": "No careers page — see jobs.bg/LinkedIn"
+        "careers_url": "No careers page — see jobs.bg/LinkedIn",
+        "checked_status": "unconfirmed",
+        "checked_notes": "jobs.bg company profile exists but returned a 403 error on fetch; no dedicated company careers page found."
       },
       {
         "company": "FlatAway",
@@ -1632,7 +2110,9 @@
         "city": "Sofia",
         "what_it_does": "Flexible/subscription housing for remote workers",
         "funding": "~€500K, 2023",
-        "careers_url": "No dedicated careers page"
+        "careers_url": "No dedicated careers page",
+        "checked_status": "unconfirmed",
+        "checked_notes": "No dedicated careers page; found one past LinkedIn posting (Junior Client Communications Associate) but could not verify if it is still open (LinkedIn fetch blocked by robots.txt)."
       },
       {
         "company": "PlanDelta",
@@ -1640,7 +2120,9 @@
         "city": "Sofia",
         "what_it_does": "Financial planning & analysis (FP&A) SaaS",
         "funding": "~€2.7M, 2021",
-        "careers_url": "Fetch failed; check LinkedIn/jobs.bg"
+        "careers_url": "Fetch failed; check LinkedIn/jobs.bg",
+        "checked_status": "career_page_dead",
+        "checked_notes": "jobs.bg company profile page returned a 403 error; no other careers page found."
       },
       {
         "company": "Icanpreneur",
@@ -1648,7 +2130,9 @@
         "city": "Sofia",
         "what_it_does": "AI co-founder/decision platform for founders",
         "funding": "~€1M, 2021",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found via site or web search."
       },
       {
         "company": "Vodar",
@@ -1656,7 +2140,9 @@
         "city": "Sofia",
         "what_it_does": "Mental-performance coaching app for junior tennis players",
         "funding": "~€300K, 2023",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found via site or web search."
       },
       {
         "company": "Bronia",
@@ -1664,7 +2150,9 @@
         "city": "Sofia",
         "what_it_does": "AI-powered acoustic signal processing",
         "funding": "~€500K, 2024",
-        "careers_url": "Could not verify site/careers"
+        "careers_url": "Could not verify site/careers",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Could not verify site or careers page; web search returned no company-specific job results."
       },
       {
         "company": "AIoTCloud",
@@ -1672,7 +2160,9 @@
         "city": "Sofia",
         "what_it_does": "Cloud/IoT data platform for energy management",
         "funding": "~€200K, 2022 (small, unconfirmed as current)",
-        "careers_url": "Could not verify"
+        "careers_url": "Could not verify",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Could not verify a careers page; web search returned no company-specific job results."
       },
       {
         "company": "Raven",
@@ -1680,7 +2170,9 @@
         "city": "Sofia",
         "what_it_does": "DeFi/Web3 trading platform",
         "funding": "~€2.57M, 2023",
-        "careers_url": "Historical LinkedIn post only"
+        "careers_url": "Historical LinkedIn post only",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "raven-trading.com/careers lists 8 roles (software/network engineers, quant/DeFi traders, talent acquisition specialist) - none match target families."
       },
       {
         "company": "Orbotix Industries",
@@ -1688,7 +2180,9 @@
         "city": "Brasov",
         "what_it_does": "Autonomous defense/ISR drones",
         "funding": "Seed, ~$7.6M, 2025",
-        "careers_url": "[orbotix.tech/company/careers](https://orbotix.tech/company/careers/) — verified"
+        "careers_url": "[orbotix.tech/company/careers](https://orbotix.tech/company/careers/) — verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "orbotix.tech/company/careers lists 10 roles (drone engineering, FPGA, BD, procurement, logistics, HR Specialist, financial controller) - defense/engineering focused, no marketing/PM/ops-coordinator match."
       },
       {
         "company": "Kinderpedia",
@@ -1696,7 +2190,11 @@
         "city": "Bucharest",
         "what_it_does": "School/parent-kindergarten communication SaaS",
         "funding": "Seed, ~$2.6M, 2026 (recent, unconfirmed)",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Project Manager",
+        "matched_role_url": "https://jobs.stryve.online/kinderpedia/jobs/62da70894c3ce20067642b04",
+        "checked_notes": "Live careers listing (jobs.stryve.online/kinderpedia) currently shows an open 'Project Manager' role in Bucharest, described as a stakeholder-coordination role (link between stakeholders and dev team), matching the programme/project coordination family."
       },
       {
         "company": "Bunnyshell",
@@ -1704,7 +2202,9 @@
         "city": "Bucharest",
         "what_it_does": "DevOps/environment-automation platform",
         "funding": "Seed, ~$4.4M, 2023",
-        "careers_url": "Hiring banner at bunnyshell.com/careers, specific roles unclear"
+        "careers_url": "Hiring banner at bunnyshell.com/careers, specific roles unclear",
+        "checked_status": "unconfirmed",
+        "checked_notes": "bunnyshell.com/careers shows a generic 'We're Hiring' banner and 'See open roles' link but no actual job titles/URLs could be retrieved from the fetched content."
       },
       {
         "company": "Rhuna",
@@ -1712,7 +2212,9 @@
         "city": "Bucharest",
         "what_it_does": "AI/blockchain event management with NFT ticketing",
         "funding": "Seed, ~$2.0M, 2025",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found via web search; only press coverage and unrelated event-industry job listings surfaced."
       },
       {
         "company": "The Cat Health Company",
@@ -1720,7 +2222,9 @@
         "city": "Bucharest",
         "what_it_does": "Feline longevity/health research",
         "funding": "Seed, ~$1.2M, 2025",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found via web search; only unrelated veterinary-clinic job listings surfaced."
       },
       {
         "company": "Genezio",
@@ -1728,7 +2232,9 @@
         "city": "Bucharest",
         "what_it_does": "Full-stack app deployment/dev platform",
         "funding": "Pre-Seed, ~$2.1M, 2024",
-        "careers_url": "Robots-blocked"
+        "careers_url": "Robots-blocked",
+        "checked_status": "career_page_dead",
+        "checked_notes": "genezio.com/careers/ is disallowed by robots.txt; no alternate listings found via search."
       },
       {
         "company": "easySales",
@@ -1736,7 +2242,9 @@
         "city": "Bucharest",
         "what_it_does": "E-commerce integration/automation SaaS",
         "funding": "Seed, ~$1.2M, 2023",
-        "careers_url": "No verified URL (domain guess hit wrong company)"
+        "careers_url": "No verified URL (domain guess hit wrong company)",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found; web search surfaced only generic e-commerce job listings unrelated to the company's own postings."
       },
       {
         "company": "Vatis Tech",
@@ -1744,7 +2252,9 @@
         "city": "Bucharest",
         "what_it_does": "AI speech-to-text/transcription platform",
         "funding": "Seed, ~$700K, 2023",
-        "careers_url": "No careers page found"
+        "careers_url": "No careers page found",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found via web search; only company profile/news pages surfaced."
       },
       {
         "company": "Bright Spaces",
@@ -1752,7 +2262,9 @@
         "city": "Bucharest",
         "what_it_does": "Proptech — 3D/virtual office & real-estate viewing",
         "funding": "Seed (undisclosed), 2024",
-        "careers_url": "Robots-blocked"
+        "careers_url": "Robots-blocked",
+        "checked_status": "not_hiring",
+        "checked_notes": "brightspaces.ai/careers loads and explicitly states 'we don't have any available roles' currently."
       },
       {
         "company": "Pago",
@@ -1760,7 +2272,9 @@
         "city": "Bucharest",
         "what_it_does": "Payment management app",
         "funding": "Series A, ~$2.5M, 2024",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "pago.ro/en/jobs lists Senior AI Product Engineer, Cybersecurity Engineer, Senior Android Engineer, Product Designer (Mid-Senior) - all technical/design roles."
       },
       {
         "company": "Bible Chat",
@@ -1768,7 +2282,9 @@
         "city": "Bucharest",
         "what_it_does": "Mobile spiritual/scripture support app",
         "funding": "Series A, ~$14M, 2025 — flagging as possibly past target range",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "not_hiring",
+        "checked_notes": "Play Ventures job board entry for Bible Chat states the company has no jobs on that board at this time."
       },
       {
         "company": "Arbonics",
@@ -1776,7 +2292,9 @@
         "city": "Tallinn",
         "what_it_does": "Forest-carbon marketplace/ecosystem management",
         "funding": "~€7.3M, 2022",
-        "careers_url": "[apply.workable.com/arbonics](https://apply.workable.com/arbonics/) — verified"
+        "careers_url": "[apply.workable.com/arbonics](https://apply.workable.com/arbonics/) — verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Workable page open roles are Full-Stack Engineer, Product Manager, Country Launcher — no marketing/ops coordination roles."
       },
       {
         "company": "Flowstep",
@@ -1784,7 +2302,9 @@
         "city": "Tallinn",
         "what_it_does": "AI design-to-code platform",
         "funding": "~€1.7M, 2023",
-        "careers_url": "[flowstep.ai/about#careers](https://flowstep.ai/about#careers) — verified"
+        "careers_url": "[flowstep.ai/about#careers](https://flowstep.ai/about#careers) — verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Careers page lists AI Engineer, Design Engineer, and Wild Card (general) — all engineering/general, none matching target roles."
       },
       {
         "company": "Salesforge",
@@ -1792,7 +2312,9 @@
         "city": "Tallinn",
         "what_it_does": "AI sales-outreach/cold-email automation",
         "funding": "~€485K, 2023",
-        "careers_url": "Careers page verified but listings hosted on LinkedIn"
+        "careers_url": "Careers page verified but listings hosted on LinkedIn",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page has no listed titles, directs to LinkedIn job board which requires login/robots-blocked; could not verify specific open roles."
       },
       {
         "company": "Better Medicine",
@@ -1800,7 +2322,9 @@
         "city": "Tartu",
         "what_it_does": "AI diagnostic software for cancer detection/radiology",
         "funding": "~€2.5M, 2022",
-        "careers_url": "Site exists, no careers page"
+        "careers_url": "Site exists, no careers page",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No careers page found on bettermedicine.ai; web search surfaced only funding news and LinkedIn company page, no job listings."
       },
       {
         "company": "MarkeDroid",
@@ -1808,7 +2332,9 @@
         "city": "Tallinn",
         "what_it_does": "AI energy-orchestration for residential solar/batteries",
         "funding": "~€620K, 2023",
-        "careers_url": "Site exists, no careers page"
+        "careers_url": "Site exists, no careers page",
+        "checked_status": "unconfirmed",
+        "checked_notes": "LinkedIn shows postings for Growth Specialist, Partnership Manager, Key Account Manager but page was robots-blocked so current status/seniority/fit could not be confirmed."
       },
       {
         "company": "AIO",
@@ -1816,7 +2342,9 @@
         "city": "Tallinn",
         "what_it_does": "Precision-fermentation fats & oils",
         "funding": "~€8.7M, 2022",
-        "careers_url": "Domain guess (aio.co) hit wrong company"
+        "careers_url": "Domain guess (aio.co) hit wrong company",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Domain guess hit wrong company; search found aio.bio blog post about hiring but no current careers page/listings located."
       },
       {
         "company": "CARA Health",
@@ -1824,7 +2352,9 @@
         "city": "Tallinn",
         "what_it_does": "Hybrid maternity health platform",
         "funding": "~€750K, 2022",
-        "careers_url": "Domain guess (cara.health) hit unrelated US company"
+        "careers_url": "Domain guess (cara.health) hit unrelated US company",
+        "checked_status": "career_page_dead",
+        "checked_notes": "No working careers page found; only funding news and LinkedIn company page surfaced in search."
       },
       {
         "company": "Cino",
@@ -1832,7 +2362,9 @@
         "city": "Tallinn",
         "what_it_does": "Bill-splitting/group-payments mobile app",
         "funding": "~€3M, 2022",
-        "careers_url": "Domain appears to be a different service"
+        "careers_url": "Domain appears to be a different service",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Fetched getcino.com homepage — no careers/jobs link in footer or elsewhere; no listings found via search."
       },
       {
         "company": "Elmo",
@@ -1840,7 +2372,9 @@
         "city": "Tallinn",
         "what_it_does": "Vehicle delivery/relocation for rental & service industry",
         "funding": "~€2.6M, 2022",
-        "careers_url": "Common name, high risk of confusion — not verified"
+        "careers_url": "Common name, high risk of confusion — not verified",
+        "checked_status": "career_page_dead",
+        "checked_notes": "elmoremote.com found via search but no careers section identified; no job listings surfaced."
       },
       {
         "company": "Salu Health",
@@ -1848,7 +2382,9 @@
         "city": "Tallinn",
         "what_it_does": "AI-powered digital health for expatriates",
         "funding": "~€1M, 2022",
-        "careers_url": "DNS fetch failed"
+        "careers_url": "DNS fetch failed",
+        "checked_status": "career_page_dead",
+        "checked_notes": "DNS fetch failed and web search found no working careers page or specific job listings, only funding/directory profiles."
       },
       {
         "company": "Aerones",
@@ -1856,7 +2392,9 @@
         "city": "Riga",
         "what_it_does": "Robotic wind-turbine/industrial maintenance systems",
         "funding": "Seed-stage (round size/year unconfirmed)",
-        "careers_url": "[aerones.com/careers](https://aerones.com/careers) — verified, ~30 open roles"
+        "careers_url": "[aerones.com/careers](https://aerones.com/careers) — verified, ~30 open roles",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "~17 open roles fetched from aerones.com/careers (field ops, engineering, sales, admin); none match marketing/programme/ops-coordinator profile — closest is Sales Assistant, not coordinator-level marketing/ops."
       },
       {
         "company": "Trace.Space",
@@ -1864,7 +2402,9 @@
         "city": "Riga (unconfirmed)",
         "what_it_does": "AI-agent systems-engineering/requirements-traceability",
         "funding": "~€3.8M, 2025",
-        "careers_url": "Careers section in nav, exact URL not confirmed"
+        "careers_url": "Careers section in nav, exact URL not confirmed",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Careers page (trace.space/about-us/careers) lists only one open role: Senior React Engineer."
       },
       {
         "company": "Cellbox Labs",
@@ -1872,7 +2412,9 @@
         "city": "Riga (unconfirmed)",
         "what_it_does": "Organ-on-chip technology",
         "funding": "~€3.3M, 2025",
-        "careers_url": "Site fetch failed (DNS)"
+        "careers_url": "Site fetch failed (DNS)",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Site fetch failed (DNS); search found only old/inactive research-scientist listings from 2022, no current openings."
       },
       {
         "company": "Handwave",
@@ -1880,7 +2422,9 @@
         "city": "Riga (unconfirmed)",
         "what_it_does": "Biometric payments & identity technology",
         "funding": "~€3.6M, 2025",
-        "careers_url": "Site fetch failed (DNS)"
+        "careers_url": "Site fetch failed (DNS)",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Site fetch failed (DNS) and web search found no careers page or job listings, only funding announcements and LinkedIn profiles."
       },
       {
         "company": "Monetizr",
@@ -1888,7 +2432,9 @@
         "city": "Riga (unconfirmed)",
         "what_it_does": "Mobile-gaming ad/rewards technology",
         "funding": "~€3.6M, 2023",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Careers page (monetizr.com/careers) shows open Ad Operation Specialist/Media Planner and Data Scientist roles; a Content Marketer role is listed but marked Closed."
       },
       {
         "company": "inGain",
@@ -1896,7 +2442,9 @@
         "city": "Riga",
         "what_it_does": "No-code SaaS loan-management for fintechs",
         "funding": "~€650K, 2024",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page links to ingain.bamboohr.com/careers which could not be fetched (provenance restriction); search only surfaced a QA Engineer listing, no marketing/ops role confirmed."
       },
       {
         "company": "Origin",
@@ -1904,7 +2452,11 @@
         "city": "Riga",
         "what_it_does": "Precision weapon systems (defense)",
         "funding": "~€4M, 2024",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "relevant_role_found",
+        "matched_role_title": "Supply Chain / Order Coordinator",
+        "matched_role_url": "https://talent.sage.hr/jobs/1d25f1a8-45f6-4cdd-9a36-93d5ab15140a",
+        "checked_notes": "origin-robotics.com/open-positions lists a live Supply Chain / Order Coordinator role alongside several engineering/production roles."
       },
       {
         "company": "Swotzy",
@@ -1912,7 +2464,9 @@
         "city": "Riga",
         "what_it_does": "Last-mile delivery platform",
         "funding": "Pre-seed, ~€500K, 2023",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "career_page_dead",
+        "checked_notes": "swotzy.com found via search but no careers/jobs page identified; no listings surfaced."
       },
       {
         "company": "Edurio",
@@ -1920,7 +2474,9 @@
         "city": "Riga-founded, now UK-focused",
         "what_it_does": "Education survey/feedback platform",
         "funding": "Seed-stage (unconfirmed round size/year)",
-        "careers_url": "Site exists, no careers page in current nav"
+        "careers_url": "Site exists, no careers page in current nav",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "Career site (edurio.teamtailor.com) shows one open role, Lead Product Manager (England or Latvia) — senior/product, not a match."
       },
       {
         "company": "CENOS",
@@ -1928,7 +2484,9 @@
         "city": "Riga",
         "what_it_does": "Simulation/engineering software",
         "funding": "Seed-stage (unconfirmed round size/year)",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "unconfirmed",
+        "checked_notes": "jobs.cenos-platform.com could not be fetched (redirect loop); no specific listings could be confirmed."
       },
       {
         "company": "Kodesage",
@@ -1936,7 +2494,9 @@
         "city": "Budapest",
         "what_it_does": "AI-powered legacy-code modernization/documentation",
         "funding": "Pre-Seed, ~€2.3M (early 2025) + ~€5.67M additional",
-        "careers_url": "Careers section verified under Company then Careers"
+        "careers_url": "Careers section verified under Company then Careers",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "kodesage.ai/careers lists Account Executive, Pre-Sales Engineer, Forward Deployed Engineer, and two software engineer roles — sales/engineering only."
       },
       {
         "company": "denxpert",
@@ -1944,7 +2504,9 @@
         "city": "Budapest",
         "what_it_does": "ESG/EHS compliance & sustainability-reporting software",
         "funding": "~€900K+ total, 2024",
-        "careers_url": "[denxpert.com/about-us/career](https://denxpert.com/about-us/career) — verified"
+        "careers_url": "[denxpert.com/about-us/career](https://denxpert.com/about-us/career) — verified",
+        "checked_status": "not_hiring",
+        "checked_notes": "denxpert.com/about-us/career page loads but lists no specific open job titles, only a general CV submission form."
       },
       {
         "company": "ABZ Innovation",
@@ -1952,7 +2514,9 @@
         "city": "Budapest",
         "what_it_does": "Unmanned aerial systems for precision agriculture",
         "funding": "~€7M, Jan 2026 (recent, unconfirmed)",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "unconfirmed",
+        "checked_notes": "Careers page (abzinnovation.com/about/career) blocked by robots.txt; could not verify open roles despite the page existing."
       },
       {
         "company": "Allonic",
@@ -1960,7 +2524,9 @@
         "city": "Budapest",
         "what_it_does": "Robotics-hardware manufacturing platform",
         "funding": "Pre-Seed, ~€6M, Feb 2026 — unusually large for \"pre-seed,\" flagging",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "allonic.co/careers lists Operations Controller, Mechatronics & Systems Engineer, and Senior Mechanical Engineer — Operations Controller is finance/ops-controller focused, not a marketing/programme coordination match."
       },
       {
         "company": "Resoloon",
@@ -1968,7 +2534,9 @@
         "city": "Budapest",
         "what_it_does": "High-altitude balloon platform for Earth observation",
         "funding": "Pre-Seed, ~€550K, Feb 2026",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "career_page_dead",
+        "checked_notes": "resoloon.com found via search but no careers page or job listings identified."
       },
       {
         "company": "Redmenta",
@@ -1976,7 +2544,9 @@
         "city": "Budapest",
         "what_it_does": "AI-powered personalized-learning platform for teachers",
         "funding": "Round undisclosed",
-        "careers_url": "Site exists, no careers page"
+        "careers_url": "Site exists, no careers page",
+        "checked_status": "career_page_dead",
+        "checked_notes": "redmenta.com found but no careers page in current nav per prior data; search found no job listings."
       },
       {
         "company": "Proofminder",
@@ -1984,7 +2554,9 @@
         "city": "Budapest",
         "what_it_does": "AI leaf-level crop-monitoring via drone imagery",
         "funding": "~€410K total",
-        "careers_url": "Site exists, no careers page"
+        "careers_url": "Site exists, no careers page",
+        "checked_status": "career_page_dead",
+        "checked_notes": "proofminder.com found but no careers page identified; search found no job listings."
       },
       {
         "company": "Riptides",
@@ -1992,7 +2564,9 @@
         "city": "Budapest (unconfirmed)",
         "what_it_does": "Runtime machine-identity/workload security platform",
         "funding": "~€2.7M+ raised",
-        "careers_url": "Site exists, no careers page"
+        "careers_url": "Site exists, no careers page",
+        "checked_status": "career_page_dead",
+        "checked_notes": "riptides.io found but no careers page identified; search found only funding news, no job listings."
       },
       {
         "company": "Axoflow",
@@ -2000,7 +2574,9 @@
         "city": "Budapest",
         "what_it_does": "Cybersecurity/SecOps log & telemetry automation",
         "funding": "Round undisclosed",
-        "careers_url": "Guessed URL 404'd"
+        "careers_url": "Guessed URL 404'd",
+        "checked_status": "career_page_dead",
+        "checked_notes": "Guessed URL 404'd previously; web search found no working careers page or job listings for Axoflow."
       },
       {
         "company": "Qneiform",
@@ -2008,8 +2584,15 @@
         "city": "Budapest",
         "what_it_does": "Talent-data platform for AI-native enterprise systems",
         "funding": "Round undisclosed",
-        "careers_url": "Not verified"
+        "careers_url": "Not verified",
+        "checked_status": "hiring_unrelated",
+        "checked_notes": "qneiform.com has no visible careers page; third-party board (freehire.me) lists only Backend Engineer and Frontend Engineer roles."
       }
-    ]
+    ],
+    "checked_at": "2026-09-18",
+    "checked_summary": {
+      "total": 224,
+      "matched_and_tagged": 224
+    }
   }
 }
