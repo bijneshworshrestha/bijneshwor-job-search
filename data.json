@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:00:00+02:00",
+  "generated_at": "2026-09-18T19:55:00+02:00",
   "cv_tracks": [
     { "name": "Administrative & Operations Coordinator", "tier": 1, "source": "CV_BijneshworShrestha_CoordinatorAdministrativeAndOperations.docx" },
     { "name": "CRM & Operations", "tier": 1, "source": "CV_BijneshworShrestha_CRMAndOperations.docx" },
@@ -17,9 +17,138 @@
       "status": "active",
       "why_added": "Confirmed directly by Bij as a real target company",
       "first_seen": "2026-09-18"
+    },
+    {
+      "company": "Aroundtown SA",
+      "industry": "Real estate / property management",
+      "region": "Germany/EU (Berlin)",
+      "careers_url": "https://de.indeed.com/viewjob?jk=4363d792a1d26595",
+      "status": "active",
+      "why_added": "Scan found an Apply-tier match: Project and Office Coordinator (m/f/d), score 50/100",
+      "first_seen": "2026-09-18"
     }
   ],
   "postings": [
+    {
+      "id": "designhotels:digital-experience-crm-manager",
+      "source": "Design Hotels (direct careers page)",
+      "title": "Digital Experience & CRM Manager (m/f/d)",
+      "company": "Design Hotels GmbH",
+      "location": "Berlin, Germany",
+      "region": "EU / Western Europe",
+      "url": "https://www.designhotels.com/about/careers/digital-experience-crm-manager-mfd/",
+      "description_verified": true,
+      "score": 55,
+      "tier": "apply",
+      "score_note": "Full posting read. Strong CRM/digital-marketing duty match and hospitality industry bonus, but this is a Manager role owning the CRM roadmap end-to-end (min. 4 yrs, SQL preferred) — a step above coordinator/associate seniority, which cost most of the seniority points. No MBA mention, no remote/hybrid mentioned. Confirmed watched-company target regardless of exact score.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "aroundtown:project-office-coordinator",
+      "source": "Indeed (de.indeed.com)",
+      "title": "Project and Office Coordinator (m/f/d)",
+      "company": "Aroundtown SA",
+      "location": "Berlin, Germany",
+      "region": "EU / Western Europe",
+      "url": "https://de.indeed.com/viewjob?jk=4363d792a1d26595",
+      "description_verified": true,
+      "score": 50,
+      "tier": "apply",
+      "score_note": "Full posting read. Good match on project/office coordination duties and seniority level, but only MS Office tools mentioned (no CRM/Ads/Analytics overlap) and real estate isn't in the tracked adjacent-industry list, so it lands right at the Apply threshold. On-site Berlin — no relocation/visa question since Bij is already Berlin-based.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "reed:administrative-coordinator-parkside-57300380",
+      "source": "Reed (reed.co.uk)",
+      "title": "Administrative Coordinator",
+      "company": "Parkside Office Professional",
+      "location": "London, UK (Hybrid)",
+      "region": "UK / Ireland",
+      "url": "https://www.reed.co.uk/jobs/administrative-coordinator/57300380",
+      "description_verified": true,
+      "score": 56,
+      "tier": "apply",
+      "score_note": "Full posting read. Leans executive-assistant (calendar/travel management for leadership) more than programme/ops coordination, and only generic MS Office tools are listed — no CRM/Ads/Analytics overlap. Hybrid work is a plus. FLAG: posting does not mention visa sponsorship and the UK is outside the EU — work-authorization status for a UK role has not been confirmed for Bij. Resolve this before applying.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "reed:business-operations-coordinator-momentum-57336062",
+      "source": "Reed (reed.co.uk)",
+      "title": "Business & Operations Coordinator",
+      "company": "Momentum Facilities Management",
+      "location": "Hazlemere, Buckinghamshire, UK",
+      "region": "UK / Ireland",
+      "url": "https://www.reed.co.uk/jobs/business-operations-coordinator/57336062",
+      "description_verified": true,
+      "score": 48,
+      "tier": "consider",
+      "score_note": "Full posting read. Role is payroll/rota/customer-service coordination for a facilities-cleaning company — operations-coordinator shaped but weak tool overlap (no CRM/Ads/Analytics) and the industry isn't a close match to past experience. FLAG: same UK work-authorization caveat as above — not confirmed.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "indeed:exolaunch-office-coordinator",
+      "source": "Indeed (de.indeed.com)",
+      "title": "Office Coordinator (m/f/d)",
+      "company": "Exolaunch",
+      "location": "Berlin, Germany",
+      "region": "EU / Western Europe",
+      "url": "https://de.indeed.com/viewjob?jk=72da0ea50d4ab78f",
+      "description_verified": true,
+      "score": 44,
+      "tier": "skip",
+      "score_note": "Full posting read. Decent office-coordination duty match (3+ yrs experience level), but excluded per the language constraint: German fluency is listed as an explicit requirement (\"excellent\"), not just a plus — fails the hard language rule regardless of score.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "hawarhelp:hr-people-operations-coordinator",
+      "source": "Indeed (de.indeed.com)",
+      "title": "HR & People Operations Coordinator (m/w/d)",
+      "company": "HÁWAR.help",
+      "location": "Berlin, Germany",
+      "region": "EU / Western Europe",
+      "url": "https://de.indeed.com/viewjob?jk=9cfb7b655101dd21",
+      "description_verified": true,
+      "score": 48,
+      "tier": "skip",
+      "score_note": "Full posting read. Ops-coordinator seniority fits, but excluded per the language constraint: \"very good German knowledge in word and writing\" is required, not a plus. Also weak tool overlap (payroll/HR systems, not CRM/Ads/Analytics) and only part-time (20–25 hrs/week).",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "reed:operations-coordinator-phs-57249215",
+      "source": "Reed (reed.co.uk)",
+      "title": "Operations Coordinator",
+      "company": "PHS Group Limited",
+      "location": "Camberwell, London, UK",
+      "region": "UK / Ireland",
+      "url": "https://www.reed.co.uk/jobs/operations-coordinator/57249215",
+      "description_verified": true,
+      "score": 35,
+      "tier": "skip",
+      "score_note": "Full posting read. Driver/route dispatch coordination — only a loose title match, no CRM/Ads/Analytics/Sheets overlap, and it's part-time (20 hrs/week, ~£14k/yr), which cuts feasibility. Below the Consider threshold.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "mtderm:international-project-coordinator",
+      "source": "Indeed (de.indeed.com)",
+      "title": "International Project Coordinator (m/w/d) – Supply Chain & Operations",
+      "company": "MT.DERM GMBH",
+      "location": "Berlin (Lichtenrade), Germany",
+      "region": "EU / Western Europe",
+      "url": "https://de.indeed.com/viewjob?jk=5450d81dc0766944",
+      "description_verified": false,
+      "score": null,
+      "tier": "unverified",
+      "score_note": "Attempted full-description fetch, but the responsibilities/requirements section didn't come through — only company background did. Per the stage gate, no score without an actually-read description. Needs a manual check of the live posting before it can be scored.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
     {
       "id": "indeed:hilton-marketing-coordinator-berlin",
       "source": "Indeed (de.indeed.com)",
@@ -31,7 +160,7 @@
       "description_verified": false,
       "score": null,
       "tier": "unverified",
-      "score_note": "Found during initial platform-testing search (title/company only) — full description not yet fetched, so no score per the stage gate. Not yet part of a prioritized Coordination/Operations scan.",
+      "score_note": "Carried over from the initial platform-connectivity test (2026-09-18) — title/company only, full description not yet fetched, and it's a Tier 3 (marketing) track so wasn't prioritized in this Tier 1 scan.",
       "status": "new",
       "found_at": "2026-09-18"
     },
@@ -46,7 +175,7 @@
       "description_verified": false,
       "score": null,
       "tier": "unverified",
-      "score_note": "Found during initial platform-testing search — same caveats as above.",
+      "score_note": "Carried over from the initial platform-connectivity test — same caveats as above (Tier 3 track, not prioritized this scan).",
       "status": "new",
       "found_at": "2026-09-18"
     }
@@ -54,10 +183,17 @@
   "scan_runs": [
     {
       "date": "2026-09-18",
+      "type": "Tier 1 prioritized scan (Administrative & Operations Coordinator, CRM & Operations)",
+      "boards_checked": ["Indeed (de.indeed.com)", "Reed (reed.co.uk)", "Design Hotels careers page (direct)"],
+      "postings_found": 8,
+      "notes": "First real scored scan. Full descriptions read and scored per the stage gate for 7 of 8 new postings; MT.DERM stayed Unverified because its description didn't come through on fetch. 2 postings (Exolaunch, HÁWAR.help) scored decently on fit but were excluded for mandatory German fluency. Aroundtown SA added to watched companies after its Apply-tier match. Two UK postings carry an unresolved work-authorization flag — not excluded, but not confirmed either."
+    },
+    {
+      "date": "2026-09-18",
       "type": "platform test (not a full prioritized scan)",
       "boards_checked": ["Indeed (de.indeed.com)", "Reed", "LinkedIn (blocked)", "Seek (blocked)", "Job Bank Canada (unreliable)"],
       "postings_found": 2,
-      "notes": "First connectivity test of the search mechanism, done to validate which job boards are fetchable. Not run against the confirmed Coordination/Operations priority keywords yet — that's the next real scan."
+      "notes": "First connectivity test of the search mechanism, done to validate which job boards are fetchable."
     }
   ]
 }
