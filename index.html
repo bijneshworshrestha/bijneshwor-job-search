@@ -19,6 +19,8 @@
     --skip: #9a3b3b;
     --skip-soft: #f5e6e6;
     --focus: #3b5ba5;
+    --shadow: 0 1px 2px rgba(27,31,35,0.04), 0 1px 8px rgba(27,31,35,0.03);
+    --shadow-hover: 0 2px 4px rgba(27,31,35,0.06), 0 6px 16px rgba(27,31,35,0.06);
   }
 
   @media (prefers-color-scheme: dark) {
@@ -39,6 +41,8 @@
       --muted-soft: #262a2e;
       --skip: #d98080;
       --skip-soft: #332222;
+      --shadow: 0 1px 2px rgba(0,0,0,0.2), 0 1px 8px rgba(0,0,0,0.16);
+      --shadow-hover: 0 2px 4px rgba(0,0,0,0.24), 0 6px 20px rgba(0,0,0,0.22);
     }
   }
   :root[data-theme="dark"] {
@@ -58,6 +62,8 @@
     --muted-soft: #262a2e;
     --skip: #d98080;
     --skip-soft: #332222;
+    --shadow: 0 1px 2px rgba(0,0,0,0.2), 0 1px 8px rgba(0,0,0,0.16);
+    --shadow-hover: 0 2px 4px rgba(0,0,0,0.24), 0 6px 20px rgba(0,0,0,0.22);
   }
 
   * { box-sizing: border-box; }
@@ -74,7 +80,7 @@
   .tabular { font-variant-numeric: tabular-nums; }
 
   .wrap {
-    max-width: 1080px;
+    max-width: 1160px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 260px 1fr;
@@ -114,6 +120,82 @@
     text-align: right;
   }
 
+  /* Stats bar */
+  .stats-bar {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  @media (max-width: 760px) {
+    .stats-bar { grid-template-columns: repeat(3, 1fr); }
+  }
+  .stat-tile {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 12px 14px;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.12s ease, transform 0.12s ease, border-color 0.12s ease;
+  }
+  .stat-tile:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+  .stat-tile.active { border-color: var(--accent); box-shadow: 0 0 0 1.5px var(--accent) inset; }
+  .stat-tile .n {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.1;
+  }
+  .stat-tile .l {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 3px;
+    letter-spacing: 0.02em;
+  }
+  .stat-tile.c-good .n { color: var(--good); }
+  .stat-tile.c-warn .n { color: var(--warn); }
+  .stat-tile.c-muted .n { color: var(--muted); }
+  .stat-tile.c-skip .n { color: var(--skip); }
+  .stat-tile.c-accent .n { color: var(--accent); }
+
+  /* Controls */
+  .controls {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .controls input[type="search"] {
+    flex: 1;
+    min-width: 180px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 9px 12px;
+    font-family: inherit;
+    font-size: 13.5px;
+    color: var(--ink);
+  }
+  .controls input[type="search"]::placeholder { color: var(--muted); }
+  .controls select {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 9px 10px;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--ink);
+  }
+  .controls .result-count {
+    font-size: 12px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
   /* Sidebar */
   aside {
     display: flex;
@@ -123,8 +205,9 @@
   .panel {
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 14px 16px;
+    box-shadow: var(--shadow);
   }
   .panel h2 {
     font-size: 11px;
@@ -143,6 +226,37 @@
     border-bottom: 1px solid var(--line);
     font-size: 13px;
   }
+  /* Sidebar nav */
+  .nav-panel { display: flex; flex-direction: column; gap: 4px; }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+  }
+  .nav-link:hover { background: var(--surface-2); }
+  .nav-link.active {
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .nav-link .nav-count {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: inherit;
+    opacity: 0.75;
+  }
+
   .track-row:last-child { border-bottom: none; }
   .track-row .tier-pill {
     flex-shrink: 0;
@@ -181,38 +295,73 @@
   }
 
   /* Main */
-  main { display: flex; flex-direction: column; gap: 26px; min-width: 0; }
+  main { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
 
-  .tier-section h2 {
+  details.tier-section {
+    background: transparent;
+  }
+  details.tier-section > summary {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 10px;
     font-size: 15px;
-    margin: 0 0 10px;
     font-weight: 600;
+    margin: 0 0 10px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
   }
-  .tier-section h2 .count {
+  details.tier-section > summary::-webkit-details-marker { display: none; }
+  details.tier-section > summary .chevron {
+    display: inline-block;
+    width: 9px; height: 9px;
+    border-right: 2px solid var(--muted);
+    border-bottom: 2px solid var(--muted);
+    transform: rotate(-45deg);
+    transition: transform 0.15s ease;
+    flex-shrink: 0;
+  }
+  details[open].tier-section > summary .chevron { transform: rotate(45deg); }
+  details.tier-section > summary .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  details.tier-section > summary .dot.good { background: var(--good); }
+  details.tier-section > summary .dot.warn { background: var(--warn); }
+  details.tier-section > summary .dot.muted { background: var(--muted); }
+  details.tier-section > summary .dot.skip { background: var(--skip); }
+  details.tier-section > summary .count {
     font-size: 12px;
     color: var(--muted);
     font-weight: 500;
+    font-family: 'IBM Plex Mono', monospace;
   }
-  .tier-section h2 .dash {
+  details.tier-section > summary .dash {
     flex: 1;
     height: 1px;
     background: var(--line);
   }
+  .posting-list { display: flex; flex-direction: column; gap: 8px; padding-bottom: 4px; }
 
   .posting {
     display: grid;
     grid-template-columns: auto 1fr auto auto;
     align-items: center;
     gap: 14px;
-    padding: 12px 14px;
+    padding: 13px 15px;
     background: var(--surface);
     border: 1px solid var(--line);
+    border-left: 3px solid var(--line);
     border-radius: 8px;
-    margin-bottom: 8px;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.12s ease, transform 0.12s ease;
   }
+  .posting:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+  .posting.tone-good { border-left-color: var(--good); }
+  .posting.tone-warn { border-left-color: var(--warn); }
+  .posting.tone-muted { border-left-color: var(--muted); }
+  .posting.tone-skip { border-left-color: var(--skip); }
   @media (max-width: 620px) {
     .posting { grid-template-columns: 1fr; }
     .posting .score-badge { justify-self: flex-start; }
@@ -251,6 +400,7 @@
     color: var(--accent);
     text-decoration: none;
     white-space: nowrap;
+    font-weight: 500;
   }
   .posting a.view:hover { text-decoration: underline; }
 
@@ -262,7 +412,7 @@
     border-left: 2px solid var(--line);
   }
 
-  .empty-tier {
+  .empty-tier, .no-match {
     font-size: 13px;
     color: var(--muted);
     padding: 14px;
@@ -271,11 +421,39 @@
     background: var(--surface-2);
   }
 
-  .scan-log {
-    font-size: 12.5px;
-    color: var(--ink-soft);
+  .companies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 10px;
   }
-  .scan-log .date { font-family: 'IBM Plex Mono', monospace; color: var(--muted); margin-right: 8px; }
+  .company-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    box-shadow: var(--shadow);
+    transition: box-shadow 0.12s ease, transform 0.12s ease;
+  }
+  .company-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+  .company-card.tone-good { border-left-color: var(--good); }
+  .company-card.tone-warn { border-left-color: var(--warn); }
+  .company-card.tone-muted { border-left-color: var(--muted); }
+  .company-card.tone-skip { border-left-color: var(--skip); }
+  .company-card .cc-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .company-card .cname { font-weight: 600; font-size: 13.5px; }
+  .company-card .cmeta { font-size: 11.5px; color: var(--muted); }
+  .company-card .view { display: inline-block; margin-top: 8px; }
+  .status-chip.chip-good { background: var(--good-soft); color: var(--good); }
+  .status-chip.chip-warn { background: var(--warn-soft); color: var(--warn); }
+  .status-chip.chip-muted { background: var(--muted-soft); color: var(--muted); }
+  .status-chip.chip-skip { background: var(--skip-soft); color: var(--skip); }
 
   footer {
     grid-column: 1 / -1;
@@ -290,7 +468,7 @@
     gap: 8px;
   }
 
-  a:focus-visible, button:focus-visible {
+  a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
     outline: 2px solid var(--focus);
     outline-offset: 2px;
   }
@@ -317,6 +495,34 @@
 </div>
 
 <script>
+const TIER_DEFS = [
+  { key: 'apply_high', label: 'Apply — high priority', cls: 'good', open: true },
+  { key: 'apply', label: 'Apply', cls: 'good', open: true },
+  { key: 'consider', label: 'Consider', cls: 'warn', open: true },
+];
+// Skip-tier postings (fail the score threshold or a hard constraint) are never sent to this
+// dashboard at all — they're excluded at the data stage, not just hidden here.
+const COMPANY_STATUS_DEFS = {
+  target:   { label: 'Confirmed target', cls: 'good' },
+  apply:    { label: 'Apply-tier match', cls: 'good' },
+  consider: { label: 'Consider-tier match', cls: 'warn' },
+  skipped:  { label: 'Skipped', cls: 'skip' },
+  watching: { label: 'Watching', cls: 'muted' },
+};
+
+let ALL_POSTINGS = [];
+let ALL_COMPANIES = [];
+const state = { query: '', tierFilter: 'all', sort: 'score-desc', page: 'postings' };
+
+function switchPage(page) {
+  state.page = page;
+  document.querySelectorAll('.nav-link').forEach(l => l.classList.toggle('active', l.dataset.nav === page));
+  const postingsEls = document.querySelectorAll('[data-page="postings"]');
+  const companiesEls = document.querySelectorAll('[data-page="companies"]');
+  postingsEls.forEach(el => { el.style.display = page === 'postings' ? '' : 'none'; });
+  companiesEls.forEach(el => { el.style.display = page === 'companies' ? '' : 'none'; });
+}
+
 async function render() {
   const wrap = document.getElementById('app');
 
@@ -333,12 +539,77 @@ async function render() {
     return;
   }
 
+  ALL_POSTINGS = data.postings || [];
+  ALL_COMPANIES = data.companies_looked_at || [];
+
   document.getElementById('last-updated').textContent =
     'Updated ' + new Date(data.generated_at).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
 
-  // ---- Sidebar: CV tracks ----
+  // ---- Stats bar ----
+  const counts = { all: ALL_POSTINGS.length };
+  TIER_DEFS.forEach(td => { counts[td.key] = ALL_POSTINGS.filter(p => p.tier === td.key).length; });
+
+  const statsBar = document.createElement('div');
+  statsBar.className = 'stats-bar';
+  statsBar.dataset.page = 'postings';
+  const statDefs = [
+    { key: 'all', label: 'All postings', cls: 'accent' },
+    { key: 'apply_high', label: 'Apply — high', cls: 'good' },
+    { key: 'apply', label: 'Apply', cls: 'good' },
+    { key: 'consider', label: 'Consider', cls: 'warn' },
+  ];
+  statDefs.forEach(sd => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'stat-tile c-' + sd.cls + (sd.key === 'all' ? ' active' : '');
+    btn.dataset.tier = sd.key;
+    btn.innerHTML = `<div class="n tabular">${counts[sd.key] || 0}</div><div class="l">${escapeHtml(sd.label)}</div>`;
+    btn.addEventListener('click', () => {
+      state.tierFilter = sd.key;
+      document.querySelectorAll('.stat-tile').forEach(t => t.classList.toggle('active', t.dataset.tier === sd.key));
+      applyFilters();
+    });
+    statsBar.appendChild(btn);
+  });
+  wrap.appendChild(statsBar);
+
+  // ---- Controls ----
+  const controls = document.createElement('div');
+  controls.className = 'controls';
+  controls.dataset.page = 'postings';
+  controls.innerHTML = `
+    <input type="search" id="search-box" placeholder="Search title or company…" aria-label="Search postings">
+    <select id="sort-select" aria-label="Sort postings">
+      <option value="score-desc">Score: high to low</option>
+      <option value="score-asc">Score: low to high</option>
+      <option value="company">Company A–Z</option>
+      <option value="recent">Most recently found</option>
+    </select>
+    <span class="result-count" id="result-count"></span>
+  `;
+  wrap.appendChild(controls);
+
+  // ---- Sidebar: navigation ----
   const aside = document.createElement('aside');
 
+  const navPanel = document.createElement('div');
+  navPanel.className = 'panel nav-panel';
+  const navLinks = [
+    { key: 'postings', label: 'Postings', count: ALL_POSTINGS.length },
+    { key: 'companies', label: 'Companies looked at', count: ALL_COMPANIES.length },
+  ];
+  navLinks.forEach(nl => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'nav-link' + (nl.key === state.page ? ' active' : '');
+    btn.dataset.nav = nl.key;
+    btn.innerHTML = `<span>${escapeHtml(nl.label)}</span><span class="nav-count tabular">${nl.count}</span>`;
+    btn.addEventListener('click', () => switchPage(nl.key));
+    navPanel.appendChild(btn);
+  });
+  aside.appendChild(navPanel);
+
+  // ---- Sidebar: CV tracks ----
   const tracksPanel = document.createElement('div');
   tracksPanel.className = 'panel';
   tracksPanel.innerHTML = '<h2>Search priority</h2>';
@@ -353,94 +624,54 @@ async function render() {
     });
   aside.appendChild(tracksPanel);
 
-  // ---- Sidebar: watched companies ----
-  const companiesPanel = document.createElement('div');
-  companiesPanel.className = 'panel';
-  companiesPanel.innerHTML = '<h2>Watched companies</h2>';
-  if (!data.watched_companies || data.watched_companies.length === 0) {
-    companiesPanel.innerHTML += '<div class="company-row cmeta">None yet — added automatically when a scan finds a strong match.</div>';
-  } else {
-    data.watched_companies.forEach(c => {
-      const row = document.createElement('div');
-      row.className = 'company-row';
-      row.innerHTML = `
-        <div class="cname"><span class="status-dot" title="${escapeHtml(c.status)}"></span>${escapeHtml(c.company)}</div>
-        <div class="cmeta">${escapeHtml(c.industry)} · ${escapeHtml(c.region)}</div>
-        <div class="cmeta"><a href="${escapeAttr(c.careers_url)}" target="_blank" rel="noreferrer">careers page →</a></div>
-      `;
-      companiesPanel.appendChild(row);
-    });
-  }
-  aside.appendChild(companiesPanel);
-
-  // ---- Sidebar: the one rule ----
-  const rulePanel = document.createElement('div');
-  rulePanel.className = 'panel';
-  rulePanel.innerHTML = `
-    <h2>The one rule</h2>
-    <div class="rule-box">No score, and no Apply/Consider tier, until the full posting has actually been read. No description → Unverified — always, no exceptions.</div>
-  `;
-  aside.appendChild(rulePanel);
-
   wrap.appendChild(aside);
 
-  // ---- Main: postings by tier ----
+  // ---- Main: postings by tier (skeleton built once, contents filtered/sorted separately) ----
   const main = document.createElement('main');
-  const tierDefs = [
-    { key: 'apply_high', label: 'Apply — high priority', cls: 'good' },
-    { key: 'apply', label: 'Apply', cls: 'good' },
-    { key: 'consider', label: 'Consider', cls: 'warn' },
-    { key: 'unverified', label: 'Unverified', cls: 'muted' },
-    { key: 'skip', label: 'Skip', cls: 'skip' },
-  ];
-
-  tierDefs.forEach(td => {
-    const items = (data.postings || []).filter(p => p.tier === td.key);
-    const section = document.createElement('section');
-    section.className = 'tier-section';
-    section.innerHTML = `<h2>${td.label} <span class="count">${items.length}</span><span class="dash"></span></h2>`;
-
-    if (items.length === 0) {
-      const empty = document.createElement('div');
-      empty.className = 'empty-tier';
-      empty.textContent = td.key === 'unverified'
-        ? 'Nothing unverified right now.'
-        : 'No results yet — run the first prioritized Coordination/Operations scan to populate this.';
-      section.appendChild(empty);
-    } else {
-      items
-        .sort((a, b) => (b.score ?? -1) - (a.score ?? -1))
-        .forEach(p => {
-          const row = document.createElement('div');
-          row.className = 'posting';
-          const badgeCls = p.score == null ? 'muted' : (p.score >= 50 ? 'good' : (p.score >= 40 ? 'warn' : 'skip'));
-          row.innerHTML = `
-            <div class="score-badge tabular ${badgeCls}">${p.score != null ? p.score : '—'}</div>
-            <div>
-              <div class="title">${escapeHtml(p.title)} · ${escapeHtml(p.company)}</div>
-              <div class="sub">${escapeHtml(p.location)} <span class="src">· ${escapeHtml(p.source)}</span></div>
-              ${p.score_note ? `<div class="note-line">${escapeHtml(p.score_note)}</div>` : ''}
-            </div>
-            <div class="status-chip">${escapeHtml(p.status)}</div>
-            <a class="view" href="${escapeAttr(p.url)}" target="_blank" rel="noreferrer">View →</a>
-          `;
-          section.appendChild(row);
-        });
-    }
-    main.appendChild(section);
+  TIER_DEFS.forEach(td => {
+    const details = document.createElement('details');
+    details.className = 'tier-section';
+    details.dataset.tier = td.key;
+    details.dataset.page = 'postings';
+    if (td.open) details.open = true;
+    details.innerHTML = `
+      <summary>
+        <span class="chevron"></span>
+        <span class="dot ${td.cls}"></span>
+        <span>${escapeHtml(td.label)}</span>
+        <span class="count tabular" data-role="count"></span>
+        <span class="dash"></span>
+      </summary>
+      <div class="posting-list" data-role="list"></div>
+    `;
+    main.appendChild(details);
   });
 
-  // ---- Scan history ----
-  const historySection = document.createElement('section');
-  historySection.className = 'tier-section';
-  historySection.innerHTML = `<h2>Scan history <span class="dash"></span></h2>`;
-  (data.scan_runs || []).slice().reverse().forEach(r => {
-    const line = document.createElement('div');
-    line.className = 'scan-log';
-    line.innerHTML = `<span class="date mono">${escapeHtml(r.date)}</span>${escapeHtml(r.type)} — ${r.postings_found} posting(s) found. ${escapeHtml(r.notes || '')}`;
-    historySection.appendChild(line);
+  // ---- Companies looked at (full-width, own section) ----
+  const companiesSection = document.createElement('section');
+  companiesSection.className = 'tier-section';
+  companiesSection.dataset.page = 'companies';
+  const companies = ALL_COMPANIES;
+  companiesSection.innerHTML = `<h2 style="display:flex;align-items:center;gap:10px;font-size:15px;margin:0 0 10px;font-weight:600;">Companies looked at <span class="count tabular" style="font-size:12px;color:var(--muted);font-weight:500;">${companies.length}</span><span class="dash" style="flex:1;height:1px;background:var(--line);"></span></h2>`;
+  const companiesGrid = document.createElement('div');
+  companiesGrid.className = 'companies-grid';
+  companies.forEach(c => {
+    const sd = COMPANY_STATUS_DEFS[c.status] || { label: c.status, cls: 'muted' };
+    const card = document.createElement('div');
+    card.className = 'company-card tone-' + sd.cls;
+    card.innerHTML = `
+      <div class="cc-top">
+        <div class="cname">${escapeHtml(c.company)}</div>
+        <div class="status-chip chip-${sd.cls}">${escapeHtml(sd.label)}</div>
+      </div>
+      <div class="cmeta">${escapeHtml(c.industry)} · ${escapeHtml(c.region)}</div>
+      ${c.note ? `<div class="note-line">${escapeHtml(c.note)}</div>` : ''}
+      <a class="view" href="${escapeAttr(c.careers_url)}" target="_blank" rel="noreferrer">careers page →</a>
+    `;
+    companiesGrid.appendChild(card);
   });
-  main.appendChild(historySection);
+  companiesSection.appendChild(companiesGrid);
+  main.appendChild(companiesSection);
 
   wrap.appendChild(main);
 
@@ -450,6 +681,97 @@ async function render() {
     <span>Data lives in <span class="mono">data.json</span>, committed to git manually.</span>
   `;
   wrap.appendChild(footer);
+
+  // ---- Wire up controls ----
+  document.getElementById('search-box').addEventListener('input', (e) => {
+    state.query = e.target.value.trim().toLowerCase();
+    applyFilters();
+  });
+  document.getElementById('sort-select').addEventListener('change', (e) => {
+    state.sort = e.target.value;
+    applyFilters();
+  });
+
+  applyFilters();
+  switchPage(state.page);
+}
+
+function applyFilters() {
+  const q = state.query;
+  let visibleTotal = 0;
+
+  TIER_DEFS.forEach(td => {
+    const section = document.querySelector(`details.tier-section[data-tier="${td.key}"]`);
+    if (!section) return;
+
+    const matchesTierFilter = state.tierFilter === 'all' || state.tierFilter === td.key;
+    section.style.display = matchesTierFilter ? '' : 'none';
+    if (!matchesTierFilter) return;
+
+    let items = ALL_POSTINGS.filter(p => p.tier === td.key);
+    if (q) {
+      items = items.filter(p =>
+        (p.title || '').toLowerCase().includes(q) ||
+        (p.company || '').toLowerCase().includes(q) ||
+        (p.location || '').toLowerCase().includes(q)
+      );
+    }
+    items = sortPostings(items, state.sort);
+    visibleTotal += items.length;
+
+    section.querySelector('[data-role="count"]').textContent = items.length;
+    const list = section.querySelector('[data-role="list"]');
+    list.innerHTML = '';
+
+    if (items.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = q ? 'no-match' : 'empty-tier';
+      empty.textContent = q
+        ? 'No postings in this tier match your search.'
+        : (td.key === 'unverified' ? 'Nothing unverified right now.' : 'No results yet — run the next prioritized scan to populate this.');
+      list.appendChild(empty);
+      return;
+    }
+
+    items.forEach(p => {
+      const row = document.createElement('div');
+      const badgeCls = p.score == null ? 'muted' : (p.score >= 50 ? 'good' : (p.score >= 40 ? 'warn' : 'skip'));
+      row.className = 'posting tone-' + badgeCls;
+      row.innerHTML = `
+        <div class="score-badge tabular ${badgeCls}">${p.score != null ? p.score : '—'}</div>
+        <div>
+          <div class="title">${escapeHtml(p.title)} · ${escapeHtml(p.company)}</div>
+          <div class="sub">${escapeHtml(p.location)} <span class="src">· ${escapeHtml(p.source)}</span></div>
+          ${p.score_note ? `<div class="note-line">${escapeHtml(p.score_note)}</div>` : ''}
+        </div>
+        <div class="status-chip">${escapeHtml(p.status)}</div>
+        <a class="view" href="${escapeAttr(p.url)}" target="_blank" rel="noreferrer">View →</a>
+      `;
+      list.appendChild(row);
+    });
+  });
+
+  const resultCount = document.getElementById('result-count');
+  if (resultCount) {
+    resultCount.textContent = q || state.tierFilter !== 'all'
+      ? `${visibleTotal} of ${ALL_POSTINGS.length} shown`
+      : `${ALL_POSTINGS.length} total`;
+  }
+}
+
+function sortPostings(items, sort) {
+  const copy = items.slice();
+  switch (sort) {
+    case 'score-asc':
+      return copy.sort((a, b) => (a.score ?? -1) - (b.score ?? -1));
+    case 'company':
+      return copy.sort((a, b) => (a.company || '').localeCompare(b.company || ''));
+    case 'recent':
+      return copy.sort((a, b) => (b.found_at || '').localeCompare(a.found_at || ''));
+    case 'score-desc':
+    default:
+      return copy.sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
+  }
 }
 
 function escapeHtml(s) {
