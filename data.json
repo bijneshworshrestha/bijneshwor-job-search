@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-18T18:00:00+02:00",
+  "cv_tracks": [
+    { "name": "Administrative & Operations Coordinator", "tier": 1, "source": "CV_BijneshworShrestha_CoordinatorAdministrativeAndOperations.docx" },
+    { "name": "CRM & Operations", "tier": 1, "source": "CV_BijneshworShrestha_CRMAndOperations.docx" },
+    { "name": "Consolidated Profile", "tier": 1, "source": "CV_BijneshworShrestha_MasterConsolidated.docx" },
+    { "name": "IT / Technical Coordination", "tier": 2, "source": "CV_BijneshworShrestha_6Points.docx" },
+    { "name": "Customer Service", "tier": 2, "source": "CV_BijneshworShrestha_CustomerService.docx" },
+    { "name": "Digital Marketing Coordinator", "tier": 3, "source": "CV_BijneshworShrestha_DigitalMarketingCoordinator.docx" }
+  ],
+  "watched_companies": [
+    {
+      "company": "Design Hotels (Marriott brand)",
+      "industry": "Hospitality",
+      "region": "Germany/EU (HQ Berlin)",
+      "careers_url": "https://www.designhotels.com/about/careers/",
+      "status": "active",
+      "why_added": "Confirmed directly by Bij as a real target company",
+      "first_seen": "2026-09-18"
+    }
+  ],
+  "postings": [
+    {
+      "id": "indeed:hilton-marketing-coordinator-berlin",
+      "source": "Indeed (de.indeed.com)",
+      "title": "Marketing Coordinator (m/f/*)",
+      "company": "Hilton",
+      "location": "Berlin, Germany",
+      "region": "EU / Western Europe",
+      "url": "https://de.indeed.com/jobs?q=marketing+coordinator&l=Berlin",
+      "description_verified": false,
+      "score": null,
+      "tier": "unverified",
+      "score_note": "Found during initial platform-testing search (title/company only) — full description not yet fetched, so no score per the stage gate. Not yet part of a prioritized Coordination/Operations scan.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    },
+    {
+      "id": "reed:sales-marketing-coordinator-derby",
+      "source": "Reed (reed.co.uk)",
+      "title": "Sales & Marketing Coordinator",
+      "company": "GBR Recruitment Ltd",
+      "location": "Derby / Leicester / Nottingham, UK",
+      "region": "UK / Ireland",
+      "url": "https://www.reed.co.uk/jobs/marketing-coordinator-jobs",
+      "description_verified": false,
+      "score": null,
+      "tier": "unverified",
+      "score_note": "Found during initial platform-testing search — same caveats as above.",
+      "status": "new",
+      "found_at": "2026-09-18"
+    }
+  ],
+  "scan_runs": [
+    {
+      "date": "2026-09-18",
+      "type": "platform test (not a full prioritized scan)",
+      "boards_checked": ["Indeed (de.indeed.com)", "Reed", "LinkedIn (blocked)", "Seek (blocked)", "Job Bank Canada (unreliable)"],
+      "postings_found": 2,
+      "notes": "First connectivity test of the search mechanism, done to validate which job boards are fetchable. Not run against the confirmed Coordination/Operations priority keywords yet — that's the next real scan."
+    }
+  ]
+}

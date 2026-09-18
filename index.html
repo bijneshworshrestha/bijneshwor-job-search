@@ -1,0 +1,462 @@
+<title>Bijneshwor Job Search</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ink: #1b1f23;
+    --ink-soft: #4a5158;
+    --paper: #eeede7;
+    --surface: #ffffff;
+    --surface-2: #f6f5f1;
+    --line: #dcdad2;
+    --accent: #3b5ba5;
+    --accent-soft: #e7ecf7;
+    --good: #2f6f4e;
+    --good-soft: #e4efe8;
+    --warn: #a8710a;
+    --warn-soft: #f6ecd9;
+    --muted: #6b7280;
+    --muted-soft: #eceef0;
+    --skip: #9a3b3b;
+    --skip-soft: #f5e6e6;
+    --focus: #3b5ba5;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #ecebe7;
+      --ink-soft: #b7bcc2;
+      --paper: #14171a;
+      --surface: #1c2024;
+      --surface-2: #20242a;
+      --line: #33383e;
+      --accent: #8fa9e0;
+      --accent-soft: #232b3d;
+      --good: #7fbf9c;
+      --good-soft: #1d2f26;
+      --warn: #e3ab52;
+      --warn-soft: #332912;
+      --muted: #9aa3ab;
+      --muted-soft: #262a2e;
+      --skip: #d98080;
+      --skip-soft: #332222;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #ecebe7;
+    --ink-soft: #b7bcc2;
+    --paper: #14171a;
+    --surface: #1c2024;
+    --surface-2: #20242a;
+    --line: #33383e;
+    --accent: #8fa9e0;
+    --accent-soft: #232b3d;
+    --good: #7fbf9c;
+    --good-soft: #1d2f26;
+    --warn: #e3ab52;
+    --warn-soft: #332912;
+    --muted: #9aa3ab;
+    --muted-soft: #262a2e;
+    --skip: #d98080;
+    --skip-soft: #332222;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-inline: 16px;
+    padding-block: 24px;
+  }
+  .mono { font-family: 'IBM Plex Mono', ui-monospace, monospace; }
+  .tabular { font-variant-numeric: tabular-nums; }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 28px;
+  }
+  @media (max-width: 760px) {
+    .wrap { grid-template-columns: 1fr; }
+  }
+
+  header.top {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 14px;
+    margin-bottom: 4px;
+  }
+  header.top .name {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 4px;
+  }
+  header.top h1 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  header.top .meta {
+    font-size: 12px;
+    color: var(--muted);
+    text-align: right;
+  }
+
+  /* Sidebar */
+  aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+  }
+  .panel h2 {
+    font-size: 11px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+  .track-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 13px;
+  }
+  .track-row:last-child { border-bottom: none; }
+  .track-row .tier-pill {
+    flex-shrink: 0;
+    font-size: 10px;
+    padding: 1px 7px;
+    border-radius: 99px;
+    font-weight: 600;
+  }
+  .tier-pill.t1 { background: var(--good-soft); color: var(--good); }
+  .tier-pill.t2 { background: var(--warn-soft); color: var(--warn); }
+  .tier-pill.t3 { background: var(--muted-soft); color: var(--muted); }
+
+  .company-row {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .company-row:last-child { border-bottom: none; }
+  .company-row .cname { font-weight: 600; font-size: 13px; }
+  .company-row .cmeta { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
+  .company-row a { color: var(--accent); text-decoration: none; }
+  .company-row a:hover { text-decoration: underline; }
+  .status-dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--good);
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  .rule-box {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    border-left: 3px solid var(--accent);
+    padding-left: 10px;
+  }
+
+  /* Main */
+  main { display: flex; flex-direction: column; gap: 26px; min-width: 0; }
+
+  .tier-section h2 {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 15px;
+    margin: 0 0 10px;
+    font-weight: 600;
+  }
+  .tier-section h2 .count {
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 500;
+  }
+  .tier-section h2 .dash {
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+  }
+
+  .posting {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 14px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  @media (max-width: 620px) {
+    .posting { grid-template-columns: 1fr; }
+    .posting .score-badge { justify-self: flex-start; }
+  }
+  .posting .score-badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 13px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .score-badge.good { background: var(--good-soft); color: var(--good); }
+  .score-badge.warn { background: var(--warn-soft); color: var(--warn); }
+  .score-badge.muted { background: var(--muted-soft); color: var(--muted); }
+  .score-badge.skip { background: var(--skip-soft); color: var(--skip); }
+
+  .posting .title { font-weight: 600; font-size: 14px; }
+  .posting .sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  .posting .sub .src { font-family: 'IBM Plex Mono', monospace; font-size: 11px; }
+
+  .posting .status-chip {
+    font-size: 11px;
+    padding: 3px 9px;
+    border-radius: 99px;
+    background: var(--muted-soft);
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .posting a.view {
+    font-size: 12.5px;
+    color: var(--accent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .posting a.view:hover { text-decoration: underline; }
+
+  .note-line {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 6px;
+    padding-left: 14px;
+    border-left: 2px solid var(--line);
+  }
+
+  .empty-tier {
+    font-size: 13px;
+    color: var(--muted);
+    padding: 14px;
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    background: var(--surface-2);
+  }
+
+  .scan-log {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+  .scan-log .date { font-family: 'IBM Plex Mono', monospace; color: var(--muted); margin-right: 8px; }
+
+  footer {
+    grid-column: 1 / -1;
+    margin-top: 12px;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
+    font-size: 11.5px;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  #load-error {
+    grid-column: 1 / -1;
+    background: var(--skip-soft);
+    color: var(--skip);
+    border: 1px solid var(--skip);
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+</style>
+
+<div class="wrap" id="app">
+  <header class="top">
+    <div>
+      <p class="name">Bijneshwor Shrestha</p>
+      <h1>Job Search</h1>
+    </div>
+    <div class="meta" id="last-updated"></div>
+  </header>
+</div>
+
+<script>
+async function render() {
+  const wrap = document.getElementById('app');
+
+  let data;
+  try {
+    const res = await fetch('data.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    data = await res.json();
+  } catch (err) {
+    const box = document.createElement('div');
+    box.id = 'load-error';
+    box.textContent = 'Could not load data.json (' + err.message + '). This page only displays the data file published alongside it — nothing is stored here.';
+    wrap.appendChild(box);
+    return;
+  }
+
+  document.getElementById('last-updated').textContent =
+    'Updated ' + new Date(data.generated_at).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
+
+  // ---- Sidebar: CV tracks ----
+  const aside = document.createElement('aside');
+
+  const tracksPanel = document.createElement('div');
+  tracksPanel.className = 'panel';
+  tracksPanel.innerHTML = '<h2>Search priority</h2>';
+  data.cv_tracks
+    .slice()
+    .sort((a, b) => a.tier - b.tier)
+    .forEach(t => {
+      const row = document.createElement('div');
+      row.className = 'track-row';
+      row.innerHTML = `<span>${escapeHtml(t.name)}</span><span class="tier-pill t${t.tier}">TIER ${t.tier}</span>`;
+      tracksPanel.appendChild(row);
+    });
+  aside.appendChild(tracksPanel);
+
+  // ---- Sidebar: watched companies ----
+  const companiesPanel = document.createElement('div');
+  companiesPanel.className = 'panel';
+  companiesPanel.innerHTML = '<h2>Watched companies</h2>';
+  if (!data.watched_companies || data.watched_companies.length === 0) {
+    companiesPanel.innerHTML += '<div class="company-row cmeta">None yet — added automatically when a scan finds a strong match.</div>';
+  } else {
+    data.watched_companies.forEach(c => {
+      const row = document.createElement('div');
+      row.className = 'company-row';
+      row.innerHTML = `
+        <div class="cname"><span class="status-dot" title="${escapeHtml(c.status)}"></span>${escapeHtml(c.company)}</div>
+        <div class="cmeta">${escapeHtml(c.industry)} · ${escapeHtml(c.region)}</div>
+        <div class="cmeta"><a href="${escapeAttr(c.careers_url)}" target="_blank" rel="noreferrer">careers page →</a></div>
+      `;
+      companiesPanel.appendChild(row);
+    });
+  }
+  aside.appendChild(companiesPanel);
+
+  // ---- Sidebar: the one rule ----
+  const rulePanel = document.createElement('div');
+  rulePanel.className = 'panel';
+  rulePanel.innerHTML = `
+    <h2>The one rule</h2>
+    <div class="rule-box">No score, and no Apply/Consider tier, until the full posting has actually been read. No description → Unverified — always, no exceptions.</div>
+  `;
+  aside.appendChild(rulePanel);
+
+  wrap.appendChild(aside);
+
+  // ---- Main: postings by tier ----
+  const main = document.createElement('main');
+  const tierDefs = [
+    { key: 'apply_high', label: 'Apply — high priority', cls: 'good' },
+    { key: 'apply', label: 'Apply', cls: 'good' },
+    { key: 'consider', label: 'Consider', cls: 'warn' },
+    { key: 'unverified', label: 'Unverified', cls: 'muted' },
+    { key: 'skip', label: 'Skip', cls: 'skip' },
+  ];
+
+  tierDefs.forEach(td => {
+    const items = (data.postings || []).filter(p => p.tier === td.key);
+    const section = document.createElement('section');
+    section.className = 'tier-section';
+    section.innerHTML = `<h2>${td.label} <span class="count">${items.length}</span><span class="dash"></span></h2>`;
+
+    if (items.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'empty-tier';
+      empty.textContent = td.key === 'unverified'
+        ? 'Nothing unverified right now.'
+        : 'No results yet — run the first prioritized Coordination/Operations scan to populate this.';
+      section.appendChild(empty);
+    } else {
+      items
+        .sort((a, b) => (b.score ?? -1) - (a.score ?? -1))
+        .forEach(p => {
+          const row = document.createElement('div');
+          row.className = 'posting';
+          const badgeCls = p.score == null ? 'muted' : (p.score >= 50 ? 'good' : (p.score >= 40 ? 'warn' : 'skip'));
+          row.innerHTML = `
+            <div class="score-badge tabular ${badgeCls}">${p.score != null ? p.score : '—'}</div>
+            <div>
+              <div class="title">${escapeHtml(p.title)} · ${escapeHtml(p.company)}</div>
+              <div class="sub">${escapeHtml(p.location)} <span class="src">· ${escapeHtml(p.source)}</span></div>
+              ${p.score_note ? `<div class="note-line">${escapeHtml(p.score_note)}</div>` : ''}
+            </div>
+            <div class="status-chip">${escapeHtml(p.status)}</div>
+            <a class="view" href="${escapeAttr(p.url)}" target="_blank" rel="noreferrer">View →</a>
+          `;
+          section.appendChild(row);
+        });
+    }
+    main.appendChild(section);
+  });
+
+  // ---- Scan history ----
+  const historySection = document.createElement('section');
+  historySection.className = 'tier-section';
+  historySection.innerHTML = `<h2>Scan history <span class="dash"></span></h2>`;
+  (data.scan_runs || []).slice().reverse().forEach(r => {
+    const line = document.createElement('div');
+    line.className = 'scan-log';
+    line.innerHTML = `<span class="date mono">${escapeHtml(r.date)}</span>${escapeHtml(r.type)} — ${r.postings_found} posting(s) found. ${escapeHtml(r.notes || '')}`;
+    historySection.appendChild(line);
+  });
+  main.appendChild(historySection);
+
+  wrap.appendChild(main);
+
+  const footer = document.createElement('footer');
+  footer.innerHTML = `
+    <span>View-only — searches are run in a Claude conversation, not from this page.</span>
+    <span>Data lives in <span class="mono">data.json</span>, committed to git manually.</span>
+  `;
+  wrap.appendChild(footer);
+}
+
+function escapeHtml(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function escapeAttr(s) { return escapeHtml(s); }
+
+render();
+</script>
