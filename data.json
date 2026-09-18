@@ -1,12 +1,36 @@
 {
   "generated_at": "2026-09-18T20:30:00+02:00",
   "cv_tracks": [
-    { "name": "Administrative & Operations Coordinator", "tier": 1, "source": "CV_BijneshworShrestha_CoordinatorAdministrativeAndOperations.docx" },
-    { "name": "CRM & Operations", "tier": 1, "source": "CV_BijneshworShrestha_CRMAndOperations.docx" },
-    { "name": "Consolidated Profile", "tier": 1, "source": "CV_BijneshworShrestha_MasterConsolidated.docx" },
-    { "name": "IT / Technical Coordination", "tier": 2, "source": "CV_BijneshworShrestha_6Points.docx" },
-    { "name": "Customer Service", "tier": 2, "source": "CV_BijneshworShrestha_CustomerService.docx" },
-    { "name": "Digital Marketing Coordinator", "tier": 3, "source": "CV_BijneshworShrestha_DigitalMarketingCoordinator.docx" }
+    {
+      "name": "Administrative & Operations Coordinator",
+      "tier": 1,
+      "source": "CV_BijneshworShrestha_CoordinatorAdministrativeAndOperations.docx"
+    },
+    {
+      "name": "CRM & Operations",
+      "tier": 1,
+      "source": "CV_BijneshworShrestha_CRMAndOperations.docx"
+    },
+    {
+      "name": "Consolidated Profile",
+      "tier": 1,
+      "source": "CV_BijneshworShrestha_MasterConsolidated.docx"
+    },
+    {
+      "name": "IT / Technical Coordination",
+      "tier": 2,
+      "source": "CV_BijneshworShrestha_6Points.docx"
+    },
+    {
+      "name": "Customer Service",
+      "tier": 2,
+      "source": "CV_BijneshworShrestha_CustomerService.docx"
+    },
+    {
+      "name": "Digital Marketing Coordinator",
+      "tier": 3,
+      "source": "CV_BijneshworShrestha_DigitalMarketingCoordinator.docx"
+    }
   ],
   "companies_looked_at": [
     {
@@ -166,7 +190,11 @@
     {
       "date": "2026-09-18",
       "type": "Tier 1 prioritized scan (Administrative & Operations Coordinator, CRM & Operations)",
-      "boards_checked": ["Indeed (de.indeed.com)", "Reed (reed.co.uk)", "Design Hotels careers page (direct)"],
+      "boards_checked": [
+        "Indeed (de.indeed.com)",
+        "Reed (reed.co.uk)",
+        "Design Hotels careers page (direct)"
+      ],
       "postings_found": 8,
       "postings_excluded": 4,
       "notes": "First real scored scan. Full descriptions read and scored per the stage gate for all 8 new postings. 3 shown as Apply/Consider; Aroundtown SA added to companies looked at after its Apply-tier match. 4 postings failed the scoring threshold or a hard constraint (mostly mandatory German/Mandarin fluency, one on score alone) and are excluded from the postings list entirely, per the framework's Skip rule — companies stay on record, individual postings don't. Two UK postings carry an unresolved work-authorization flag — not excluded, but not confirmed either. The 2 placeholder leads from the first connectivity test (Hilton, GBR Recruitment) had no real posting link — resolved to 'no confirmed listing found,' companies kept as watch targets."
@@ -174,9 +202,1814 @@
     {
       "date": "2026-09-18",
       "type": "platform test (not a full prioritized scan)",
-      "boards_checked": ["Indeed (de.indeed.com)", "Reed", "LinkedIn (blocked)", "Seek (blocked)", "Job Bank Canada (unreliable)"],
+      "boards_checked": [
+        "Indeed (de.indeed.com)",
+        "Reed",
+        "LinkedIn (blocked)",
+        "Seek (blocked)",
+        "Job Bank Canada (unreliable)"
+      ],
       "postings_found": 2,
       "notes": "First connectivity test of the search mechanism, done to validate which job boards are fetchable."
     }
-  ]
+  ],
+  "startup_prospects": {
+    "note": "Researched EU early-stage (seed-Series A) funded startups, English-friendly countries only (EF EPI High/Very High). Not yet reviewed/scored — hidden from UI pending filtering pass.",
+    "generated_at": "2026-09-18T20:30:00+02:00",
+    "count": 224,
+    "companies": [
+      {
+        "company": "eleQtron",
+        "country": "Germany",
+        "city": "Siegen",
+        "what_it_does": "Trapped-ion quantum computing hardware",
+        "funding": "Series A, €57M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/germanys-eleqtron-raises-e57-million-series-a-to-scale-quantum-computing-systems-for-industrial-applications/))",
+        "careers_url": "[eleqtron.com/en/career](https://eleqtron.com/en/career/) — verified, 12 open roles"
+      },
+      {
+        "company": "allO",
+        "country": "Germany",
+        "city": "Munich",
+        "what_it_does": "AI operating system / \"AI employees\" for restaurants",
+        "funding": "Series A, €12M ($14M), 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/munichs-allo-raises-e12-million-series-a-to-expand-its-ai-operating-system-for-restaurants-across-europe/))",
+        "careers_url": "[allo.restaurant/careers](https://allo.restaurant/careers) — verified real page"
+      },
+      {
+        "company": "syte",
+        "country": "Germany",
+        "city": "Münster",
+        "what_it_does": "AI-powered real estate analytics/data platform",
+        "funding": "Series A, €9M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/munster-based-syte-raises-e9-million-to-expand-its-ai-powered-real-estate-analytics-platform))",
+        "careers_url": "[join.com/companies/syte](https://join.com/companies/syte) — verified, 6 open roles"
+      },
+      {
+        "company": "Mirelo AI",
+        "country": "Germany",
+        "city": "Berlin",
+        "what_it_does": "AI-generated sound/audio for video and games",
+        "funding": "Seed, €35M/$41M, Dec 2025 ([EU-Startups](https://www.eu-startups.com/2025/12/berlin-based-mirelo-raises-e35-million-seed-round-co-led-by-index-ventures-and-andreessen-horowitz/))",
+        "careers_url": "[jobs.ashbyhq.com/mirelo](https://jobs.ashbyhq.com/mirelo/) — real board, JS-rendered"
+      },
+      {
+        "company": "Cortea",
+        "country": "Germany",
+        "city": "Berlin",
+        "what_it_does": "AI agents/quality layer for audit firms",
+        "funding": "Seed, €12M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/06/berlin-based-cortea-raises-e12-million-seed-round-to-build-ai-quality-layer-for-audit-firms/))",
+        "careers_url": "[cortea.ai/careers](https://cortea.ai/careers) — verified"
+      },
+      {
+        "company": "Tower",
+        "country": "Germany",
+        "city": "Berlin",
+        "what_it_does": "Python-native data engineering/AI pipeline platform",
+        "funding": "Seed, €5.5M/$6.4M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/03/berlin-based-tower-raises-e5-5-million-to-build-the-last-mile-platform-for-data-engineers-in-the-ai-era/))",
+        "careers_url": "jobs.tower.dev — unconfirmed"
+      },
+      {
+        "company": "LawX",
+        "country": "Germany",
+        "city": "Berlin",
+        "what_it_does": "AI operating system for law firms/notaries",
+        "funding": "Seed, €7.5M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/berlin-based-lawx-raises-e7-5-million-to-build-an-ai-powered-operating-system-for-notaries-and-law-firms/))",
+        "careers_url": "Notion-hosted careers page, unconfirmed load"
+      },
+      {
+        "company": "Deutsche Sanierungsberatung (dsb)",
+        "country": "Germany",
+        "city": "Berlin",
+        "what_it_does": "Climate-neutral home renovation platform",
+        "funding": "Series A, >€10M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/07/berlin-based-deutsche-sanierungsberatung-raises-over-e10-million-to-accelerate-climate-neutral-home-renovations/))",
+        "careers_url": "[join.com/companies/deutsche-sanierungsberatung](https://join.com/companies/deutsche-sanierungsberatung) — verified, 13 open roles"
+      },
+      {
+        "company": "NutriUnited",
+        "country": "Germany",
+        "city": "Munich (Pullach)",
+        "what_it_does": "Buy-and-build platform backing family-run food producers",
+        "funding": "Seed, €8.5M, Nov 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/backing-europes-family-run-food-producers-germanys-nutriunited-secures-e8-5-million-to-scale-its-buy-and-build-model/))",
+        "careers_url": "[join.com/companies/nutriunited](https://join.com/companies/nutriunited) — verified, page exists, no open roles"
+      },
+      {
+        "company": "QuoIntelligence",
+        "country": "Germany",
+        "city": "Frankfurt",
+        "what_it_does": "EU-compliant cyber & geopolitical threat intelligence",
+        "funding": "Series A, €7.3M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/frankfurts-quointelligence-closes-e7-3-million-series-a-to-scale-eu-compliant-threat-intelligence/))",
+        "careers_url": "[jobs.quointelligence.eu](https://jobs.quointelligence.eu/) — verified, active listings"
+      },
+      {
+        "company": "chatlyn",
+        "country": "Austria",
+        "city": "Vienna",
+        "what_it_does": "AI communication hub for hotel guest interactions",
+        "funding": "Series A, €8M, June 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/austrian-traveltech-startup-chatlyn-raises-e8-million-to-develop-the-ai-brain-for-hotels/))",
+        "careers_url": "[chatlyn.com/en/company/careers](https://chatlyn.com/en/company/careers/) — verified, page exists, no listings shown"
+      },
+      {
+        "company": "Emmi AI",
+        "country": "Austria",
+        "city": "Linz",
+        "what_it_does": "AI-accelerated real-time engineering/physics simulation",
+        "funding": "Seed, €15M, 2025 — largest Austrian seed round ([JKU](https://www.jku.at/en/news-events/events/detail/news/jku-spin-off-emmi-ai-sichert-sich-mit-15-millionen-euro-groesste-seed-finanzierungsrunde-in-oesterreich/))",
+        "careers_url": "[emmi.ai/careers](https://www.emmi.ai/careers) — verified, actively hiring"
+      },
+      {
+        "company": "Flinn",
+        "country": "Austria",
+        "city": "Vienna",
+        "what_it_does": "AI-powered regulatory compliance for medical device makers",
+        "funding": "Unconfirmed exact round; €9.8M raised (EU-Startups)",
+        "careers_url": "Speedinvest-hosted board — verified real listings exist"
+      },
+      {
+        "company": "fynk",
+        "country": "Austria",
+        "city": "Vienna",
+        "what_it_does": "AI-powered contract management software",
+        "funding": "Unconfirmed round type; €4.35M raised (EU-Startups)",
+        "careers_url": "[join.com/companies/fynk](https://join.com/companies/fynk) — verified, no open roles currently"
+      },
+      {
+        "company": "Graph Therapeutics",
+        "country": "Austria",
+        "city": "Vienna",
+        "what_it_does": "AI decoding immune-disease biology from patient samples",
+        "funding": "Seed-stage; €3.8M raised (EU-Startups)",
+        "careers_url": "[careers.xista.vc/companies/graph-therapeutics-2](https://careers.xista.vc/companies/graph-therapeutics-2) — verified"
+      },
+      {
+        "company": "sequestra",
+        "country": "Austria",
+        "city": "Vienna",
+        "what_it_does": "CO2 mineralisation/utilisation for heavy industry",
+        "funding": "Seed, €3M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/03/austrias-sequestra-secures-e3-million-seed-to-scale-its-co2-mineralisation-technology-for-industrial-use/))",
+        "careers_url": "Dedicated careers page not directly confirmed"
+      },
+      {
+        "company": "silana",
+        "country": "Austria",
+        "city": "Vienna",
+        "what_it_does": "Robotic automation for garment/sewing manufacturing",
+        "funding": "Unconfirmed round type; €2.82M raised (EU-Startups)",
+        "careers_url": "[silana.breezy.hr](https://silana.breezy.hr/) — verified, active listing"
+      },
+      {
+        "company": "Syntropic Medical",
+        "country": "Austria",
+        "city": "Klosterneuburg",
+        "what_it_does": "Light/neuroplasticity-based device therapy for depression",
+        "funding": "Unconfirmed round type; €2.4M raised (EU-Startups)",
+        "careers_url": "[syntropicmedical.com/careers](https://syntropicmedical.com/careers/) — verified"
+      },
+      {
+        "company": "TACEO",
+        "country": "Austria",
+        "city": "Graz",
+        "what_it_does": "Privacy-preserving cryptographic computation platform",
+        "funding": "Unconfirmed round type; €5.2M raised (EU-Startups)",
+        "careers_url": "Notion-hosted, link found, load not confirmed"
+      },
+      {
+        "company": "Teneo Protocol",
+        "country": "Austria",
+        "city": "Vienna",
+        "what_it_does": "Decentralized AI/data-ownership network",
+        "funding": "Unconfirmed round type; €2.6M raised (EU-Startups)",
+        "careers_url": "[teneo-protocol.ai/career](https://teneo-protocol.ai/career) — verified, 1 open role"
+      },
+      {
+        "company": "TRACT",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "Sustainability/impact measurement for agri-food supply chains",
+        "funding": "Series A, €18.6M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
+        "careers_url": "[tract.eco/careers](https://www.tract.eco/careers) — verified, 4 open roles"
+      },
+      {
+        "company": "Hydryx",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "Captures landfill methane, converts to electricity",
+        "funding": "Seed, €2.5M, Oct 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/backed-by-e2-5-million-hydryx-targets-the-silent-climate-threat-beneath-europes-landfills/))",
+        "careers_url": "[careers.hydryx.eu](https://careers.hydryx.eu/) — verified, active listings"
+      },
+      {
+        "company": "Saga",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "AI-native legal research/workflow platform for lawyers",
+        "funding": "Seed, €1.5M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
+        "careers_url": "[careers.sagalegal.io](https://careers.sagalegal.io/) — verified, multiple open roles"
+      },
+      {
+        "company": "GBM Works",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "Vibration/water-jet tech for offshore wind foundations",
+        "funding": "Seed, €6.2M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
+        "careers_url": "[gbmworks.recruitee.com](https://gbmworks.recruitee.com/) — verified, active listing"
+      },
+      {
+        "company": "Oneleet",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "SOC 2 / ISO 27001 security-compliance platform",
+        "funding": "Series A, $33M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
+        "careers_url": "[workatastartup.com/companies/oneleet](https://www.workatastartup.com/companies/oneleet) — verified, 14 open roles"
+      },
+      {
+        "company": "Dashmote",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "AI-driven unstructured-data insights for F&B brands",
+        "funding": "Series A1, $6M, Oct 2025 ([Silicon Canals](https://siliconcanals.com/amsterdam-startups-raised-funding-in-oct-2025/))",
+        "careers_url": "[jobs.dashmote.com](https://jobs.dashmote.com/) — verified, 2 open roles"
+      },
+      {
+        "company": "Voyc",
+        "country": "Netherlands",
+        "city": "The Hague",
+        "what_it_does": "AI conversation-intelligence/compliance monitoring",
+        "funding": "Seed, $2M/€1.7M, 2025 ([Silicon Canals](https://siliconcanals.com/dutch-based-voyc-raises-e1-7m-in-seed-funding/))",
+        "careers_url": "No reliable direct careers URL — check voyc.ai directly"
+      },
+      {
+        "company": "Lleverage",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "\"Vibe automation\" — AI workflow/agent builder",
+        "funding": "Seed, €3M, May 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/amsterdam-based-ai-startup-lleverage-raises-e3-million-for-vibe-automation-processes/))",
+        "careers_url": "[lleverage.recruitee.com](https://lleverage.recruitee.com/) — verified, active listing"
+      },
+      {
+        "company": "Duna",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "AI-native business identity/compliance platform",
+        "funding": "Seed €10.7M (May 2025) then Series A €30M (Feb 2026) ([EU-Startups](https://www.eu-startups.com/2026/02/dutch-fintech-startup-duna-raises-e30-million-to-expand-compliant-ai-for-business-identity-and-onboarding/))",
+        "careers_url": "[duna.com/careers](https://duna.com/careers) — verified, multiple open roles"
+      },
+      {
+        "company": "MarvelX",
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "what_it_does": "Agentic AI platform for insurance claims/operations",
+        "funding": "Seed/pre-seed, €5.3-5.4M, May 2025 ([Silicon Canals](https://siliconcanals.com/amsterdams-marvelx-raises-5-3m/))",
+        "careers_url": "[marvelx.ai/careers](https://www.marvelx.ai/careers) — link confirmed, listing not verified"
+      },
+      {
+        "company": "Augustine Therapeutics",
+        "country": "Belgium",
+        "city": "Leuven",
+        "what_it_does": "Biotech for neuromuscular/neurodegenerative disease",
+        "funding": "Series A, €78M ($85M), March 2025 ([Vestbee](https://www.vestbee.com/insights/articles/augustine-therapeutics-secures-78-m))",
+        "careers_url": "[augustinetx.com/careers](https://www.augustinetx.com/careers) — verified, no listings shown"
+      },
+      {
+        "company": "Swave Photonics",
+        "country": "Belgium",
+        "city": "Leuven",
+        "what_it_does": "Holographic/AR display semiconductor chips",
+        "funding": "Series A, €33M, 2025 ([Silicon Canals](https://siliconcanals.com/belgiums-10-biggest-funding-rounds-in-h1-2025/))",
+        "careers_url": "[jobs.eu.lever.co/swave](https://jobs.eu.lever.co/swave) — verified, 2 open roles"
+      },
+      {
+        "company": "Spica Therapeutics",
+        "country": "Belgium",
+        "city": "Antwerp",
+        "what_it_does": "Macrophage-targeting therapies (oncology/autoimmune)",
+        "funding": "Seed, €10M, June 2025 ([QBIC](https://www.qbic.be/nieuws/spica-therapeutics-closes-10-million-seed-round-to-advance-macrophage-targeted-therapies))",
+        "careers_url": "Not confirmed — check LinkedIn/company site directly"
+      },
+      {
+        "company": "Azalea Vision",
+        "country": "Belgium",
+        "city": "Leuven",
+        "what_it_does": "Smart contact lens for light sensitivity/ocular disorders",
+        "funding": "Series A, €8M (imec spin-off)",
+        "careers_url": "[azaleavision.com/careers](https://azaleavision.com/careers/) — verified, no open positions currently"
+      },
+      {
+        "company": "Vertical Compute",
+        "country": "Belgium",
+        "city": "Louvain-la-Neuve",
+        "what_it_does": "In-memory compute chiplets for AI hardware (imec spin-off)",
+        "funding": "Seed, €20M, 2024/2025 ([Sifted](https://sifted.eu/articles/vertical-compute-20m-seed-news))",
+        "careers_url": "[verticalcompute.recruitee.com](https://verticalcompute.recruitee.com/) — verified, multiple open roles"
+      },
+      {
+        "company": "TUSK IC",
+        "country": "Belgium",
+        "city": "Antwerp",
+        "what_it_does": "mmWave/Ka-band satellite communication chips",
+        "funding": "Series A, €15M, Sept 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/antwerp-based-tusk-ic-secures-e15-million-to-move-its-ka-band-satellite-chips-into-mass-production))",
+        "careers_url": "[tusk-ic.com/careers](https://tusk-ic.com/careers/) — verified, 6 open roles"
+      },
+      {
+        "company": "Trendtracker",
+        "country": "Belgium",
+        "city": "Ghent",
+        "what_it_does": "AI strategic-intelligence/trend-forecasting platform",
+        "funding": "Series A, €5.9M/$7M, Dec 2025 ([EU-Startups](https://www.eu-startups.com/2025/12/trendtracker-raises-9-million-scale-ai-driven-strategic-intelligence-platform-globally/))",
+        "careers_url": "[trendtracker.ai/careers](https://www.trendtracker.ai/careers) — verified, listing present"
+      },
+      {
+        "company": "Chift",
+        "country": "Belgium",
+        "city": "Brussels",
+        "what_it_does": "Financial/accounting-software connectivity layer (unified API)",
+        "funding": "Series A, €10.5M, Sept 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/brussels-based-chift-raises-e10-5-million-series-a-to-become-europes-financial-connectivity-layer))",
+        "careers_url": "[join.com/companies/chift](https://join.com/companies/chift) — verified, 2 open roles"
+      },
+      {
+        "company": "Conveo",
+        "country": "Belgium",
+        "city": "Antwerp",
+        "what_it_does": "AI-led qualitative research/video interviews",
+        "funding": "Seed, €4.9M/$5.3M, March 2025 ([EU-Startups](https://www.eu-startups.com/2025/03/conveo-secures-e4-9-million-to-transform-market-research-industry/))",
+        "careers_url": "[careers.conveo.ai](https://careers.conveo.ai/) — page exists, listing unconfirmed"
+      },
+      {
+        "company": "Karomia",
+        "country": "Belgium",
+        "city": "Ghent",
+        "what_it_does": "AI-driven CSRD/ESG reporting platform",
+        "funding": "Seed, €2M, Feb 2025 ([EU-Startups](https://www.eu-startups.com/2025/02/hours-not-months-karomia-raises-e2-million-for-its-csrd-and-esg-ai-platform/))",
+        "careers_url": "[join.com/companies/karomiaeu](https://join.com/companies/karomiaeu) — verified, no open roles currently"
+      },
+      {
+        "company": "Circu Li-ion",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "Automated battery disassembly/upcycling for Li-ion cells",
+        "funding": "Unconfirmed exact stage; €8.5M raised ([EU-Startups](https://www.eu-startups.com/2025/02/the-rising-stars-of-luxembourg-10-promising-startups-you-should-be-keeping-an-eye-on-in-2025/))",
+        "careers_url": "[join.com/companies/circuli-ion](https://join.com/companies/circuli-ion) — verified, no open roles currently"
+      },
+      {
+        "company": "Uplift360",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "Chemical recycling recovering fibers from wind-turbine/composite waste",
+        "funding": "Unconfirmed exact stage; €1M+ raised (EU-Startups)",
+        "careers_url": "[uplift360.tech/careers](https://www.uplift360.tech/careers) — verified, 2 open roles (may be stale)"
+      },
+      {
+        "company": "Helical",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "AI/DNA & mRNA foundation models for drug discovery",
+        "funding": "Unconfirmed exact stage; €2.2M raised (EU-Startups)",
+        "careers_url": "[apply.workable.com/helical](https://apply.workable.com/helical/?lng=en) — real board confirmed"
+      },
+      {
+        "company": "Mission Space",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "AI-powered space-weather forecasting via satellite fleet",
+        "funding": "Unconfirmed exact stage; €1M+ raised (EU-Startups)",
+        "careers_url": "No dedicated careers page — check LinkedIn"
+      },
+      {
+        "company": "BuildBuild",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "Construction-management platform",
+        "funding": "Unconfirmed exact stage; €2.5M raised (EU-Startups)",
+        "careers_url": "careers page 404s — check LinkedIn"
+      },
+      {
+        "company": "Kidola",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "Daycare/nursery management platform",
+        "funding": "600K then 1.3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/luxembourg-based-childcare-management-platform-kidola-raises-e1-3-million-to-expand-into-france/))",
+        "careers_url": "No dedicated careers page found"
+      },
+      {
+        "company": "Cyberr",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "AI-powered job-matching platform for cybersecurity professionals",
+        "funding": "Unconfirmed exact stage; €1.5M raised (EU-Startups)",
+        "careers_url": "Own hiring page unconfirmed — check LinkedIn"
+      },
+      {
+        "company": "Greenworlder",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "Social platform rewarding eco-friendly actions with tokens",
+        "funding": "Unconfirmed exact stage; €2.75M raised (EU-Startups)",
+        "careers_url": "No dedicated careers page confirmed"
+      },
+      {
+        "company": "Essembl",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "AI fashion advisor/personalized styling app",
+        "funding": "Pre-seed, €50K raised — very early, likely too small for coordinator-level roles",
+        "careers_url": "No careers page; tiny team"
+      },
+      {
+        "company": "Vai",
+        "country": "Luxembourg",
+        "city": "Luxembourg",
+        "what_it_does": "Startup-investor matchmaking platform",
+        "funding": "Pre-seed, €200K raised — very early, likely too small for coordinator-level roles",
+        "careers_url": "No careers page; tiny team"
+      },
+      {
+        "company": "Tzafon",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "AI agents for autonomous computer-use",
+        "funding": "Seed, ~€8.3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/07/swedens-tzafon-raises-a-total-of-e8-3-million-to-scale-ai-compute-and-take-agentic-ai-to-new-heights/))",
+        "careers_url": "[tzafon.ai/careers](https://www.tzafon.ai/careers) — verified, 3 roles (SF/Tel Aviv/Zurich, not Stockholm)"
+      },
+      {
+        "company": "eComID",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "AI \"shopping passport\" for personalized commerce",
+        "funding": "Seed, €14.6M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/stockholms-ecomid-raises-e14-6-million-to-build-the-shopping-passport-for-ai-powered-personalised-commerce/))",
+        "careers_url": "[careers.ecomid.com](https://careers.ecomid.com/) — verified, 5 roles"
+      },
+      {
+        "company": "SolvaPay",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "Payments infrastructure for agentic/autonomous commerce",
+        "funding": "Pre-Seed, €2.4M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/stockholms-solvapay-raises-e2-4-million-pre-seed-to-build-payments-infrastructure-for-agentic-commerce/))",
+        "careers_url": "No careers page found — LinkedIn only"
+      },
+      {
+        "company": "Grasp",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "Generative-AI productivity tools for finance/consulting",
+        "funding": "Unconfirmed stage, €6M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/with-e6-million-in-the-bag-stockholms-grasp-looks-to-enhance-productivity-tools-for-financial-analysts-and-consultants/))",
+        "careers_url": "[careers.grasp-ai.com](https://careers.grasp-ai.com/) — verified, 5 roles, Stockholm on-site"
+      },
+      {
+        "company": "AlixLabs",
+        "country": "Sweden",
+        "city": "Lund",
+        "what_it_does": "Semiconductor \"Atomic Pitch Splitting\" etching tech",
+        "funding": "Series A, €15M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/the-10-biggest-startup-investments-in-sweden-this-year))",
+        "careers_url": "No working careers page — LinkedIn only"
+      },
+      {
+        "company": "Bits (Bits Technology)",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "Fintech compliance/open-finance automation",
+        "funding": "Series A, €12M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/02/swedish-startup-bits-raises-e12-million-to-deepen-automation-across-fintech-compliance-workflows/))",
+        "careers_url": "[careers.bits.bi](https://careers.bits.bi/) — verified, 4 roles"
+      },
+      {
+        "company": "Lightbringer",
+        "country": "Sweden",
+        "city": "Malmo",
+        "what_it_does": "AI-native patent/IP services for deep-tech founders",
+        "funding": "Series A, ~€8.6M/$10M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/the-10-biggest-startup-investments-in-sweden-this-year))",
+        "careers_url": "[lightbringer.com/about/career](https://lightbringer.com/about/career) — verified, 4 roles incl. Malmo"
+      },
+      {
+        "company": "Tonada",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "AI-generated sound/music design for retail spaces",
+        "funding": "Unconfirmed stage, €2.6M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/06/stockholm-based-tonada-lands-e2-6-million-to-help-brands-design-how-their-spaces-sound/))",
+        "careers_url": "[tonada.com/careers](https://www.tonada.com/careers) — verified, 2 roles"
+      },
+      {
+        "company": "Flox Intelligence",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "AI wildlife-monitoring for infrastructure/conflict prevention",
+        "funding": "Seed, ~€1M (2025) then €2.5M (2026) ([EU-Startups](https://www.eu-startups.com/2025/08/swedish-ai-startup-flox-secures-nearly-e1-million-to-keep-wildlife-safe-and-help-coexist-without-conflict/))",
+        "careers_url": "[floxintelligence.com/career](https://floxintelligence.com/career) — verified, 6 roles, Stockholm hybrid"
+      },
+      {
+        "company": "Solace Care",
+        "country": "Sweden",
+        "city": "Stockholm",
+        "what_it_does": "Digital end-of-life & grief-support platform",
+        "funding": "Pre-Seed, €2.1M, 2026 ([ArcticStartup](https://arcticstartup.com/solace-care-raises-e2-1m-pre-seed/))",
+        "careers_url": "[solace.care/careers](https://www.solace.care/careers) — page exists"
+      },
+      {
+        "company": "Understory",
+        "country": "Denmark",
+        "city": "Aarhus",
+        "what_it_does": "AI-driven booking/payments platform for experience providers",
+        "funding": "Series A, €12M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/09/danish-traveltech-platform-understory-raises-e12-million-to-unite-tools-for-experience-providers-under-one-roof/))",
+        "careers_url": "[people.understory.io](https://people.understory.io/) — verified, 4 roles"
+      },
+      {
+        "company": "Contribe",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "Checkout-donation platform",
+        "funding": "Pre-Seed, €1.3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/amid-8-4-rise-in-danish-donations-contribe-secures-e1-3-million-to-boost-charitable-giving-online/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Januar",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "B2B crypto fiat-account/payments infrastructure",
+        "funding": "Seed extension, €1.5M, 2024 ([EU-Startups](https://www.eu-startups.com/2024/02/copenhagen-based-januar-raises-e1-5-million-seed-extension-to-launch-b2b-crypto-services-platform/))",
+        "careers_url": "[careers.januar.com](https://careers.januar.com/) — verified, no open roles currently"
+      },
+      {
+        "company": "Velatir",
+        "country": "Denmark",
+        "city": "Odense",
+        "what_it_does": "AI-governance/compliance infrastructure for enterprise AI",
+        "funding": "Series A, €5M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/danish-ai-infrastructure-startup-velatir-secures-e5-million-six-months-after-its-pre-seed-round-and-official-launch/))",
+        "careers_url": "Unconfirmed — check LinkedIn"
+      },
+      {
+        "company": "Octarine Bio",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "Synthetic biology, fermentation-based sustainable pigments",
+        "funding": "Series A extension €5M (total €12.8M), 2026 ([EU-Startups](https://www.eu-startups.com/2026/01/copenhagens-octarine-bio-adds-e5-million-to-series-a-to-advance-sustainable-colour-platform/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "deepdots",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "AI platform for collecting/analyzing customer feedback",
+        "funding": "Seed, €5.5M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/copenhagen-based-deepdots-raises-e5-5-million-to-scale-ai-driven-customer-feedback-platform/))",
+        "careers_url": "No careers page; via LinkedIn/contact form"
+      },
+      {
+        "company": "Claimlane",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "Automated product-returns & warranty-claims platform",
+        "funding": "Seed, €1.8M, 2024 ([EU-Startups](https://www.eu-startups.com/2024/05/copenhagen-based-claimlane-raises-e1-8-million-to-simplify-product-claims-and-complex-return-processes/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Alice",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "AI tutoring platform",
+        "funding": "Seed, €4.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/danish-edtech-startup-alice-raises-e4-2-million-for-personalised-learning-and-studying-platform/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Interhuman AI",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "\"Social intelligence\" layer decoding human signals for AI",
+        "funding": "Pre-Seed, €2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/08/copenhagen-based-interhuman-ai-raises-e2-million-to-build-the-social-intelligence-layer-for-ai/))",
+        "careers_url": "Notion-hosted board, did not resolve cleanly"
+      },
+      {
+        "company": "TODAY",
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "what_it_does": "AI assistant for financial advisors",
+        "funding": "Pre-Seed, €1M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/golden-nuggets-of-insight-danish-startup-today-secures-e1-million-to-help-financial-advisors-save-time-and-sell-smarter/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Nvelop",
+        "country": "Finland",
+        "city": "Helsinki",
+        "what_it_does": "Agentic-AI enterprise procurement platform",
+        "funding": "Seed, €1.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/finnish-startup-nvelop-secures-e1-2-million-to-innovate-enterprise-procurement-with-agentic-ai))",
+        "careers_url": "[nvelop.ai/careers](https://www.nvelop.ai/careers) — verified, 1 role"
+      },
+      {
+        "company": "Kelluu",
+        "country": "Finland",
+        "city": "Helsinki",
+        "what_it_does": "Hydrogen-powered autonomous airships for aerial ISR",
+        "funding": "Series A, €15M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/finlands-kelluu-raises-e15-million-series-a-led-by-nato-innovation-fund-to-advance-persistent-aerial-intelligence/))",
+        "careers_url": "jobs.ashbyhq.com/kelluu — page loads, JS-rendered"
+      },
+      {
+        "company": "Inven",
+        "country": "Finland",
+        "city": "Helsinki",
+        "what_it_does": "AI-native deal-sourcing platform for M&A/PE",
+        "funding": "Series A, €11.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/05/inven-a-finnish-ai-startup-raises-e11-2-million-for-their-deal-sourcing-platform/))",
+        "careers_url": "careers.inven.ai/jobs — link present"
+      },
+      {
+        "company": "Zero",
+        "country": "Finland",
+        "city": "Helsinki",
+        "what_it_does": "AI-native \"GTM operating system\" replacing traditional CRM",
+        "funding": "Seed, €8.93M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/09/helsinkis-zero-raises-e8-93-million-with-backing-from-lovable-and-supercell-founders-to-make-crm-history/))",
+        "careers_url": "[zero.inc/careers](https://zero.inc/careers) — verified, 3 roles, Helsinki"
+      },
+      {
+        "company": "Quanscient",
+        "country": "Finland",
+        "city": "Tampere",
+        "what_it_does": "Cloud multiphysics/quantum-assisted simulation platform",
+        "funding": "Series A, €10M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/finlands-quanscient-raises-e10-million-to-scale-its-multiphysics-simulation-platform-for-the-ai-era/))",
+        "careers_url": "[quanscient.com/careers](https://quanscient.com/careers) — verified, open-application only"
+      },
+      {
+        "company": "CloEE",
+        "country": "Finland",
+        "city": "Helsinki",
+        "what_it_does": "AI platform analyzing industrial/manufacturing equipment data",
+        "funding": "Pre-Seed, €520k, 2025 ([EU-Startups](https://www.eu-startups.com/2025/06/finnish-startup-cloee-raises-e520k-to-accelerate-ai-driven-process-manufacturing/))",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "S-Transistors",
+        "country": "Finland",
+        "city": "Espoo area",
+        "what_it_does": "Superconducting-transistor \"quantum motherboards\" (VTT spin-off)",
+        "funding": "Pre-Seed, €2.6M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/08/finlands-s-transistors-raises-e2-6-million-to-build-the-worlds-first-quantum-motherboard/))",
+        "careers_url": "Too new to verify"
+      },
+      {
+        "company": "Tangled",
+        "country": "Finland",
+        "city": "Finland",
+        "what_it_does": "Decentralized code-collaboration platform (EU GitHub alt.)",
+        "funding": "Unconfirmed stage, €3.8M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/03/finlands-tangled-raises-e3-8-million-backed-by-githubs-former-ceo-to-build-a-european-alternative-to-the-us-based-platform/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Skyfora",
+        "country": "Finland",
+        "city": "Finland",
+        "what_it_does": "Converts telecom/GNSS infrastructure into weather-sensing network",
+        "funding": "Series A, €6.5M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/06/finnish-skyfora-raises-e6-5-million-to-quicken-deployment-of-atmospheric-sensing-network/))",
+        "careers_url": "[skyfora.com/careers](https://www.skyfora.com/careers) — page exists"
+      },
+      {
+        "company": "Onego Bio",
+        "country": "Finland",
+        "city": "Finland",
+        "what_it_does": "Precision-fermentation, animal-free egg-protein production",
+        "funding": "Series A, ~$40M cumulative (multiple rounds 2024-25)",
+        "careers_url": "[onego.bio/careers](https://www.onego.bio/careers) — page exists, no active roles"
+      },
+      {
+        "company": "Zynt",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "AI signal-intelligence platform for B2B sales timing",
+        "funding": "Pre-Seed, €424.4k, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/warsaws-zynt-raises-e424-4k-pre-seed-to-sharpen-ai-powered-b2b-sales-intelligence))",
+        "careers_url": "[getzynt.com/careers](https://getzynt.com/careers) — verified, 2 roles"
+      },
+      {
+        "company": "SalesPatriot",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "Procurement automation for defense/aerospace suppliers",
+        "funding": "Seed, €4.2M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/warsaw-based-salespatriot-raises-e4-2-million-to-modernise-defense-procurement-and-expand-into-europe/))",
+        "careers_url": "[salespatriot.com/careers](https://salespatriot.com/careers) — verified, 3 roles incl. Warsaw"
+      },
+      {
+        "company": "Juo",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "Infrastructure/software for physical-product subscriptions",
+        "funding": "Seed, €4M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/polish-startup-juo-raises-e4-million-to-help-businesses-build-and-manage-physical-product-subscriptions/))",
+        "careers_url": "[juo.com/careers](https://juo.com/careers) — verified, 3 remote roles"
+      },
+      {
+        "company": "Holi (Klinika Holi)",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "Digital obesity-treatment clinic",
+        "funding": "Seed, €3M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/11/with-800-million-people-living-with-obesity-worldwide-warsaws-holi-secures-e3-million-to-expand-its-digital-treatment-platform/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Elastics",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "AI-native trading/agent platform for prediction markets",
+        "funding": "Pre-Seed, €1.7M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/05/warsaw-based-elastics-raises-e1-7-million-to-build-ai-agents-for-prediction-markets/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Orbotix",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "Autonomous drone/drone-swarm defense systems",
+        "funding": "Strategic/early round, €6.5M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/10/warsaw-based-orbotix-raises-e6-5-million-to-advance-autonomous-defence-systems-in-europe/))",
+        "careers_url": "[orbotix.tech/careers](https://orbotix.tech/careers) — verified, 10 roles (mostly Romania/Spain)"
+      },
+      {
+        "company": "Replenit",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "AI decision-engine for retail",
+        "funding": "Pre-Seed, €2.1M, 2026 ([EU-Startups](https://www.eu-startups.com/2026/04/warsaws-replenit-adds-e2-1-million-to-cart-to-build-an-ai-decision-engine-for-retail-backed-by-elevenlabs-co-founder/))",
+        "careers_url": "[replen.it/careers](https://replen.it/careers) — page loads, no openings"
+      },
+      {
+        "company": "Fluence Technology",
+        "country": "Poland",
+        "city": "Warsaw",
+        "what_it_does": "Fiber-based femtosecond laser systems for semiconductors",
+        "funding": "Seed, €6.6M, 2025 ([EU-Startups](https://www.eu-startups.com/2025/08/warsaw-based-fluence-technology-secures-e6-6-million-for-its-femtosecond-laser-systems/))",
+        "careers_url": "[fluence.technology/career](https://www.fluence.technology/career) — verified, none currently"
+      },
+      {
+        "company": "ForActive",
+        "country": "Poland",
+        "city": "Poland",
+        "what_it_does": "Payments/communication app for sports instructors",
+        "funding": "Pre-Seed, €1.5M, 2024 ([EU-Startups](https://www.eu-startups.com/2024/04/polish-startup-foractive-raises-e1-5-million-pre-seed-to-boost-independent-sports-instructors/))",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "REAKTO",
+        "country": "Poland",
+        "city": "Krakow",
+        "what_it_does": "Rapid-response drone network for security",
+        "funding": "Unconfirmed stage, ~€1M+ (2023)",
+        "careers_url": "Not confirmed — LinkedIn robots-blocked"
+      },
+      {
+        "company": "Aerska",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "RNA interference medicines for brain diseases",
+        "funding": "Seed, ~$21M (Oct 2025) — later EU-Startups cites €32M, unconfirmed against each other",
+        "careers_url": "[aerska.jobs.personio.com](https://aerska.jobs.personio.com/) — verified, 1 open role"
+      },
+      {
+        "company": "Bronto",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "AI-native log management/observability platform",
+        "funding": "Seed, ~$14M/€12M, Oct 2025",
+        "careers_url": "[bronto.io/careers](https://bronto.io/careers) — verified, 1 open role"
+      },
+      {
+        "company": "Kota",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "Employee benefits infrastructure platform",
+        "funding": "Series A, €12.8M, May 2025",
+        "careers_url": "[kota.io/careers](https://www.kota.io/careers) — verified, active hiring"
+      },
+      {
+        "company": "Seapoint",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "AI-native fintech/financial-ops platform",
+        "funding": "Seed, ~€7.5M, Apr 2026 (earlier reported $3M — unconfirmed which is current)",
+        "careers_url": "[apply.workable.com/seapoint](https://apply.workable.com/seapoint/) — verified"
+      },
+      {
+        "company": "Oraion",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "Agentic AI / enterprise data intelligence platform",
+        "funding": "Pre-Seed, €2.9M, Jul 2025",
+        "careers_url": "[oraion.com/careers](https://www.oraion.com/careers) — verified, 3 open roles"
+      },
+      {
+        "company": "Jentic",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "Enterprise AI-agent integration/automation platform",
+        "funding": "Seed, €4M, 2024",
+        "careers_url": "[jentic.com/careers](https://jentic.com/careers) — verified, talent-community page"
+      },
+      {
+        "company": "Solidroad",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "AI QA & coaching platform for CX teams",
+        "funding": "Series A, $25M, 2025 (earlier seed $6.5M)",
+        "careers_url": "[solidroad.com/careers](https://www.solidroad.com/careers) — verified, 8 roles, 2 Dublin"
+      },
+      {
+        "company": "DevAlly (DevA11y)",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "AI-powered accessibility-compliance platform",
+        "funding": "Pre-seed/Seed, €2M, Oct 2025",
+        "careers_url": "[devally.com/careers](https://devally.com/careers) — verified, no open roles currently"
+      },
+      {
+        "company": "Tyro Schools",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "Student information system SaaS",
+        "funding": "Seed, €3.6M, May 2025",
+        "careers_url": "No careers page found — check LinkedIn"
+      },
+      {
+        "company": "Luna Systems",
+        "country": "Ireland",
+        "city": "Dublin",
+        "what_it_does": "AI vision safety-camera hardware for cyclists",
+        "funding": "Late-seed, €1.5M, Jan 2026",
+        "careers_url": "No careers page found — check LinkedIn"
+      },
+      {
+        "company": "BM2Solar",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "what_it_does": "Tech enabling solar plants to integrate battery storage",
+        "funding": "Series A, €2M-€2.75M total, 2025",
+        "careers_url": "No careers page — contact info@bm2solar.com"
+      },
+      {
+        "company": "BloodFlow",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "what_it_does": "AI platform for automated blood-test interpretation",
+        "funding": "Seed, €1.2M, Jul 2025",
+        "careers_url": "Unconfirmed, JS-rendered site"
+      },
+      {
+        "company": "Bloop",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "what_it_does": "Social shopping platform",
+        "funding": "Seed, €1.2M+, 2025",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "ChainReactor",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "what_it_does": "3D-printed scalable bioreactors (biotech)",
+        "funding": "Seed, €250K, 2024",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "DOJO AI",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "what_it_does": "Marketing-tech OS with AI analytics for challenger brands",
+        "funding": "Seed, €850K, 2024",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Litehaus",
+        "country": "Portugal",
+        "city": "Campelo",
+        "what_it_does": "Construction platform connecting clients with vetted builders",
+        "funding": "Seed, €1.46M, 2024",
+        "careers_url": "Domain did not resolve"
+      },
+      {
+        "company": "Manie",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "what_it_does": "Energy tech automating utility-switching for consumers",
+        "funding": "Seed, €1M, 2024",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "NextBorder",
+        "country": "Portugal",
+        "city": "Oeiras",
+        "what_it_does": "AI-driven immigration/visa-process tech",
+        "funding": "Pre-seed, €150K, 2025",
+        "careers_url": "Domain did not resolve"
+      },
+      {
+        "company": "ADECI Group",
+        "country": "Portugal",
+        "city": "Porto",
+        "what_it_does": "AI sales-forecasting platform for restaurants/retail",
+        "funding": "Pre-seed, €500K, 2025",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "EIGHT",
+        "country": "Portugal",
+        "city": "Lisbon",
+        "what_it_does": "Video-first dating app",
+        "funding": "Seed, raising €3M target, only €256.6K closed so far as of Apr 2026 — round still in progress",
+        "careers_url": "Site rate-limited on check"
+      },
+      {
+        "company": "Keragon",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "AI-powered healthcare workflow-automation platform",
+        "funding": "Seed, $7.5M (Feb 2025); total $10.5M",
+        "careers_url": "[keragon.com/careers](https://www.keragon.com/careers) — verified, \"we're hiring\""
+      },
+      {
+        "company": "Wealthyhood",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "Retail investing/wealth-management app",
+        "funding": "Seed, €3.6M (Apr 2025) + €6M (Mar 2026)",
+        "careers_url": "careers page 404'd"
+      },
+      {
+        "company": "Billys",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "Property-management SaaS for apartment buildings",
+        "funding": "Seed/unspecified, €2.9M, Feb 2026",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Caresma",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "Elder-care marketplace",
+        "funding": "Seed, €650K, Feb 2026",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Mind The Hack",
+        "country": "Greece",
+        "city": "Attica",
+        "what_it_does": "AI-powered cybersecurity/pentesting platform",
+        "funding": "Seed, €2.8M, Feb 2026",
+        "careers_url": "Site did not resolve"
+      },
+      {
+        "company": "myTeam",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "Sports-club management SaaS",
+        "funding": "Seed, €1.5M, Feb 2026",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "PlugSecure",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "AI-driven cybersecurity for energy infrastructure",
+        "funding": "Seed, €720K, Feb 2026",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Pod Network",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "Web3/blockchain infrastructure for decentralized markets",
+        "funding": "Seed, €9M+, Feb 2026",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Progressive Robotics",
+        "country": "Greece",
+        "city": "Thessaloniki",
+        "what_it_does": "AI software for industrial robot automation/logistics",
+        "funding": "Seed, €1.55M, Feb 2026",
+        "careers_url": "Site did not resolve"
+      },
+      {
+        "company": "Wocap",
+        "country": "Greece",
+        "city": "Athens",
+        "what_it_does": "Digital marketplace for invoice financing/working capital",
+        "funding": "Seed, €450K, Feb 2026",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Binderr",
+        "country": "Malta",
+        "city": "Naxxar/Sliema",
+        "what_it_does": "Business verification & compliance-onboarding (KYB/AML)",
+        "funding": "Seed-stage, €4.73M-€6M across rounds",
+        "careers_url": "No careers link located"
+      },
+      {
+        "company": "Fyorin",
+        "country": "Malta",
+        "city": "Birkirkara/Valletta",
+        "what_it_does": "Global payments/treasury platform for e-commerce & fintechs",
+        "funding": "Pre-seed, €650K",
+        "careers_url": "[fyorin.com/careers](https://www.fyorin.com/careers) — verified, 2 open roles"
+      },
+      {
+        "company": "Truevo",
+        "country": "Malta",
+        "city": "Birkirkara",
+        "what_it_does": "Licensed payment service provider/card acquirer",
+        "funding": "Seed-stage, €6.5M+",
+        "careers_url": "[truevo.bamboohr.com/jobs](https://truevo.bamboohr.com/jobs/) — verified, actively hiring"
+      },
+      {
+        "company": "Paytently",
+        "country": "Malta",
+        "city": "Sliema",
+        "what_it_does": "Payment-orchestration platform",
+        "funding": "Seed, €2M (2022)",
+        "careers_url": "[paytently.com/careers](https://www.paytently.com/careers) — verified, no open roles right now"
+      },
+      {
+        "company": "UMNAI",
+        "country": "Malta",
+        "city": "Ta' Xbiex",
+        "what_it_does": "Explainable-AI \"Hybrid Intelligence\" for fraud/compliance",
+        "funding": "Seed, €3M+",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "GreenRun",
+        "country": "Malta",
+        "city": "San Gwann",
+        "what_it_does": "Sports/betting tech and content for fan engagement",
+        "funding": "Seed, €4M",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Odds Scanner",
+        "country": "Malta",
+        "city": "Sliema",
+        "what_it_does": "Sports-betting analytics/media-tech",
+        "funding": "Seed, €550K",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Just Slots",
+        "country": "Malta",
+        "city": "Ta' Xbiex",
+        "what_it_does": "Slot-game developer for online casino operators",
+        "funding": "Seed-stage, €11M+ total",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "MeetBee",
+        "country": "Malta",
+        "city": "San Gwann",
+        "what_it_does": "EdTech/GovTech virtual-meeting production support",
+        "funding": "Pre-seed, €119K",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "BigKarma",
+        "country": "Malta",
+        "city": "San Gwann",
+        "what_it_does": "Game studio — sports-strategy games featuring disabled athletes",
+        "funding": "Pre-seed, €350K",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Lebesgue",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "AI marketing/CMO analytics platform for e-commerce",
+        "funding": "Seed, ~$3M, 2024",
+        "careers_url": "[lebesgue.io/careers](https://lebesgue.io/careers) — verified, 7 open roles"
+      },
+      {
+        "company": "Hypefy",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "AI platform automating Instagram/TikTok influencer campaigns",
+        "funding": "Seed, €1.6M, 2026",
+        "careers_url": "[hypefy.ai/careers](https://hypefy.ai/careers) — verified, 2 open roles"
+      },
+      {
+        "company": "WASP (wasp-lang)",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "Open-source config language/framework for full-stack apps",
+        "funding": "Seed, Y Combinator-backed, $4.5M+",
+        "careers_url": "[ycombinator.com/companies/wasp/jobs](https://www.ycombinator.com/companies/wasp/jobs) — real page, no roles currently (2-person team)"
+      },
+      {
+        "company": "Arkensight",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "AI visual-intelligence for critical infrastructure",
+        "funding": "Pre-seed/seed, €600k, 2026",
+        "careers_url": "Domain not found, only a LinkedIn job post"
+      },
+      {
+        "company": "Electric DB",
+        "country": "Croatia",
+        "city": "Vizinada",
+        "what_it_does": "Postgres-based real-time data-sync engine",
+        "funding": "Seed, €550k, 2026",
+        "careers_url": "No verifiable company website found"
+      },
+      {
+        "company": "Legit",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "Regtech automating data-privacy/compliance workflows",
+        "funding": "Seed, €650k, 2026",
+        "careers_url": "Careers path 404'd"
+      },
+      {
+        "company": "Luppa",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "Employee-engagement platform (surveys + AI action plans)",
+        "funding": "Pre-seed, €275k, 2026",
+        "careers_url": "No dedicated careers page found"
+      },
+      {
+        "company": "TABU",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "Salary benchmarking/compensation-transparency platform",
+        "funding": "Pre-seed, €100k, 2026",
+        "careers_url": "Built by studio Bornfight, no standalone page"
+      },
+      {
+        "company": "Genesis Space Flight Laboratories",
+        "country": "Croatia",
+        "city": "Cakovec",
+        "what_it_does": "Reusable re-entry capsules for microgravity research",
+        "funding": "Pre-seed, €300k, 2026",
+        "careers_url": "Careers subpage not confirmed"
+      },
+      {
+        "company": "Jurlina Coenergy",
+        "country": "Croatia",
+        "city": "Zagreb",
+        "what_it_does": "Magnetic plasma-shaping systems for fusion reactors",
+        "funding": "Seed, €2.7M, 2026",
+        "careers_url": "No company site verified"
+      },
+      {
+        "company": "SaleSqueze",
+        "country": "Slovenia",
+        "city": "Skofja Loka",
+        "what_it_does": "Visual CPQ SaaS (3D product configurators) for pergolas/outdoor living",
+        "funding": "Seed, €1.4M, 2024",
+        "careers_url": "[salesqueze.com/careers](https://www.salesqueze.com/careers) — verified, 5 open roles"
+      },
+      {
+        "company": "Katalist (Katalist AI)",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "what_it_does": "AI \"operating system\" for video producers",
+        "funding": "Seed, ~€1.28M/$1.5M, Dec 2025",
+        "careers_url": "careers page 404'd"
+      },
+      {
+        "company": "Apillon",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "what_it_does": "Web3 dev platform (decentralized storage/hosting)",
+        "funding": "Unconfirmed round type, €3.1M total, last round 2021",
+        "careers_url": "No jobs section found"
+      },
+      {
+        "company": "Sunrise Robotics",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "what_it_does": "Autonomous robotic cells for industrial automation",
+        "funding": "Unconfirmed stage, €7.2M total, 2025",
+        "careers_url": "No company site verified"
+      },
+      {
+        "company": "ReCatalyst",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "what_it_does": "Platinum-based catalysts for hydrogen fuel cells",
+        "funding": "Unconfirmed stage, €1.7M total, 2023",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "StoringCargo",
+        "country": "Slovenia",
+        "city": "Kranj",
+        "what_it_does": "Marketplace connecting businesses with warehouse space",
+        "funding": "Pre-seed, €350k total, 2021",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Flux Motorcycles",
+        "country": "Slovenia",
+        "city": "Koper",
+        "what_it_does": "Electric off-road motorcycles",
+        "funding": "Pre-seed, €103k total, 2022",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Confiva Global",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "what_it_does": "Platform for hosting online/hybrid events",
+        "funding": "Pre-seed, €300k total, 2021",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Epidemic",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "what_it_does": "Influencer marketing platform for nano/micro-influencers",
+        "funding": "Pre-seed, €400k total, 2021",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Play123",
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "what_it_does": "Browser-based casual gaming platform",
+        "funding": "Pre-seed, €102k total, 2017 (dated)",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "EHOSS",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "Automated equine feed production (hay processing, UV disinfection)",
+        "funding": "Seed, €2M total, 2023",
+        "careers_url": "[ehoss.com/careers](https://www.ehoss.com/careers) — verified, 3 open roles"
+      },
+      {
+        "company": "Blockmate",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "Crypto-as-a-service/compliant digital-asset data infrastructure",
+        "funding": "Seed-stage, €1.5M, 2023",
+        "careers_url": "[blockmate.io/careers](https://blockmate.io/careers) — verified, 1 open role"
+      },
+      {
+        "company": "Cequence",
+        "country": "Slovakia",
+        "city": "Presov",
+        "what_it_does": "AI contract lifecycle management",
+        "funding": "Seed, €3M+ total, 2025",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "CloseRocket",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "AI sales automation/lead-to-CRM platform",
+        "funding": "Seed, €1.1M, 2025",
+        "careers_url": "Careers path not found"
+      },
+      {
+        "company": "CulturePulse.ai",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "AI behavioral modeling for sentiment/opinion simulation",
+        "funding": "Seed, €2M+ total, 2025",
+        "careers_url": "No jobs page found"
+      },
+      {
+        "company": "elv.ai",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "AI + human social-media content moderation",
+        "funding": "Seed, €500k total, 2024",
+        "careers_url": "No dedicated careers page"
+      },
+      {
+        "company": "Seerlinq",
+        "country": "Slovakia",
+        "city": "Trnava",
+        "what_it_does": "Remote/telemedicine monitoring for heart-failure patients",
+        "funding": "Seed, €900k total, 2023",
+        "careers_url": "\"Kariera\" nav link exists, content unconfirmed"
+      },
+      {
+        "company": "AUGLIO",
+        "country": "Slovakia",
+        "city": "Komarno",
+        "what_it_does": "AR virtual try-on for eyewear/cosmetics/jewelry e-commerce",
+        "funding": "Seed, €1.6M total",
+        "careers_url": "Fetch timed out"
+      },
+      {
+        "company": "Sensible Biotechnologies",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "mRNA therapeutics manufacturing platform (UK-Slovak)",
+        "funding": "Pre-seed, $4.2M, Apr 2023",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "BiteBerry",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "AI voice-ordering for restaurants",
+        "funding": "Seed, €750k total",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Moneyhoon",
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "what_it_does": "Digital finance platform (mortgages, insurance, investing)",
+        "funding": "Seed, €820k",
+        "careers_url": "Careers archive returned empty"
+      },
+      {
+        "company": "E2B",
+        "country": "Czechia",
+        "city": "Prague (+SF)",
+        "what_it_does": "Secure cloud sandboxes/microVMs for AI-agent infrastructure",
+        "funding": "Series A, $21M, Jul 2025",
+        "careers_url": "[e2b.dev/careers](https://e2b.dev/careers) — verified, 10 open roles"
+      },
+      {
+        "company": "Duvo (duvo.ai)",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "Agentic automation platform for retail/FMCG operations",
+        "funding": "Seed, $15M, Dec 2025",
+        "careers_url": "[duvo.ai/careers](https://duvo.ai/careers) — verified, ~15 open roles"
+      },
+      {
+        "company": "DecisionRules",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "No-code/low-code business-rules engine",
+        "funding": "Seed, €1.6M, 2023",
+        "careers_url": "[decisionrules.io/en/careers](https://www.decisionrules.io/en/careers/) — verified, 2 open roles"
+      },
+      {
+        "company": "Adalid Sciences",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "Lipid-nanoparticle drug-delivery systems for genomic medicine",
+        "funding": "Unconfirmed stage, ~€8M total",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Elin.ai",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "AI mental-resilience/wellbeing mobile app",
+        "funding": "Seed, €1M, 2023",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Everbot",
+        "country": "Czechia",
+        "city": "Ostrava",
+        "what_it_does": "Aggregator of 60+ AI models in one interface",
+        "funding": "Seed, €972k, 2024",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Finlay",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "AI recruitment/candidate-matching platform",
+        "funding": "Pre-seed, €300k, 2024",
+        "careers_url": "Careers path 404'd"
+      },
+      {
+        "company": "Grid.online",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "Digital logistics platform for spare transport capacity",
+        "funding": "Seed, €1.5M, 2024",
+        "careers_url": "Careers path 404'd"
+      },
+      {
+        "company": "Langtail",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "Workspace for building/testing/managing LLM applications",
+        "funding": "Seed, ~€954k-€1M, 2023",
+        "careers_url": "Careers path 404'd"
+      },
+      {
+        "company": "VETSTOR",
+        "country": "Czechia",
+        "city": "Prague",
+        "what_it_does": "AI app connecting pet owners with vets",
+        "funding": "Seed, €1M, 2024",
+        "careers_url": "Page exists, no live listings"
+      },
+      {
+        "company": "Kardi AI",
+        "country": "Czechia",
+        "city": "Olomouc",
+        "what_it_does": "AI-enabled wearable for remote cardiovascular monitoring",
+        "funding": "Seed, €1.9M",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Lakmoos",
+        "country": "Czechia",
+        "city": "Brno",
+        "what_it_does": "Neuro-symbolic AI for consumer-behavior market research",
+        "funding": "Pre-seed, €510k",
+        "careers_url": "Unconfirmed"
+      },
+      {
+        "company": "Smart Farm Robotix",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "Agri-tech robotics/automation for farms",
+        "funding": "~€2.4M (EIC-backed), 2022",
+        "careers_url": "[smartfarmrobotix.eu/en/careers](https://smartfarmrobotix.eu/en/careers/) — verified"
+      },
+      {
+        "company": "Costimize",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "Cloud cost governance/FinOps platform",
+        "funding": "~€4.76M, 2022",
+        "careers_url": "Site exists, no careers page — contact form"
+      },
+      {
+        "company": "Swipe (Swipe.bg)",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "Refurbished-electronics e-commerce",
+        "funding": "€1.4M-€1.95M (source-dependent), 2021",
+        "careers_url": "No careers page — see jobs.bg/LinkedIn"
+      },
+      {
+        "company": "FlatAway",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "Flexible/subscription housing for remote workers",
+        "funding": "~€500K, 2023",
+        "careers_url": "No dedicated careers page"
+      },
+      {
+        "company": "PlanDelta",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "Financial planning & analysis (FP&A) SaaS",
+        "funding": "~€2.7M, 2021",
+        "careers_url": "Fetch failed; check LinkedIn/jobs.bg"
+      },
+      {
+        "company": "Icanpreneur",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "AI co-founder/decision platform for founders",
+        "funding": "~€1M, 2021",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Vodar",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "Mental-performance coaching app for junior tennis players",
+        "funding": "~€300K, 2023",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Bronia",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "AI-powered acoustic signal processing",
+        "funding": "~€500K, 2024",
+        "careers_url": "Could not verify site/careers"
+      },
+      {
+        "company": "AIoTCloud",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "Cloud/IoT data platform for energy management",
+        "funding": "~€200K, 2022 (small, unconfirmed as current)",
+        "careers_url": "Could not verify"
+      },
+      {
+        "company": "Raven",
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "what_it_does": "DeFi/Web3 trading platform",
+        "funding": "~€2.57M, 2023",
+        "careers_url": "Historical LinkedIn post only"
+      },
+      {
+        "company": "Orbotix Industries",
+        "country": "Romania",
+        "city": "Brasov",
+        "what_it_does": "Autonomous defense/ISR drones",
+        "funding": "Seed, ~$7.6M, 2025",
+        "careers_url": "[orbotix.tech/company/careers](https://orbotix.tech/company/careers/) — verified"
+      },
+      {
+        "company": "Kinderpedia",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "School/parent-kindergarten communication SaaS",
+        "funding": "Seed, ~$2.6M, 2026 (recent, unconfirmed)",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Bunnyshell",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "DevOps/environment-automation platform",
+        "funding": "Seed, ~$4.4M, 2023",
+        "careers_url": "Hiring banner at bunnyshell.com/careers, specific roles unclear"
+      },
+      {
+        "company": "Rhuna",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "AI/blockchain event management with NFT ticketing",
+        "funding": "Seed, ~$2.0M, 2025",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "The Cat Health Company",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "Feline longevity/health research",
+        "funding": "Seed, ~$1.2M, 2025",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Genezio",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "Full-stack app deployment/dev platform",
+        "funding": "Pre-Seed, ~$2.1M, 2024",
+        "careers_url": "Robots-blocked"
+      },
+      {
+        "company": "easySales",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "E-commerce integration/automation SaaS",
+        "funding": "Seed, ~$1.2M, 2023",
+        "careers_url": "No verified URL (domain guess hit wrong company)"
+      },
+      {
+        "company": "Vatis Tech",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "AI speech-to-text/transcription platform",
+        "funding": "Seed, ~$700K, 2023",
+        "careers_url": "No careers page found"
+      },
+      {
+        "company": "Bright Spaces",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "Proptech — 3D/virtual office & real-estate viewing",
+        "funding": "Seed (undisclosed), 2024",
+        "careers_url": "Robots-blocked"
+      },
+      {
+        "company": "Pago",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "Payment management app",
+        "funding": "Series A, ~$2.5M, 2024",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Bible Chat",
+        "country": "Romania",
+        "city": "Bucharest",
+        "what_it_does": "Mobile spiritual/scripture support app",
+        "funding": "Series A, ~$14M, 2025 — flagging as possibly past target range",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Arbonics",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "Forest-carbon marketplace/ecosystem management",
+        "funding": "~€7.3M, 2022",
+        "careers_url": "[apply.workable.com/arbonics](https://apply.workable.com/arbonics/) — verified"
+      },
+      {
+        "company": "Flowstep",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "AI design-to-code platform",
+        "funding": "~€1.7M, 2023",
+        "careers_url": "[flowstep.ai/about#careers](https://flowstep.ai/about#careers) — verified"
+      },
+      {
+        "company": "Salesforge",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "AI sales-outreach/cold-email automation",
+        "funding": "~€485K, 2023",
+        "careers_url": "Careers page verified but listings hosted on LinkedIn"
+      },
+      {
+        "company": "Better Medicine",
+        "country": "Estonia",
+        "city": "Tartu",
+        "what_it_does": "AI diagnostic software for cancer detection/radiology",
+        "funding": "~€2.5M, 2022",
+        "careers_url": "Site exists, no careers page"
+      },
+      {
+        "company": "MarkeDroid",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "AI energy-orchestration for residential solar/batteries",
+        "funding": "~€620K, 2023",
+        "careers_url": "Site exists, no careers page"
+      },
+      {
+        "company": "AIO",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "Precision-fermentation fats & oils",
+        "funding": "~€8.7M, 2022",
+        "careers_url": "Domain guess (aio.co) hit wrong company"
+      },
+      {
+        "company": "CARA Health",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "Hybrid maternity health platform",
+        "funding": "~€750K, 2022",
+        "careers_url": "Domain guess (cara.health) hit unrelated US company"
+      },
+      {
+        "company": "Cino",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "Bill-splitting/group-payments mobile app",
+        "funding": "~€3M, 2022",
+        "careers_url": "Domain appears to be a different service"
+      },
+      {
+        "company": "Elmo",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "Vehicle delivery/relocation for rental & service industry",
+        "funding": "~€2.6M, 2022",
+        "careers_url": "Common name, high risk of confusion — not verified"
+      },
+      {
+        "company": "Salu Health",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "what_it_does": "AI-powered digital health for expatriates",
+        "funding": "~€1M, 2022",
+        "careers_url": "DNS fetch failed"
+      },
+      {
+        "company": "Aerones",
+        "country": "Latvia",
+        "city": "Riga",
+        "what_it_does": "Robotic wind-turbine/industrial maintenance systems",
+        "funding": "Seed-stage (round size/year unconfirmed)",
+        "careers_url": "[aerones.com/careers](https://aerones.com/careers) — verified, ~30 open roles"
+      },
+      {
+        "company": "Trace.Space",
+        "country": "Latvia",
+        "city": "Riga (unconfirmed)",
+        "what_it_does": "AI-agent systems-engineering/requirements-traceability",
+        "funding": "~€3.8M, 2025",
+        "careers_url": "Careers section in nav, exact URL not confirmed"
+      },
+      {
+        "company": "Cellbox Labs",
+        "country": "Latvia",
+        "city": "Riga (unconfirmed)",
+        "what_it_does": "Organ-on-chip technology",
+        "funding": "~€3.3M, 2025",
+        "careers_url": "Site fetch failed (DNS)"
+      },
+      {
+        "company": "Handwave",
+        "country": "Latvia",
+        "city": "Riga (unconfirmed)",
+        "what_it_does": "Biometric payments & identity technology",
+        "funding": "~€3.6M, 2025",
+        "careers_url": "Site fetch failed (DNS)"
+      },
+      {
+        "company": "Monetizr",
+        "country": "Latvia",
+        "city": "Riga (unconfirmed)",
+        "what_it_does": "Mobile-gaming ad/rewards technology",
+        "funding": "~€3.6M, 2023",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "inGain",
+        "country": "Latvia",
+        "city": "Riga",
+        "what_it_does": "No-code SaaS loan-management for fintechs",
+        "funding": "~€650K, 2024",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Origin",
+        "country": "Latvia",
+        "city": "Riga",
+        "what_it_does": "Precision weapon systems (defense)",
+        "funding": "~€4M, 2024",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Swotzy",
+        "country": "Latvia",
+        "city": "Riga",
+        "what_it_does": "Last-mile delivery platform",
+        "funding": "Pre-seed, ~€500K, 2023",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Edurio",
+        "country": "Latvia",
+        "city": "Riga-founded, now UK-focused",
+        "what_it_does": "Education survey/feedback platform",
+        "funding": "Seed-stage (unconfirmed round size/year)",
+        "careers_url": "Site exists, no careers page in current nav"
+      },
+      {
+        "company": "CENOS",
+        "country": "Latvia",
+        "city": "Riga",
+        "what_it_does": "Simulation/engineering software",
+        "funding": "Seed-stage (unconfirmed round size/year)",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Kodesage",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "AI-powered legacy-code modernization/documentation",
+        "funding": "Pre-Seed, ~€2.3M (early 2025) + ~€5.67M additional",
+        "careers_url": "Careers section verified under Company then Careers"
+      },
+      {
+        "company": "denxpert",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "ESG/EHS compliance & sustainability-reporting software",
+        "funding": "~€900K+ total, 2024",
+        "careers_url": "[denxpert.com/about-us/career](https://denxpert.com/about-us/career) — verified"
+      },
+      {
+        "company": "ABZ Innovation",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "Unmanned aerial systems for precision agriculture",
+        "funding": "~€7M, Jan 2026 (recent, unconfirmed)",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Allonic",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "Robotics-hardware manufacturing platform",
+        "funding": "Pre-Seed, ~€6M, Feb 2026 — unusually large for \"pre-seed,\" flagging",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Resoloon",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "High-altitude balloon platform for Earth observation",
+        "funding": "Pre-Seed, ~€550K, Feb 2026",
+        "careers_url": "Not verified"
+      },
+      {
+        "company": "Redmenta",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "AI-powered personalized-learning platform for teachers",
+        "funding": "Round undisclosed",
+        "careers_url": "Site exists, no careers page"
+      },
+      {
+        "company": "Proofminder",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "AI leaf-level crop-monitoring via drone imagery",
+        "funding": "~€410K total",
+        "careers_url": "Site exists, no careers page"
+      },
+      {
+        "company": "Riptides",
+        "country": "Hungary",
+        "city": "Budapest (unconfirmed)",
+        "what_it_does": "Runtime machine-identity/workload security platform",
+        "funding": "~€2.7M+ raised",
+        "careers_url": "Site exists, no careers page"
+      },
+      {
+        "company": "Axoflow",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "Cybersecurity/SecOps log & telemetry automation",
+        "funding": "Round undisclosed",
+        "careers_url": "Guessed URL 404'd"
+      },
+      {
+        "company": "Qneiform",
+        "country": "Hungary",
+        "city": "Budapest",
+        "what_it_does": "Talent-data platform for AI-native enterprise systems",
+        "funding": "Round undisclosed",
+        "careers_url": "Not verified"
+      }
+    ]
+  }
 }
